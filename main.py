@@ -40,6 +40,7 @@ while True:
 
         if choice == '1':
             print("Option 1, Reconnaissance, chargement du module...")
+            reconnaissance.main(ip)
         elif choice == '2':
             print("Option 2, Exploitation, chargement du module...")
             

@@ -32,7 +32,24 @@ def check_port(ip, port):
     finally:
         sock.close()
 
-def reconnaissance(ip):
+def determine_os(ip):
+    try:
+        result = subprocess.check_output(["nmap", "-O", ip])
+        result = result.decode('utf-8')  # decode from bytes to string
+        if 'linux' in result.lower():
+            print(f"La cible {ip} semble utiliser Linux.")
+            os = "linux"
+        elif 'windows' in result.lower():
+            print(f"La cible {ip} semble utiliser Windows.")
+            os = "windows"
+        else:
+            print(f"Il est impossible de déterminer l'OS de la cible {ip}. OS par défaut : Linux")
+            os = "linux"
+    except subprocess.CalledProcessError as e:
+        print(f"Error: {e}")
+    return os
+
+def main(ip):
     os.system("clear")
     print("""
 
@@ -50,6 +67,13 @@ def reconnaissance(ip):
     print("")
     subprocess.call(["nmap", "-sV", "-p-", "-T4", "-oN", "ports.txt", "--open", ip])
 
+    # Vérification Systeme d'exploitation
+    print("")
+    print("Vérification de l'OS...")
+    print("")
+    os = determine_os(ip)
+    print("")
+    print("OS utilisé : " + os)
     # Vérification port 80 et 443
     print("")
     print("Vérification des ports 80 et 443...")
