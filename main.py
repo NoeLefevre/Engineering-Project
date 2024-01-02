@@ -7,7 +7,8 @@ S'intéresser d'abord aux modules et ensuite le main de construira petit à peti
 # Imports
 import os
 import sys
-import Scan.reconnaissance
+from Scan import reconnaissance
+
 # Accueil
 print("""
       

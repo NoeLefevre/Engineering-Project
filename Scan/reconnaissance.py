@@ -38,16 +38,16 @@ def determine_os(ip):
         result = result.decode('utf-8')  # decode from bytes to string
         if 'linux' in result.lower():
             print(f"La cible {ip} semble utiliser Linux.")
-            os = "linux"
+            system = "linux"
         elif 'windows' in result.lower():
             print(f"La cible {ip} semble utiliser Windows.")
-            os = "windows"
+            system = "windows"
         else:
             print(f"Il est impossible de déterminer l'OS de la cible {ip}. OS par défaut : Linux")
-            os = "linux"
+            system = "linux"
     except subprocess.CalledProcessError as e:
         print(f"Error: {e}")
-    return os
+    return system
 
 def main(ip):
     os.system("clear")
@@ -71,9 +71,9 @@ def main(ip):
     print("")
     print("Vérification de l'OS...")
     print("")
-    os = determine_os(ip)
+    system = determine_os(ip)
     print("")
-    print("OS utilisé : " + os)
+    print("OS utilisé : " + system)
     # Vérification port 80 et 443
     print("")
     print("Vérification des ports 80 et 443...")
