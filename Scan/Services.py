@@ -9,9 +9,56 @@ Comparer ensuite avec les versions actuelles pour détecter de pottentielles CVE
 Faire bien 2 fonctions distinctes entre la récupération des services et la recherche de CVEs car cette dernière phase peur être réutiliser dans d'autres module (plugin CMS par ex)
 
 
-Ex d'outils à utiliser : 
-
--Wappalyzer
--Whatweb
+Outils utilisés:
+    whatwheb
+    CMSeek
+    github.com/gokulapap/wappalyzer-cli
 
 '''
+
+import subprocess
+import json
+import os
+
+#target = '192.168.1.77'
+
+def clean(target):
+    if os.path.exists('Result/'+target+'/web.json'):
+        try:
+            os.remove('Result/'+target+'/web.json')
+        except OSError as e:
+            print('cleaning before running crashed')
+
+def main(target):
+    print("""
+     _    _ ___________  ______ _____ _____ _____ _   _ 
+    | |  | |  ___| ___ \ | ___ \  ___/  __ \  _  | \ | |
+    | |  | | |__ | |_/ / | |_/ / |__ | /  \/ | | |  \| |
+    | |/\| |  __|| ___ \ |    /|  __|| |   | | | | . ` |
+    \  /\  / |___| |_/ / | |\ \| |___| \__/\ \_/ / |\  |
+     \/  \/\____/\____/  \_| \_\____/ \____/\___/\_| \_/
+                                                    
+    """)
+    clean(target)
+    cmd=['cmseek', '-u', target, '--batch']
+    resultpath = 'Result/'+ target + '/cms.json'
+    logpath = '--log-json='+'Result/'+ target + '/web.json'
+    cmd2 = ['whatweb',target,logpath]
+    cmd3 = ['python3','wappy','-u',target]
+    try:
+        subprocess.run(cmd, check=True, stdout=subprocess.PIPE)
+        subprocess.run(cmd2, check=True, stdout=subprocess.PIPE)
+        f= open (resultpath,"r")
+        data = json.loads(f.read())
+        f= open ('Result/'+ target + '/web.json',"r")
+        data2 = json.loads(f.read())
+        print('Targeting ' + str(data2[0]['target']))
+        print("Os of the target : "+str(data2[0]['plugins']['HTTPServer']['os']))
+        print("Using : "+str(data2[0]['plugins']['HTTPServer']['string']))
+        if data['cms_name'] == '':
+            print("No CMS found on this target")
+        else:
+            print("cms used : "+str(data['cms_name']))
+        subprocess.run(cmd2, check=True)
+    except subprocess.CalledProcessError as e:
+        print('An error as occured \n' + str(e))
