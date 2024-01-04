@@ -40,7 +40,7 @@ def main(target):
                                                     
     """)
     clean(target)
-    cmd=['cmseek', '-u', target, '--batch']
+    cmd=['python3','~/CMSeeK/cmseek.py', '-u', target, '--batch']
     resultpath = 'Result/'+ target + '/cms.json'
     logpath = '--log-json='+'Result/'+ target + '/web.json'
 
@@ -51,7 +51,7 @@ def main(target):
 #####
 
     cmd2 = ['whatweb',target,logpath]
-    cmd3 = ['python3','wappy','-u',target]
+    cmd3 = ['python3','~/wappalyzer-cli/src/wappy','-u',target]
     try:
         subprocess.run(cmd, check=True, stdout=subprocess.PIPE)
         subprocess.run(cmd2, check=True, stdout=subprocess.PIPE)
