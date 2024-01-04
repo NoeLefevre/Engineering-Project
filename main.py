@@ -8,7 +8,7 @@ S'intéresser d'abord aux modules et ensuite le main de construira petit à peti
 import os
 import sys
 from Scan import reconnaissance
-
+from Scan import Services
 # Accueil
 print("""
       
@@ -42,6 +42,7 @@ while True:
         if choice == '1':
             print("Option 1, Reconnaissance, chargement du module...")
             reconnaissance.main(ip)
+            Services.main(ip)
         elif choice == '2':
             print("Option 2, Exploitation, chargement du module...")
             
