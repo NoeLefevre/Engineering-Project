@@ -43,15 +43,44 @@ def main(target):
     cmd=['cmseek', '-u', target, '--batch']
     resultpath = 'Result/'+ target + '/cms.json'
     logpath = '--log-json='+'Result/'+ target + '/web.json'
+
+#####
+
+    wappy_result_path = 'Result/' + target + '/wappy.json'  # Chemin du fichier de sortie pour cmd3
+
+#####
+
     cmd2 = ['whatweb',target,logpath]
     cmd3 = ['python3','wappy','-u',target]
     try:
         subprocess.run(cmd, check=True, stdout=subprocess.PIPE)
         subprocess.run(cmd2, check=True, stdout=subprocess.PIPE)
+
+#####
+
+        # Exécution de cmd3 et redirection de la sortie vers un fichier
+        with open(wappy_result_path, 'w') as outfile:
+            subprocess.run(cmd3, check=True, stdout=outfile)
+
+#####
+
         f= open (resultpath,"r")
         data = json.loads(f.read())
         f= open ('Result/'+ target + '/web.json',"r")
         data2 = json.loads(f.read())
+
+#####
+        # Lecture et affichage des résultats de cmd3
+        with open(wappy_result_path, 'r') as file:
+            wappy_data = json.load(file)
+            print("Résultats de Wappy pour la cible: " + target)
+            print(json.dumps(wappy_data, indent=4))
+
+#####
+            #PS: ON PEUT AVOIR UN SOUCIS SI LA SORTIE DE WAPPY N'EST PAS AU FORMAT JSON (ERREUR DE PARSING)
+            #PS2: ON PEUT AUSSI AVOIR UN SOUCIS SI WAPPY NE TROUVE RIEN (ERREUR DE PARSING AUSSI)
+#####
+            
         print('Targeting ' + str(data2[0]['target']))
         print("Os of the target : "+str(data2[0]['plugins']['HTTPServer']['os']))
         print("Using : "+str(data2[0]['plugins']['HTTPServer']['string']))
