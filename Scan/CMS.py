@@ -23,15 +23,15 @@ import subprocess
 
 def main(target, cms_type):
     if cms_type == "Joomla":
-        cmd=['perl','../../joomscan/joomscan.pl','-u',target]
+        cmd=['perl','/home/azureuser/joomscan/joomscan.pl','-u',target]
     elif cms_type == "Wordpress":
         cmd =['wpscan','--url',target]
     elif cms_type == "Drupal":
-        cmd =['./../../droopescan/droopescan','scan','drupal','-u',target]
+        cmd =['/home/azureuser/droopescan/droopescan','scan','drupal','-u',target]
     elif cms_type == "SilverStripe":
-        cmd =['./../../droopescan/droopescan','scan','silverstripe','-u',target]
+        cmd =['/home/azureuser/droopescan/droopescan','scan','silverstripe','-u',target]
     elif cms_type == "Moodle":
-        cmd=['./../../CMSmap/cmsmap.py',target]
+        cmd=['/home/azureuser/CMSmap/cmsmap.py',target]
     else :
         """This CMS is not supported, the cms supported are the following :
                 - Wordpress
