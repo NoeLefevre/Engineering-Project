@@ -9,6 +9,8 @@ import os
 import sys
 from Scan import reconnaissance
 from Scan import Services
+from Exploitation import exploitation
+from Elevation import elevation
 # Accueil
 print("""
       
@@ -40,15 +42,17 @@ while True:
         choice = input("Veuillez choisir votre option: ")
 
         if choice == '1':
-            print("Option 1, Reconnaissance, chargement du module...")
+            print("Option 1, Reconnaissance, chargement du module...") 
+            print("")
             reconnaissance.main(ip)
             Services.main(ip)
+            CMS.main(ip)
         elif choice == '2':
             print("Option 2, Exploitation, chargement du module...")
-            
+            exploitation.main(ip)
         elif choice == '3':
             print("Option 3, Elevation de privilèges, chargement du module...")
-            
+            elevation.main(ip)
         elif choice == '4':
             print("Fermeture du programme")
             break

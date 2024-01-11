@@ -23,9 +23,9 @@ import os
 #target = '192.168.1.77'
 
 def clean(target):
-    if os.path.exists('Result/'+target+'/web.json'):
+    if os.path.exists('/home/aureuser/CMSeeK/Result/'+target+'/web.json'):
         try:
-            os.remove('Result/'+target+'/web.json')
+            os.remove('/home/azureuser/CMSeeK/Result/'+target+'/web.json')
         except OSError as e:
             print('cleaning before running crashed')
 
@@ -40,18 +40,18 @@ def main(target):
                                                     
     """)
     clean(target)
-    cmd=['python3','~/CMSeeK/cmseek.py', '-u', target, '--batch']
-    resultpath = 'Result/'+ target + '/cms.json'
-    logpath = '--log-json='+'Result/'+ target + '/web.json'
+    cmd=['python3','/home/azureuser/CMSeeK/cmseek.py', '-u', target, '--batch']
+    resultpath = '/home/azureuser/CMSeeK/Result/'+ target + '/cms.json'
+    logpath = '--log-json='+'/home/azureuser/CMSeeK/Result/'+ target + '/web.json'
 
 #####
 
-    wappy_result_path = 'Result/' + target + '/wappy.json'  # Chemin du fichier de sortie pour cmd3
+    wappy_result_path = '/home/azureuser/CMSeeK/Result/' + target + '/wappy.json'  # Chemin du fichier de sortie pour cmd3
 
 #####
 
     cmd2 = ['whatweb',target,logpath]
-    cmd3 = ['python3','~/wappalyzer-cli/src/wappy','-u',target]
+    cmd3 = ['python3','/home/azureuser/wappalyzer-cli/src/wappy','-u',target]
     try:
         subprocess.run(cmd, check=True, stdout=subprocess.PIPE)
         subprocess.run(cmd2, check=True, stdout=subprocess.PIPE)
@@ -66,7 +66,7 @@ def main(target):
 
         f= open (resultpath,"r")
         data = json.loads(f.read())
-        f= open ('Result/'+ target + '/web.json',"r")
+        f= open ('/home/azureuser/CMSeeK/Result/'+ target + '/web.json',"r")
         data2 = json.loads(f.read())
 
 #####
