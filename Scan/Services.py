@@ -66,16 +66,15 @@ def main(target):
 
         f= open (resultpath,"r")
         data = json.loads(f.read())
-        f= open ('Result/'+ target + '/web.json',"r")
+        f= open ('/home/azureuser/CMSeeK/Result/'+ target + '/web.json',"r")
         data2 = json.loads(f.read())
 
 #####
         # Lecture et affichage des résultats de cmd3
-        with open(wappy_result_path, 'r') as file:
-            wappy_data = json.load(file)
-            print("Résultats de Wappy pour la cible: " + target)
-            print(json.dumps(wappy_data, indent=4))
-
+      #  with open(wappy_result_path, 'r') as file:
+      #      wappy_data = json.load(file)
+      #      print("Résultats de Wappy pour la cible: " + target)
+      #      print(json.dumps(wappy_data, indent=4))
 #####
             #PS: ON PEUT AVOIR UN SOUCIS SI LA SORTIE DE WAPPY N'EST PAS AU FORMAT JSON (ERREUR DE PARSING)
             #PS2: ON PEUT AUSSI AVOIR UN SOUCIS SI WAPPY NE TROUVE RIEN (ERREUR DE PARSING AUSSI)

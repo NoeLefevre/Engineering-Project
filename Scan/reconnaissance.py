@@ -82,7 +82,7 @@ def main(ip):
         print("Port 80 ouvert")
         print("")
         print("Scan des pages...")
-        subprocess.call(["gobuster", "dir", "-u", "http://" + ip, "-w", "/usr/share/wordlists/dirb/common.txt", "-o", "pages.txt"])
+        subprocess.call(["gobuster", "dir", "-u", "http://" + ip, "-w ", "/usr/share/wordlists/dirb/common.txt", "-o", "pages.txt"])
     else:
         print("Port 80 fermé")
     
