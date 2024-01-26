@@ -1,0 +1,18 @@
+Voici le résultat du scan de répertoire 
+ 
+http://10.10.10.233:80/.htpasswd    => 403
+http://10.10.10.233:80/.htaccess    => 403
+http://10.10.10.233:80/.hta    => 403
+http://10.10.10.233:80/    => 200
+http://10.10.10.233:80/cgi-bin/    => 403
+http://10.10.10.233:80/includes    => 301
+http://10.10.10.233:80/index.php    => 200
+http://10.10.10.233:80/misc    => 301
+http://10.10.10.233:80/modules    => 301
+http://10.10.10.233:80/profiles    => 301
+http://10.10.10.233:80/robots.txt    => 200
+http://10.10.10.233:80/scripts    => 301
+http://10.10.10.233:80/sites    => 301
+http://10.10.10.233:80/themes    => 301
+http://10.10.10.233:80/web.config    => 200
+http://10.10.10.233:80/xmlrpc.php    => 200

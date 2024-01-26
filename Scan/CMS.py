@@ -27,9 +27,9 @@ def main(target, cms_type):
     elif cms_type == "Wordpress":
         cmd =['wpscan','--url',target]
     elif cms_type == "Drupal":
-        cmd =['/home/azureuser/droopescan/droopescan','scan','drupal','-u',target]
+        cmd =['droopescan/droopescan','scan','drupal','-u',target]
     elif cms_type == "SilverStripe":
-        cmd =['/home/azureuser/droopescan/droopescan','scan','silverstripe','-u',target]
+        cmd =['droopescan/droopescan','scan','silverstripe','-u',target]
     elif cms_type == "Moodle":
         cmd=['/home/azureuser/CMSmap/cmsmap.py',target]
     else :

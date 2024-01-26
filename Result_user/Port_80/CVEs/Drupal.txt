@@ -1,0 +1,1546 @@
+Voici scan des CVEs pour le service Drupal avec le numéro de version : 7.56
+ 
+Voici la 1eme CVE 
+CVE ID: CVE-2008-0462, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Archive 5.x before 5.x-1.8 module for Drupal allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Archive 5.x, (versiones posteriores a la 5.x-1.8) para Drupal, permite que atacantes remotos inyecten, a su elección, código web o HTML a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 2eme CVE 
+CVE ID: CVE-2008-1731, Description: [{'lang': 'en', 'value': 'The Simple Access module for Drupal 5.x through 5.x-1.2-2 does not properly handle the privacy information for nodes, which might allow remote attackers to bypass intended access restrictions, and read or modify nodes, in opportunistic circumstances related to interaction between Simple Access and (1) Node clone or (2) Project issue tracking.'}, {'lang': 'es', 'value': 'El módulo de Acceso Simple para Drupal 5.x a 5.x-1.2-2 no manipula adecuadamente la información privada para nodos, que podría permitir a atacantes remotos evitar las restricciones de acceso planeadas, y leer o modificar nodos, en circunstancias oportunas relacionadas con la interacción entre Acceso Simple y (1) Node clone o (2) asuntos de seguimiento de Proyecto.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 3eme CVE 
+CVE ID: CVE-2008-1792, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the insertion filter in the Flickr Drupal module 5.x before 5.x-1.3 and 6.x before 6.x-1.0-alpha allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en la insercción de filtros del módulo Flickr Drupal 5.x versiones anteriores a 5.x-1.3 y 6.x versiones anteriores a 6.x-1.0-alpha permite a atacantes remotos inyectar web script o HTML de su elección a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 4eme CVE 
+CVE ID: CVE-2008-2629, Description: [{'lang': 'en', 'value': 'SQL injection vulnerability in the LifeType (formerly pLog) module for Drupal allows remote attackers to execute arbitrary SQL commands via the albumId parameter in a ViewAlbum action to index.php.'}, {'lang': 'es', 'value': 'Vulnerabilidad de inyección SQL en el módulo LifeType (formerly pLog) para Drupal permite a atacantes remotos ejecutar comandos SQL de su elección a través del parámetro albumId en una acción ViewAlbum de index.php.'}], Criticity : {}
+Voici les POCs publiques extraits
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+PLog 1.0.6 - 'albumID' SQL Injecti | https://www.exploit-db.com/exploits/5724
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 5eme CVE 
+CVE ID: CVE-2008-4633, Description: [{'lang': 'en', 'value': 'SQL injection vulnerability in Node Vote 5.x before 5.x-1.1 and 6.x before 6.x-1.0, a module for Drupal, when "Allow user to vote again" is enabled, allows remote authenticated users to execute arbitrary SQL commands via unspecified vectors related to a "previously cast vote."'}, {'lang': 'es', 'value': 'Vulnerabilidad de inyección SQL en Node Vote v5.x anteriores a v5.x-1.1 y v6.x anteriores a v6.x-1.0, en un módulo de Drupal, cuando está habilitada la opción "Allow user to vote again", permite a usuarios autenticados remotos ejecutar comandos SQL de su elección mediante vectores no especificados relacionados con "previously cast vote" (votación anterior).'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 6eme CVE 
+CVE ID: CVE-2008-4710, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the stock quotes page in Stock 6.x before 6.x-1.0, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en la página stock quotes en Stock 6.x antes de 6.x-1.0, un módulo para Drupal, permite a atacantes remotos inyectar secuencias de comandos web o HTML mediante vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 7eme CVE 
+CVE ID: CVE-2008-5996, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Simplenews module 5.x before 5.x-1.5 and 6.x before 6.x-1.0-beta4, a module for Drupal, allows remote authenticated users, with "administer taxonomy" permissions, to inject arbitrary web script or HTML via a Newsletter category field.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Simplenews v5.x anterior a v5.x-1.5 y v6.x previo a v6.x-1.0-beta4, para Drupal, permite a usuarios autenticados remotamente con "administrar taxonomy (administer taxonomy)" inyectar secuencias de comandos web o HTML de su elección a través de un campo de la categoría Newsletter.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 8eme CVE 
+CVE ID: CVE-2008-5998, Description: [{'lang': 'en', 'value': 'Multiple SQL injection vulnerabilities in the ajax_checklist_save function in the Ajax Checklist module 5.x before 5.x-1.1 for Drupal allow remote authenticated users, with "update ajax checklists" permissions, to execute arbitrary SQL commands via a save operation, related to the (1) nid, (2) qid, and (3) state parameters.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de inyección SQL en la función ajax_checklist_save en el módulo Ajax Checklist v5.x anterior a v5.x-1.1 para Drupal, permite a usuarios autenticados remotamente, con permisos "update ajax checklists (actualizar las listas de control ajax)", ejecutar comandos SQL de su elección a través de una operación de guardado, relacionado con los parámetros (1) "nid", (2) "qid" y (3) "state".'}], Criticity : {}
+Voici les POCs publiques extraits
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+Drupal Module Ajax Checklist 5.x-1 | https://www.exploit-db.com/exploits/32415
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 9eme CVE 
+CVE ID: CVE-2008-5999, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Ajax Checklist module 5.x before 5.x-1.1 for Drupal allows remote authenticated users, with create and edit permissions for posts, to inject arbitrary web script or HTML via unspecified vectors involving the ajax_checklist filter.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Ajax Checklist v5.x amterior a v5.x-1.1 para Drupal, permite a usuarios autenticados remotamente, con permisos de creación y edición de los post(hilos de foros, opiniones, etc), la inyección de secuencias de comandos web o HTML de su elección a través de vectores no especificados que involucran al filtro ajax_checklist.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 10eme CVE 
+CVE ID: CVE-2009-0382, Description: [{'lang': 'en', 'value': 'Unspecified vulnerability in Internationalization (i18n) Translation 5.x before 5.x-2.5, a module for Drupal, allows remote attackers with "translate node" permissions to bypass intended access restrictions and read unpublished nodes via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad no especificada en Internationalization (i18n) Translation 5.x versiones anteriores a 5.x-2.5, un módulo de Drupal, permite a atacantes remotos con permisos "traducir nodo" evitar restricciones de acceso y leer nodos no públicos a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 11eme CVE 
+CVE ID: CVE-2008-6020, Description: [{'lang': 'en', 'value': 'SQL injection vulnerability in the Views module 6.x before 6.x-2.2 for Drupal allows remote attackers to execute arbitrary SQL commands via unspecified vectors related to "an exposed filter on CCK text fields."'}, {'lang': 'es', 'value': 'Vulnerabilidad de inyección SQL en el módulo Views del gestor de contenidos Drupal en las versiones v6.x anteriores a la v6.x-2.2. Permite a los usuarios remotos ejecutar código arbitrario SQL a través de vectores de ataque desconocidos relacionados con un filtro vulnerable en los campos de texto CCK.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 12eme CVE 
+CVE ID: CVE-2008-6134, Description: [{'lang': 'en', 'value': 'SQL injection vulnerability in EveryBlog 5.x and 6.x, a module for Drupal, allows remote attackers to execute arbitrary SQL commands via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de inyección SQL en EveryBlog v5.x y v6.x, un modulo para Drupal, permite a atacantes remotos ejecutar comandos SQL de su elección mediante vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 13eme CVE 
+CVE ID: CVE-2008-6135, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in EveryBlog 5.x and 6.x, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en EveryBlog v5.x y v6.x, un modulo para Drupal, permite a atacantes remotos inyectar secuencias de comandos web o HTML de su elección mediante vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 14eme CVE 
+CVE ID: CVE-2008-6137, Description: [{'lang': 'en', 'value': 'EveryBlog 5.x and 6.x, a module for Drupal, allows remote attackers to bypass access restrictions via unknown vectors.'}, {'lang': 'es', 'value': 'EveryBlog v5.x y v6.x, un modulo para Drupal, permite a atacantes remotos saltarse las restricciones de acceso mediante vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 15eme CVE 
+CVE ID: CVE-2008-6383, Description: [{'lang': 'en', 'value': 'SQL injection vulnerability in SpeedTech Organization and Resource Manager (Storm) 5.x before 5.x-1.14 and 6.x before 6.x-1.18, a module for Drupal, allows remote authenticated users with storm project access to execute arbitrary SQL commands via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de inyección SQL en SpeedTech Organization y Resource Manager (Storm) 5.x anterior a 5.x-1.14 y 6.x anterior a 6.x-1.18, un módulo para Drupal; permite a usuarios autenticados en remoto con acceso al proyecto storm ejecutar comandos SQL de su elección a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 16eme CVE 
+CVE ID: CVE-2009-0817, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Protected Node module 5.x before 5.x-1.4 and 6.x before 6.x-1.5, a module for Drupal, allows remote authenticated users with "administer site configuration" permissions to inject arbitrary web script or HTML via the Password page info field, which is not properly handled by the protected_node_enterpassword function in protected_node.module.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Protected Node v5.x anterior v5.x-1.4 y v6.x anterior a  v6.x-1.5 para Drupal, permite a usuarios autenticados remotamente con permisos de "configuración administrativa del sitio", la inyección de secuencias de comandos web o HTML de su elección a través del campo Password Page Info, que no está manejado adecuadamente por la función protected_node_enterpassword  en protected_node.module.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 17eme CVE 
+CVE ID: CVE-2009-0818, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the taxonomy_theme_admin_table_builder function (taxonomy_theme_admin.inc) in Taxonomy Theme module before 5.x-1.2, a module for Drupal, allows remote authenticated users with the "administer taxonomy" permission, or the ability to create pages when tagging is enabled, to inject arbitrary web script or HTML via the Vocabulary name (name parameter) to index.php.  NOTE: some of these details are obtained from third party information.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en la función taxonomy_theme_admin_table_builder (taxonomy_theme_admin.inc) de Taxonomy Theme módulo anterior a 5.x-1.2, un módulo para Drupal, permite a usuarios autenticados en remoto con los permisos de "administer taxonomy", o la capacidad de crear páginas cuando las etiquetas están habilitadas; inyectar secuencias de comandos Web o HTML de su elección a través del nombre Vocabulary (parámetro name) a index.php. NOTA: algunos de estos detalles se han obtenido de fuentes de terceros.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 18eme CVE 
+CVE ID: CVE-2008-6413, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Answers module 5.x-1.x-dev and possibly other 5.x versions, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via a Simple Answer to a question.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Answers 5.x-1.x-dev y posiblemente otras versiones 5.x, un módulo para Drupal, permite a atacantes remotos inyectar web script o HTML a través de Simple Answer de una pregunta.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 19eme CVE 
+CVE ID: CVE-2009-1035, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Tasklist module 5.x-1.x before 5.x-1.3 and 5.x-2.x before 5.x-2.0-alpha1, a module for Drupal, allows remote authenticated users to inject arbitrary web script or HTML via Cascading Style Sheets (CSS).'}, {'lang': 'es', 'value': 'Vulnerabilidad de tipo cross-site scripting (XSS) en el módulo Tasklist versiones 5.x-1.x anteriores a 5.x-1.3 y versiones 5.x-2.x anteriores a 5.x-2.0-alpha1, un módulo para Drupal, permite a los usuarios autenticados remotos inyectar script web o HTML arbitrario por medio de Hojas de Estilo en Cascada (CSS).'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 20eme CVE 
+CVE ID: CVE-2009-1036, Description: [{'lang': 'en', 'value': 'Cross-site request forgery (CSRF) vulnerability in the Plus 1 module before 6.x-2.6, a module for Drupal, allows remote attackers to cast votes for content via unspecified aspects of the URI.'}, {'lang': 'es', 'value': 'Vulnerabilidad de falsificación de petición en sitios cruzados (CSRF) en el módulo Plus 1 anterior a v6.x-2.6, un módulo de Drupal, permite a atacantes remotos emitir votos de contenidos a través de aspectos de la URI sin especificar.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 21eme CVE 
+CVE ID: CVE-2009-1037, Description: [{'lang': 'en', 'value': 'Unspecified vulnerability in the Send by e-mail module in the "Printer, e-mail and PDF versions" module 5.x before 5.x-4.4 and 6.x before 6.x-1.4, a module for Drupal, allows remote attackers to send unlimited spam messages via unknown vectors related to the flood control API.'}, {'lang': 'es', 'value': 'Vulnerabilidad sin especificar en el módulo Send by e-mail en los módulos "Printer, e-mail y PDF versiones" v5.x anterior a v5.x-4.4 y v6.x anterior a v6.x-1.4, un módulo para Drupal, permite a atacantes remotos enviar mensajes de correo másivo ilimitados a través de vectores desconocidos relacionados con la API de control de inundación.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 22eme CVE 
+CVE ID: CVE-2009-1047, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Send by e-mail module in the "Printer, e-mail and PDF versions" module 5.x before 5.x-4.4 and 6.x before 6.x-1.4, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via vectors involving outbound HTML e-mail.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados en el módulo "Enviar-por-email" en el modulo de Drupal "versiones de PDF, e-mail e impresora" en las versiones 5.x antes de 5.x-4.4 y 6.x antes de 6.x-1.4, permite a atacantes remotos inyectar HTML o scripts web arbitrarios a través de vectores relacionados con la salida de correo electrónico en formato HTML.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 23eme CVE 
+CVE ID: CVE-2009-1069, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in the node edit form feature in Drupal Content Construction Kit (CCK) 6.x before 6.x-2.2, a module for Drupal, allow remote attackers to inject arbitrary web script or HTML via the (1) titles of candidate referenced nodes in the Node reference sub-module and the (2) names of candidate referenced users in the User reference sub-module.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de ejecución de secuencias de comandos en sitios cruzados (XSS) en el formulario "node edit" del módulo  Content Construction Kit (CCK) v6.x anterior  a v6.x-2.2, permite a atacantes remotos inyectar secuencias de comandos web o HTML de su elección a través del (1)títulos de nodos candidatos referenciados en el sub-módulo "Node Reference" y (2) nombres de usuarios candidatos referenciados en el sub-módulo "User references".'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 24eme CVE 
+CVE ID: CVE-2009-1249, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in Feed element mapper 5.x before 5.x-1.1, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via the content title in admin/content/node-type/nodetype/map.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en Feed element mapper 5.x versiones anteriores a 5.x-1.1, un módulo para Drupal, permite a atacantes remotos inyectar web script o HTML de su elección a través del contenido del título en admin/content/node-type/nodetype/map.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 25eme CVE 
+CVE ID: CVE-2009-1342, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the CCK comment reference module 6.x before 6.x-1.2, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via certain comment titles associated with a node edit form.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el modulo "CCK comment reference" en versiones 6.x anteriores a 6.x-1.2 del gestor de contenidos Drupal. Permite a usuarios remotos inyectar codigo de script web o código HTML a través de ciertos títulos de comentarios asociados al formulario de edición de nodo.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 26eme CVE 
+CVE ID: CVE-2009-1343, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Print (aka Printer, e-mail and PDF versions) module 5.x before 5.x-4.5 and 6.x before 6.x-1.5, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via content titles.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el modulo módulo Print o Printer (en sus variantes e-mail y PDF) en sus versiones 5.x anteriores a 5.x-4.5 y 6.x anteriores a 6.x-1.5 del gestor de contenidos Drupal. Permite a usuarios remotos inyectar codigo de script web o código HTML a través de los títulos de contenido.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 27eme CVE 
+CVE ID: CVE-2009-1344, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Localization client module 5.x before 5.x-1.2 and 6.x before 6.x-1.7, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via input to the translation functionality.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el modulo "Localization client" en versiones 5.x anteriores a 5.x-1.2 y 6.x anteriores a 6.x-1.7 del gestor de contenidos Drupal. Permite a usuarios remotos inyectar codigo de script web o código HTML a través de la entrada a la funcionalidad de traducción.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 28eme CVE 
+CVE ID: CVE-2009-1501, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Exif module 5.x-1.x before 5.x-1.2 and 6.x-1.x-dev before April 13, 2009, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via EXIF tags in an image.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en módulo Exif v5.x-1.x anterior a v5.x-1.2 y v6.x-1.x-dev anterior a 13 de Abril de 2009, un módulo para Drupal, permite a atacantes remotos inyectar HTML o scripts web a su elección a través de las etiquetas EXIF de una imagen.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 29eme CVE 
+CVE ID: CVE-2009-1505, Description: [{'lang': 'en', 'value': 'SQL injection vulnerability in the News Page module 5.x before 5.x-1.2 for Drupal allows remote authenticated users, with News Page nodes create and edit privileges, to execute arbitrary SQL commands via the Include Words (aka keywords) field.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de inyección SQL en el módulo News Page versiones 5.x anteriores a 5.x-1.2 para Drupal, permite a los usuarios autenticados remotos, con nodos de News Page crear y editar privilegios, ejecutar comandos SQL arbitrarios por medio del campo Include Words (también se conoce como keywords).'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 30eme CVE 
+CVE ID: CVE-2009-1507, Description: [{'lang': 'en', 'value': 'The Node Access User Reference module 5.x before 5.x-2.0-beta4 and 6.x before 6.x-2.0-beta6, a module for Drupal, interprets an empty CCK user reference as a reference to the anonymous user, which might allow remote attackers to bypass intended access restrictions to read or modify a node.'}, {'lang': 'es', 'value': 'El módulo Node Access User Reference v5.x anterior a v5.x-2.0-beta4 y v6.x anterior a v6.x-2.0-beta6, un módulo para Drupal, interpreta un referencia a usuario CCK vacía como una referencia al usuario anónimo, lo cual puede permitir a atacantes remotos eludir las restricciones de acceso para leer o modificar un nodo.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 31eme CVE 
+CVE ID: CVE-2009-1823, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Print (aka Printer, e-mail and PDF versions) module 5.x before 5.x-4.7 and 6.x before 6.x-1.7, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML by modifying a document head, before the Content-Type META element, to contain crafted UTF-8 byte sequences that are treated as UTF-7 by Internet Explorer 6 and 7, a related issue to CVE-2009-1575.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Print (también conocido como versiones Printer, e-mail y PDF) v5.x anteriores a v5.x-4.7 y v6.x anteriores a v6.x-1.7, un módulo para Drupal, permite a atacantes remotos inyectar secuencias de comandos web o HTML de su elección modificando la cabecera de un documento, antes del elemento Content-Type META, contiene secuencias UTF-8 byte manipuladas que se tratan como UTF-7 en Internet Explorer 6 and 7, un caso relacionado con CVE-2009-1575.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 32eme CVE 
+CVE ID: CVE-2009-2074, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in Nodequeue 5.x before 5.x-2.7 and 6.x before 6.x-2.2, a module for Drupal, allows remote authenticated users with administer taxonomy permissions to inject arbitrary web script or HTML via vocabulary names.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en Nodequeue v5.x anteriores a v5.x-2.7 y v6.x anteriores a v6.x-2.2, un modulo para Drupal, permite a usuarios remotos autenticados con permisos administrativos taxonómicos inyectar secuencias de comandos web o HTML de forma arbitraria a través de nombres de vocabulario.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 33eme CVE 
+CVE ID: CVE-2009-2075, Description: [{'lang': 'en', 'value': 'Nodequeue 5.x before 5.x-2.7 and 6.x before 6.x-2.2, a module for Drupal, does not properly restrict access when displaying node titles, which has unknown impact and attack vectors.'}, {'lang': 'es', 'value': 'Nodequeue v5.x anteriores a v5.x-2.7 y v6.x anteriores a v6.x-2.2, un modulo para Drupal, nos restringe adecuadamente cuando se visualizan los títulos de nodo, lo que tiene un impacto y vectores desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 34eme CVE 
+CVE ID: CVE-2009-2076, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in Views 6.x before 6.x-2.6, a module for Drupal, allows remote authenticated users to inject arbitrary web script or HTML via (1) exposed filters in the Views UI administrative interface and in the (2) view name parameter in the define custom views feature.  NOTE: vector 2 is only exploitable by users with administer views permissions.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en Views v6.x anteriores a v6.x-2.6, un modulo de Drupal, permite a usuarios remotos autenticados inyectar secuencias de comandos web o HTML arbitrariamente a través de (1) filtros que se muestran en la interfaz administrativa de usuario Views y el (2) parámetro "view name" en la característica de personalizar vistas. NOTA: vector 2 es únicamente explotable por usuarios con permisos administrativos de vistas.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 35eme CVE 
+CVE ID: CVE-2009-2077, Description: [{'lang': 'en', 'value': 'Drupal 6.x before 6.x-2.6, a module for Drupal, allows remote authenticated users to bypass access restrictions and (1) read unpublished content from anonymous users when a view is already configured to display the content, and (2) read private content in generated queries.'}, {'lang': 'es', 'value': 'Drupal v6.x anteriores a v6.x-2.6, un modulo de Drupal, permite a usuarios autenticados evitar las restricciones de acceso y (1) leer contenido sin publicar de usuarios anónimos cuando una vista esta configurada para mostrar contenido, y (2) leer contenido privado en peticiones generadas.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 36eme CVE 
+CVE ID: CVE-2009-2078, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in Booktree 5.x before 5.x-7.3 and 6.x before 6.x-1.1, a module for Drupal, allow remote attackers to inject arbitrary web script or HTML via the (1) node title and (2) node body in a tree root page.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de ejecución de secuencias de comandos en sitios cruzados (XSS) en Booktree v5.x anteriores a v5.x-7.3 y v6.x anteriores a v6.x-1.1, un modulo de Drupal, permite a atacantes remotos inyectar secuencias de comandos web o HTML arbitrarios a través del (1)titulo del nodo y (2) cuerpo del nodo en una pagina árbol root.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 37eme CVE 
+CVE ID: CVE-2009-2079, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the administrative page interface in Taxonomy manager 5.x before 5.x-1.2 and 6.x before 6.x-1.1, a module for Drupal, allows remote authenticated users, with administer taxonomy privileges or the ability to use free tagging to add taxonomy terms, to inject arbitrary web script or HTML via (1) vocabulary names, (2) synonyms, and (3) term names.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el interfaz de la pagina administrativa en el gestor Taxonomy v5.x anteriores a v5.x-1.2 y v6.x anteriores a v6.x-1.1, un modulo de Drupal, permite a usuarios autenticados, con privilegios de administrador en Taxonomy  o con la posibilidad de etiquetado libre para añadir términos taxonómicos, inyectar secuencias de comandos web o HTML a través de (1) nombres de vocabulario, (2) sinónimos y (3) nombres de temporada.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 38eme CVE 
+CVE ID: CVE-2009-2083, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the term data detail page in Taxonomy manager 5.x before 5.x-1.2, a module for Drupal, allows remote authenticated users, with administer taxonomy privileges or the ability to use free tagging to add taxonomy terms, to inject arbitrary web script or HTML via "Parent and related terms."'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en la pagina de detalle de datos de un periodo en el administrador Taxonomy v5.x anteriores a v5.x-1.2, un modulo de Drupal, permite a usuarios autenticados, con privilegios de administrador de taxonomías o la capacidad para utilizar los términos de "etiquetado libre" y "añadir taxonomía", inyectar secuencias de comandos web o HTML a través de "términos padre y relacionados".'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 39eme CVE 
+CVE ID: CVE-2008-6835, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in OpenID 5.x before 5.x-1.2, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en OpenID 5.x antes de 5.x-1.2, un  modulo para Drupal, permite a atacantes remotos inyectar secuencias de comandos web o HTML de su elección mediante vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 40eme CVE 
+CVE ID: CVE-2008-6836, Description: [{'lang': 'en', 'value': 'Cross-site request forgery (CSRF) vulnerability in OpenID 5.x before 5x.-1.2, a module for Drupal, allows remote attackers to hijack the authentication of unspecified victims to delete OpenID identities via unknown vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de falsificación de petición en sitios cruzados (CSRF) en OpenID 5.x antes de 5x.-1.2, un modulo para Drupal, permite a atacantes remotos secuestrar la autenticación de victimas no especificadas para borrar identidades OpenID mediante vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 41eme CVE 
+CVE ID: CVE-2009-2237, Description: [{'lang': 'en', 'value': 'Unspecified vulnerability in Views Bulk Operations 5.x-1.x before 5.x-1.4 and 6.x-1.x before 6.x-1.7, a module for Drupal, allows remote attackers to bypass intended access restrictions and modify "nodes or classes of nodes" via unknown vectors, probably related to registered procedures (aka actions).'}, {'lang': 'es', 'value': 'Vulnerabilidad no especificada en Views Bulk Operations 5.x-1.x antes de 5.x-1.4 y 6.x-1.x ante de 6.x-1.7, un modulo para Drupal, permite a atacantes remotos evitar las restricciones de acceso previstas y modificar "nodos o clases de nodos" mediante vectores desconocidos, probablemente relacionado con procedimientos registrados (alias acciones).'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 42eme CVE 
+CVE ID: CVE-2009-2291, Description: [{'lang': 'en', 'value': 'Unspecified vulnerability in LoginToboggan 6.x-1.x before 6.x-1.5, a module for Drupal, when "Allow users to login using their e-mail address" is enabled, allows remote blocked users to bypass intended access restrictions via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad sin especificar en el módulo para Drupal LoginToboggan v6.x-1.x anterior a v6.x-1.5, cuando "Se permite el login de usuarios usando la dirección de correo electrónico", permite a usuarios remotos bloqueados evitar las restricciones de acceso a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 43eme CVE 
+CVE ID: CVE-2009-2370, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in Advanced Forum 5.x before 5.x-1.1 and 6.x before 6.x-1.1, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en Advanced Forum v5.x anteriores a v5.x-1.1 y v6.x anteriores a v6.x-1.1, un modulo de Drupal  permite a los atacantes remotos inyectar código web o HTM a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 44eme CVE 
+CVE ID: CVE-2009-2371, Description: [{'lang': 'en', 'value': 'Advanced Forum 6.x before 6.x-1.1, a module for Drupal, does not prevent users from modifying user signatures after the associated comment format has been changed to an administrator-controlled input format, which allows remote authenticated users to inject arbitrary web script, HTML, and possibly PHP code via a crafted user signature.'}, {'lang': 'es', 'value': 'Advanced Forum v6.x anteriores a v6.x-1.1, un módulo de Drupal, no impide a los usuarios modificar sus firmas después de que el formato comentado asociado ha sido cambiado a un formato de entrada controlado por administrador, que permite a usuarios autentificados remotamente inyectar codigo web, HTML y posiblemente código PHP, a su elección, a través de la firma Crafted user.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 45eme CVE 
+CVE ID: CVE-2009-2572, Description: [{'lang': 'en', 'value': 'Cross-site request forgery (CSRF) vulnerability in the Fivestar module 5.x-1.x before 5.x-1.14 and 6.x-1.x before 6.x-1.14, a module for Drupal, allows remote attackers to hijack the authentication of arbitrary users for requests that cast votes.'}, {'lang': 'es', 'value': 'Vulnerabilidad de falsificación de petición en sitios cruzados (CSRF) en módulo Fivestar v5.x-1.x anteriores v5.x-1.14 y v6.x-1.x anteriores v6.x-1.14, un módulo de Drupal, permite a atacantes remotos secuestrar la autenticación de usuarios de su elección para peticiones de votación.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 46eme CVE 
+CVE ID: CVE-2009-2610, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Links Related module in the Links Package 5.x before 5.x-1.13 and 6.x before 6.x-1.2, a module for Drupal, allows remote authenticated users to inject arbitrary web script or HTML via the title field.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Links Related en Links Package v5.x anteriores a v5.x-1.13 y v6.x anteioriores a v6.x-1.2, un módulo para Drupal, permite a usuarios autenticados remotamente inyectar secuencias de comandos web o HTML de su elección mediante el campo "title".'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 47eme CVE 
+CVE ID: CVE-2008-6908, Description: [{'lang': 'en', 'value': 'Services 5.x before 5.x-0.92 and 6.x before 6.x-0.13, a module for Drupal, uses an insecure hash when signing requests, which allows remote attackers to impersonate other users and gain privileges.'}, {'lang': 'es', 'value': 'Services v5.x anterior a v5.x-0.92 y v6.x anterior a v6.x-0.13, un módulo de Drupal, utiliza un hash inseguro al firmar las solicitudes, lo que permite a atacantes remotos suplantar a otros usuarios y obtener privilegios.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 48eme CVE 
+CVE ID: CVE-2008-6909, Description: [{'lang': 'en', 'value': 'Services 5.x before 5.x-0.92 and 6.x before 6.x-0.13, a module for Drupal, does not sign all required data in requests, which has unspecified impact, probably related to man-in-the-middle attacks that modify critical data and allow remote attackers to impersonate other users and gain privileges.'}, {'lang': 'es', 'value': 'El Modulo Services v5.x anterior a v5.x-0.92 y v6.x anterior a v6.x-0.13 para Drupal,  no firma todos los datos necesarios en las peticiones, cuyo impacto se desconoce, probablemente relacionado con ataques de hombre-en-el-medio (man-in-the-middle)que modifican datos críticos y permiten a atacantes remotos suplantar a otros usuarios y obtener privilegios.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 49eme CVE 
+CVE ID: CVE-2008-6910, Description: [{'lang': 'en', 'value': 'Services 5.x before 5.x-0.92 and 6.x before 6.x-0.13, a module for Drupal, does not use timeouts for signed requests, which allows remote attackers to impersonate other users and gain privileges via a replay attack that sends the same request.'}, {'lang': 'es', 'value': 'El Modulo Services v5.x anterior a v5.x-0.92 y v6.x anterior a v6.x-0.13 para Drupal,  no emplea tiempos de espera para las peticiones firmadas, lo que permite a atacantes remotos suplantar a otros usuarios y obtener privilegios a través de un ataque de reproducción que envía la misma petición.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 50eme CVE 
+CVE ID: CVE-2008-6972, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in Drupal Content Construction Kit (CCK) 5.x through 5.x-1.8 allow remote authenticated users with "administer content" permissions to inject arbitrary web script or HTML via the (1) "field label," (2) "help text," or (3) "allowed values" settings.'}, {'lang': 'es', 'value': 'Vulnerabilidad múltiple de ejecución de secuencias de comandos en sitios cruzados - XSS - en Drupal Content Construction Kit (CCK) v5.x hasta v5.x-1.8 permite a los usuarios remotos autenticados con permisos "administrar contenido" inyectar arbitrariamente una secuencia de comandos web o HTML a través de los parámetros (1) "field label," (2) "help text," o (3) "allowed values".'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 51eme CVE 
+CVE ID: CVE-2008-7150, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in Refine by Taxonomy 5.x before 5.x-0.1, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via a taxonomy term, which is not properly handled by refine_by_taxo when displaying tags.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en Taxonomy v5.x anterior v.5.x-0.1, un módulo para Drupal, permite a atacantes remotos inyectar script web o HTML a su elección a través de un término taxonomy, que no es gestionado apropiadamente por refine_by_taxo cuando muestra etiquetas.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 52eme CVE 
+CVE ID: CVE-2008-7151, Description: [{'lang': 'en', 'value': 'Cross-site request forgery (CSRF) vulnerability in Live 5.x before 5.x-0.1, a module for Drupal, allows remote attackers to hijack the authentication of unspecified privileged users for requests that can be leveraged to execute arbitrary PHP code.'}, {'lang': 'es', 'value': 'Vulnerabilidad de falsificación de petición en sitios cruzados (CSRF)en Live v5.x anterior v5.x-0.1, un módulo para Drupal, permite a atacantes remotos secuestrar la autenticación de privilegios de usuarios por peticiones sin especificar que pueden ser aprovechado para ejecutar código PHP a su elección. \r\n'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 53eme CVE 
+CVE ID: CVE-2009-3121, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Ajax Table module 5.x for Drupal allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados en el el módulo Ajax Table v5.x para Drupal, permite a atacantes remotos inyectar secuencias de comandos web o HTML de su elección a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 54eme CVE 
+CVE ID: CVE-2009-3122, Description: [{'lang': 'en', 'value': 'The Ajax Table module 5.x for Drupal does not perform access control, which allows remote attackers to delete arbitrary users and nodes via unspecified vectors.'}, {'lang': 'es', 'value': 'El módulo Ajax Table v5.x para Drupal, no realiza un control de acceso, lo que permite a atacantes remotos eliminar archivos y nodos de su elección a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 55eme CVE 
+CVE ID: CVE-2009-3156, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Date Tools sub-module in the Date module 6.x before 6.x-2.3 for Drupal allows remote authenticated users, with "use date tools" or "administer content types" privileges, to inject arbitrary web script or HTML via a "Content type label" field.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos de sitios cruzados (XSS) en el sub-modulo Date Tools del modulo Date v6.x anteriores a 6.x-2.3 para Drupal permite a usuarios remotos autenticados con privilegios de "use date tools" o "administer content types" inyectar secuencias de comandos web o HTML arbitrarios a través del campo "Content type label".'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 56eme CVE 
+CVE ID: CVE-2009-3157, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Calendar module 6.x before 6.x-2.2 for Drupal allows remote authenticated users, with "create new content types" privileges, to inject arbitrary web script or HTML via the title of a content type.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo "Calendar" (calendario) en versiones v6.x anteriores a la v6.x-2.2 para Drupal permite a atacantes remotos autenticados, con privilegios "create new content types" (crear nuevos tipos de contenido), inyectar codigo de script web o código HTML a través de  el título de un tipo de contenido.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 57eme CVE 
+CVE ID: CVE-2009-3206, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in the ImageCache module 5.x before 5.x-2.5 and 6.x before 6.x-2.0-beta10, a module for Drupal, allow remote authenticated users, with "administer imagecache" permissions, to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Multiple vulnerabilidades de secuencias de comandos en sitios cruzados (XSS) en el módulo ImageCache v5.x anterior v5.x-2.5 y v6.x anterior v6.x-2.0-beta10, un módulo para Drupal, permite a usuarios autentificados remotamente, con permisos "administer imagecache", inyectar código web y HTML de su elección a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 58eme CVE 
+CVE ID: CVE-2009-3207, Description: [{'lang': 'en', 'value': "The ImageCache module 5.x before 5.x-2.5 and 6.x before 6.x-2.0-beta10, a module for Drupal, when the private file system is used, does not properly perform access control for derivative images, which allows remote attackers to view arbitrary images via a request that specifies an image's filename."}, {'lang': 'es', 'value': 'El módulo ImageCache v5.x anterior v5.x-2.5 y v6.x anterior v6.x-2.0-beta10, un modulo para Drupal, cuando el sistema de archivos privados es usado, no realiza un control de acceso para imágenes derivadas, lo que permite a atacantes remotos ver imágenes a su elección a través de peticiones que especifican el nombre de la imagen.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 59eme CVE 
+CVE ID: CVE-2009-3210, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in the Print (aka Printer, e-mail and PDF versions) module 5.x before 5.x-4.8 and 6.x before 6.x-1.8, a module for Drupal, allow remote authenticated users to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de ejecución de secuencias de comandos en sitios cruzados en el módulo Print (también conocido como Printer, versión para e-mail y PDF) v5.x anterior a v5.x-4.8 y v6.x anterior a v6.x-1.8 para Drupal, permite a usuarios autenticados inyectar secuencias de comandos web o HTML de su elección a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 60eme CVE 
+CVE ID: CVE-2009-3350, Description: [{'lang': 'en', 'value': 'Multiple unspecified vulnerabilities in the Subdomain Manager module for Drupal have unknown impact and attack vectors.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades sin especificar en el módulo Subdomain Manager para Drupal con un impacto y vectores de ataque desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 61eme CVE 
+CVE ID: CVE-2009-3351, Description: [{'lang': 'en', 'value': 'Multiple unspecified vulnerabilities in the Node Browser module for Drupal have unknown impact and attack vectors.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades sin especificar en el módulo Node para Drupal con un impacto y vectores de ataque desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 62eme CVE 
+CVE ID: CVE-2009-3353, Description: [{'lang': 'en', 'value': 'Multiple unspecified vulnerabilities in the Node2Node module for Drupal have unknown impact and attack vectors.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades sin especificar en el módulo Node2Node para Drupal con un impacto y vectores de ataque desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 63eme CVE 
+CVE ID: CVE-2009-3354, Description: [{'lang': 'en', 'value': 'Multiple unspecified vulnerabilities in the Rest API module for Drupal have unknown impact and attack vectors.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades no especificadas en el módulo Rest API para Drupal tienen impacto y vectores de ataque desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 64eme CVE 
+CVE ID: CVE-2009-3363, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the BUEditor module 5.x before 5.x-1.2 and 6.x before 6.x-1.4, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via input to the "plain textarea editor."'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo BUEditor v5.x anteriores a v5.x-1.2 y v6.x anteriores a v6.x-1.4,, un módulo para Drupal, permite a los atacantes remotos inyectar arbitrariamente una secuencia de comandos web o HTML a través de entradas en el "el área de texto del editor de texto plano"'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 65eme CVE 
+CVE ID: CVE-2009-3435, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the variable editor in the Devel module 5.x before 5.x-1.2 and 6.x before 6.x-1.18, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via a variable name.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el editor de variables del módulo Devel de Dupral en versiones del módulo v5.x en versiones anteriores a la v5.x-1.2 y v6.x en versiones anteriores a la v6.x-1.18. Permite a usuarios remotos inyectar codigo de script web o código HTML a través de un nombre de variable.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 66eme CVE 
+CVE ID: CVE-2009-3437, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the live preview feature in the Markdown Preview module 6.x for Drupal allows remote attackers to inject arbitrary web script or HTML via "Markdown input."'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en la funcionalidad de previsualización en vivo en el módulo Markdown Preview v6.x para Drupal permite a atacantes remotos inyectar secuencias de comandos web o HTML de su elección mediante "Markdown input".'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 67eme CVE 
+CVE ID: CVE-2009-3442, Description: [{'lang': 'en', 'value': 'The Meta tags (aka Nodewords) module before 6.x-1.1 for Drupal does not properly follow permissions during assignment of node meta tags, which allows remote attackers to obtain sensitive information via unspecified vectors.'}, {'lang': 'es', 'value': 'El módulo "Meta tags" (también conocido como Nodewords) en versiones anteriores a la v6.x-1.1 para Drupal no respeta apropiadamente los permisos durante la asignación de meta-etiquetas de un nodo, lo que permite a atacantes remotos obtener información confidencial a través de vectores de ataque sin especificar.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 68eme CVE 
+CVE ID: CVE-2009-3479, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in Bibliography (Biblio) 5.x before 5.x-1.17 and 6.x before 6.x-1.6, a module for Drupal, allows remote attackers, with "create content displayed by the Bibliography module" permissions, to inject arbitrary web script or HTML via a title.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos remotos en Bibliography (Biblio) v5.x anterior v5.x-1.17 y v6.x anterior v6.x-1.6, un módulo para Drupal, permite a atacantes remotos, con permisos "create content displayed by the Bibliography module", ejecutar código web o HTML de su elección a través de un título.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 69eme CVE 
+CVE ID: CVE-2009-3488, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Bibliography (aka Biblio) module 6.x-1.6 for Drupal allows remote authenticated users, with certain content-creation privileges, to inject arbitrary web script or HTML via the Title field, probably a different vulnerability than CVE-2009-3479.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en Bibliography (como Biblio) módulo v6.x-1.6 para Drupal permite a usuarios autentificados remotamente, con ciertos privilegios de creación de contenidos, ejecutar código web o HTML de su elección a través del campo Title, posiblemente una vulnerabilidad diferente que CVE-2009-3479.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 70eme CVE 
+CVE ID: CVE-2009-3568, Description: [{'lang': 'en', 'value': 'Comment RSS 5.x before 5.x-2.2 and 6.x before 6.x-2.2, a module for Drupal, does not properly enforce permissions when a link is added to the RSS feed, which allows remote attackers to obtain the node title and possibly other sensitive content by reading the feed.'}, {'lang': 'es', 'value': 'El modulo de Drupal, Comment RSS v5.x anteriores a v5.x-2.2 y v6.x anteriores a  v6.x-2.2, no hace cumplir correctamente los permisos cuando un enlace se añade a un feed RSS, lo que permite a atacantes remotos obtener el titulo del nodo y posiblemente mas información sensible mediante la lectura del feed.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 71eme CVE 
+CVE ID: CVE-2009-3648, Description: [{'lang': 'en', 'value': "Cross-site scripting (XSS) vulnerability in Service Links 6.x-1.0, a module for Drupal, allows remote authenticated users, with 'administer content types' permissions, to inject arbitrary web script or HTML via unspecified vectors when displaying content type names."}, {'lang': 'es', 'value': 'Una vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo de Drupal "Service Links" v6.x-1.0, permite inyectar HTML o scripts we aleatorios a usuarios remotos autenticados, con permisos para "administrar tipos de contenido ", a través de vectores no especificados cuando se muestran los nombres de tipo de contenido.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 72eme CVE 
+CVE ID: CVE-2009-3650, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in Dex 5.x-1.0 and earlier and 6.x-1.0-rc1 and earlier, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo de Drupal "Dex" en sus versiones v5.x-1.0 y anteriores y v6.x-1.0-RC1 y anteriores, permite a atacantes remotos inyectar HTML o scripts web aleatorios a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 73eme CVE 
+CVE ID: CVE-2009-3651, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the "Monitor browsers\' feature in Browscap before 5.x-1.1 and 6.x-1.1, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via the User-Agent HTTP header.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en la opción "Monitor Browsers" del módulo de Drupal "Browscap" antes de v5.x-1.1 y v6.x-1.1, permite a atacantes remotos inyectar HTML o scripts web a través de la cabecera HTTP User-Agent.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 74eme CVE 
+CVE ID: CVE-2009-3652, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in Organic Groups (OG) 5.x-7.x before 5.x-7.4, 5.x-8.x before 5.x-8.1, and 6.x-1.x before 6.x-1.4, a module for Drupal, allows remote authenticated users, with create or edit group nodes permissions, to inject arbitrary web script or HTML via the User-Agent HTTP header, a different issue than CVE-2008-3095.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de Ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo de Drupal "Organic Groups (OG)" en sus versiones v5.x-7.x antes de v5.x-7.4, v5.x-8.x antes de v5.x-8.1, y v6.x-1.x antes de v6.x-1.4, permite inyectar HTML o scripts web a usuarios remotos autenticados, con el permiso "crear o editar nodos de grupo",  a través de la cabecera HTTP User-Agent. Se trata de un problema diferente al de CVE-2008-3095.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 75eme CVE 
+CVE ID: CVE-2009-3653, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the additional links interface in XML Sitemap 5.x-1.6, a module for Drupal, allows remote authenticated users, with "administer site configuration" permission, to inject arbitrary web script or HTML via unspecified vectors, related to link path output.'}, {'lang': 'es', 'value': 'Vulnerabilidad de Ejecución de secuencias de comandos en sitios cruzados(XSS) en la interfaz "enlaces adicionales" en el modulo de Drupal "XML Sitemap" v5.x-1.6, permite inyectar HTML o scripts web a usuarios remotos autenticados con el permiso "administrar la configuración del sitio", a través de vectores no especificados relacionados con la ruta de enlace de salida.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 76eme CVE 
+CVE ID: CVE-2009-3654, Description: [{'lang': 'en', 'value': 'Unspecified vulnerability in Boost before 6.x-1.03, a module for Drupal, allows remote attackers to create new webroot directories via unknown attack vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad no especificada en el módulo de Drupal "Boost" antes de v6.x-1.03, permite a atacantes remotos para crear directorios webroot nuevos a través de vectores de ataque desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 77eme CVE 
+CVE ID: CVE-2009-3656, Description: [{'lang': 'en', 'value': 'Cross-site request forgery (CSRF) vulnerability in Shared Sign-On 5.x and 6.x, a module for Drupal, allows remote attackers to hijack the authentication of arbitrary users via unknown vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de falsificación de petición en sitios cruzados en el modulo de Drupal Shared Sign-On v5.x y v6.x, permite a atacantes remotos secuestrar la autenticación de los usuarios arbitrarios a través de vectores desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 78eme CVE 
+CVE ID: CVE-2009-3657, Description: [{'lang': 'en', 'value': 'Session fixation vulnerability in Shared Sign-On 5.x and 6.x, a module for Drupal, allows remote attackers to hijack web sessions via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de fijación de sesión del módulo de Drupal Shared Sign-On 5.x y 6.x, permite a atacantes remotos secuestrar sesiones web a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 79eme CVE 
+CVE ID: CVE-2009-3778, Description: [{'lang': 'en', 'value': 'SQL injection vulnerability in Moodle Course List 6.x before 6.x-1.2, a module for Drupal, allows remote attackers to execute arbitrary SQL commands via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de inyección SQL en Moodle Course List v6.x anteriores a v6.x-1.2, permite a atacantes remotos ejecutar comandos SQL de su elección a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 80eme CVE 
+CVE ID: CVE-2009-3779, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in vCard 5.x before 5.x-1.4 and 6.x before 6.x-1.3, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, related to the addition of the theme_vcard function to a theme and the use of default content.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo para Drupal vCard v5.x anteriores a v5.x-1.4 y v6.x anteriores a v6.x-1.3, permite a atacantes remotos inyectar secuencias de comandos web o HTML a través de vectores no especificados, relativos a añadir la función theme_vcard.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 81eme CVE 
+CVE ID: CVE-2009-3780, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in Abuse 5.x before 5.x-2.1 and 6.x before 6.x-1.1-alpha1, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en Abuse v5.x anteriores a v5.x-2.1 y v6.x anteriores a v6.x-1.1-alpha1, permite a atacantes remotos inyectar secuencias de comandos web o HTML a través de véctores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 82eme CVE 
+CVE ID: CVE-2009-3781, Description: [{'lang': 'en', 'value': 'The filefield_file_download function in FileField 6.x-3.1, a module for Drupal, does not properly check node-access permissions for Drupal core private files, which allows remote attackers to access unauthorized files via unspecified vectors.'}, {'lang': 'es', 'value': 'La función filefield_file_download en módulo de Drupal, FileField v6.x-3.1, no comprueba de forma adecuada los permisos de acceso al nodo para los ficheros privados del núcleo, lo que permite a los atacantes remotos acceder a ficheros no autorizados a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 83eme CVE 
+CVE ID: CVE-2009-3782, Description: [{'lang': 'en', 'value': 'Unspecified vulnerability in Userpoints 6.x before 6.x-1.1, a module for Drupal, allows remote authenticated users with "View own userpoints" permissions to read the userpoint data of arbitrary users via unknown attack vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad no especificada en el módulo para drupal Userpoints v6.x anteriores a 6.x-1.1, permite a usuarios remotos autenticado, con permisos "View own userpoints", leer los datos de puntos de usuario de usuarios de su elección a través de vectores de ataque desconocidos.\r\n'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 84eme CVE 
+CVE ID: CVE-2009-3783, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in Simplenews Statistics 6.x before 6.x-2.0, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via unspecified vector.'}, {'lang': 'es', 'value': 'Vulnerabilidades de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo para Drupal Simplenews Statistics v6.x anteriores a v6.x-2.0, permite a atacantes remotos inyectar secuencias de comandos web o HTML a través del un vector no especificado.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 85eme CVE 
+CVE ID: CVE-2009-3784, Description: [{'lang': 'en', 'value': 'Open redirect vulnerability in Simplenews Statistics 6.x before 6.x-2.0, a module for Drupal, allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de redirección abierta en el módulo para drupal Simplenews Statistics v6.x anteriores a v6.x-2.0, permite a atacantes remotos redireccionar a usuarios a sitios web de su elección y llevar a cabo ataques de phishing a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 86eme CVE 
+CVE ID: CVE-2009-3785, Description: [{'lang': 'en', 'value': 'Multiple cross-site request forgery (CSRF) vulnerabilities in Simplenews Statistics 6.x before 6.x-2.0, a module for Drupal, allow remote attackers to hijack the authentication of arbitrary users via unknown vectors.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de falsificación de petición en sitios cruzados (CSRF) en el módulo de Drupal Simplenews Statistics v6.x anteriores a v6.x-2.0, permite a atacantes remotos secuestras la autenticación de usuarios de su elección a través de vectores desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 87eme CVE 
+CVE ID: CVE-2009-3786, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in Organic Groups (OG) Vocabulary 5.x before 5.x-1.1 and 6.x before 6.x-1.1, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via the group title.'}, {'lang': 'es', 'value': 'Vulnerabilidad de tipo cross-site scripting (XSS) en Organic Groups (OG) Vocabulary versiones 5.x anteriores a 5.x-1.1 y versiones 6.x anteriores a 6.x-1.1, un módulo para Drupal, permite a los atacantes remotos inyectar script web o HTML arbitrario por medio del título group.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 88eme CVE 
+CVE ID: CVE-2009-3914, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Temporary Invitation module 5.x before 5.x-2.3 for Drupal allows remote attackers to inject arbitrary web script or HTML via the Name field in an invitation.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados en el módulo de Drupal "Temporary Invitation" v5.X antes de v5.x-2.3 permite a atacantes remotos inyectar HTML o scripts web a través del campo Name en una invitación.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 89eme CVE 
+CVE ID: CVE-2009-3915, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the "Separate title and URL" formatter in the Link module 5.x before 5.x-2.6 and 6.x before 6.x-2.7, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via the link title field.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de ejecución de secuencias de comandos en el formateador de separación de título y URL del módulo de Drupal "Link" v5.x antes de v5.x-2.6 y v6.x antes de v6.x-2.7, permite a atacantes remotos inyectar HTML o scripts web a través del campo de título del enlace.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 90eme CVE 
+CVE ID: CVE-2009-3916, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Node Hierarchy module 5.x before 5.x-1.3 and 6.x before 6.x-1.3, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via a child node title.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el modulo de Drupal "Node Hierarchy" v5.x antes de v5.x-1.3 y v6.x antes de v6.x-1.3, permite a atacantes remotos inyectar HTML o scripts  web a través de un título de nodo hijo.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 91eme CVE 
+CVE ID: CVE-2009-3917, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the S5 Presentation Player module 6.x-1.x before 6.x-1.1 for Drupal allows remote attackers to inject arbitrary web script or HTML via an unspecified field that is copied to the HTML HEAD element.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados en el módulo de Drupal "S5 Presentation Player" v6.x-1.x antes de v6.x-1.1, permite a atacantes remotos inyectar HTML o scripts web a través de un campo sin especificar que se copia el elemento HTML HEAD.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 92eme CVE 
+CVE ID: CVE-2009-3918, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Zoomify module 5.x before 5.x-2.2 and 6.x before 6.x-1.4, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via the node title.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo de Drupal "Zoomify" v5.x antes de v5.x-2.2 y v6.x antes de v6.x-1.4 permite a atacantes remotos inyectar HTML o scripts weba través del título del nodo.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 93eme CVE 
+CVE ID: CVE-2009-3919, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the NGP COO/CWP Integration (crmngp) module 6.x before 6.x-1.12 for Drupal allows remote attackers to inject arbitrary web script or HTML via unspecified "user-supplied information."'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo para Drupal NGP COO/CWP Integration (crmngp) v6.x anterior a v6.x-1.12, permite a atacantes remotos inyectar secuencias de comandos web o HTML a través de informaión dada por el usuario no especificada.\r\n'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 94eme CVE 
+CVE ID: CVE-2009-3920, Description: [{'lang': 'en', 'value': 'An administration page in the NGP COO/CWP Integration (crmngp) module 6.x before 6.x-1.12 for Drupal does not perform the expected access control, which allows remote attackers to read log information via unspecified vectors.'}, {'lang': 'es', 'value': 'Una página de administración del módulo de integración de Drupal NGP COO/CWP v6.x (crmngp) antes de v6.x-1.12 no realiza el control de acceso esperado, lo que permite leer a atacantes remotos la información de registro a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 95eme CVE 
+CVE ID: CVE-2009-3921, Description: [{'lang': 'en', 'value': 'The Smartqueue_og module 5.x before 5.x-1.3 and 6.x before 6.x-1.0-rc3, a module for Drupal, does not verify group-node privileges in certain circumstances involving subqueue creation, which allows remote authenticated users to discover arbitrary organic group names by reading confirmation messages.'}, {'lang': 'es', 'value': 'El módulo Smartqueue_og v5.x anteriores a v5.x-1.3 y v6.x anteriores a6.x-1.0-rc3, módulo para  Drupal, en ciertas circunstancias no verifica los privilegios del nodo de grupo, implicando la creación de una sub-cola que permite a usuarios remotos autenticados, descubrir nombres de grupo orgánicos de su elección leyendo los mensajes de confirmación.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 96eme CVE 
+CVE ID: CVE-2009-3922, Description: [{'lang': 'en', 'value': 'Multiple cross-site request forgery (CSRF) vulnerabilities in the User Protect module 5.x before 5.x-1.4 and 6.x before 6.x-1.3, a module for Drupal, allow remote attackers to hijack the authentication of administrators for requests that (1) delete the editing protection of a user or (2) delete a certain type of administrative-bypass rule.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de falsificación de petición en sitios cruzados (CSRF) en el módulo User Protect v5.x anteriores a v5.x-1.4 y v6.x anteriores a v6.x-1.3, módulo para Drupal, permite a atacantes remotos secuestrar la autenticación de los administradores para peticiones que (1) elimine la protección de edición de un usuario y (2) elimine ciertos tipos de reglas de prevención de administración.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 97eme CVE 
+CVE ID: CVE-2009-4042, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the RootCandy theme 6.x before 6.x-1.5 for Drupal allows remote attackers to inject arbitrary web script or HTML via the URI.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el tema de Drupal "RootCandy" v6.x antes de v6.x-1.5 permite a atacantes remotos inyectar HTML o scripts web a través de la URI.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 98eme CVE 
+CVE ID: CVE-2009-4043, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the AddToAny module 5.x before 5.x-2.4 and 6.x before 6.x-2.4 for Drupal allows remote attackers to inject arbitrary web script or HTML via a node title.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de ejecución de secuencias de comandos en sitios cruzado (XSS) en el módulo de Drupal "AddToAny" v5.x antes de v5.x-2.4 y v6.x antes de v6.x-2.4 permite a atacantes remotos inyectar HTML o scripts web a través del título de un nodo.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 99eme CVE 
+CVE ID: CVE-2009-4044, Description: [{'lang': 'en', 'value': 'The Web Services module 6.x for Drupal does not perform the expected access control, which allows remote attackers to make unspecified use of an API via unknown vectors.'}, {'lang': 'es', 'value': 'El módulo "Web Services" v6.x de Drupal no realiza correctamente el control de acceso, lo que permite a atacantes remotos para hacer un uso no especificado de una API a través de vectores desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 100eme CVE 
+CVE ID: CVE-2009-4061, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in the Agreement module 6.x before 6.x-1.2 for Drupal allow remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Multiples vulnerabilidades de ejecución de comandos en sitios cruzados (XSS) en el módulo de Drupal "Agreement" v6.x antes de v6.x-1.2 permite a atacantes remotos inyectar HTML o scripts web a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 101eme CVE 
+CVE ID: CVE-2009-4062, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in the Printfriendly module 6.x before 6.x-1.6 for Drupal allow remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Multiples vulnerabilidades de ejecución de comandos en sitios cruzados(XSS) en el módulo de Drupal "Printfriendly" v6.x antes de v6.x-1.6 permiten a atacantes remotos inyectar HTML o scripts web a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 102eme CVE 
+CVE ID: CVE-2009-4063, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Subgroups for Organic Groups (OG) module 5.x before 5.x-4.0 and 5.x before 5.x-3.4 for Drupal allows remote attackers to inject arbitrary web script or HTML via unspecified node titles.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Subgroups for Organic Groups (OG) v5.x anteriores a la v5.x-4.0 y v5.x anteriores a la v5.x-3.4 de Drupal. Permite a atacantes remotos inyectar codigo de script web o código HTML a través de los títulos de nodo.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 103eme CVE 
+CVE ID: CVE-2009-4064, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Gallery Assist module 6.x before 6.x-1.7 for Drupal allows remote attackers to inject arbitrary web script or HTML via node titles.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Gallery Assist v6.x anteriores a la v6.x-1.7 de Drupal permite a usuarios remotos inyectar codigo de script web o código HTML a través de "node titles" (títulos de nodo).'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 104eme CVE 
+CVE ID: CVE-2009-4065, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the settings page in the Strongarm module 6.x before 6.x-1.1 for Drupal allows remote attackers to inject arbitrary web script or HTML via the value field when viewing overridden variables.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en la página de configuración del módulo Strongarm module v6.x anteriores a v6.x-1.1 de Drupal. Permite a usuarios remotos inyectar codigo de script web o código HTML a través de el campo "value" (valor) cuando se visualizan variables sobreescritas.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 105eme CVE 
+CVE ID: CVE-2009-4066, Description: [{'lang': 'en', 'value': 'Multiple cross-site request forgery (CSRF) vulnerabilities in the "My Account" feature in PHPList Integration module 5 before 5.x-1.2 and 6 before 6.x-1.1 for Drupal allow remote attackers to hijack the authentication of arbitrary users via vectors related to (1) subscribing or (2) unsubscribing to mailing lists.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de falsificación de petición en sitios cruzados(CSRF) en el apartado "My Account" (mi cuenta) del módulo PHPList Integration v5 anteriores a v5.x-1.2 y v6 anteriores a v6.x-1.1 de Drupal. Permiten a atacantes remotos secuestrar las credenciales de autenticación de usuarios de su elección a través de vectores de ataque relacionados con (1) la suscripción (2) o desinscripción de las listas de correo.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 106eme CVE 
+CVE ID: CVE-2009-4119, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in Feed Element Mapper module 5.x before 5.x-1.3, 6.x before 6.x-1.3, and 6.x-2.0-alpha before 6.x-2.0-alpha4 for Drupal allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Feed Element Mapper v5.x anteriores a v5.x-1.3, v6.x anteriores a v6.x-1.3, y v6.x-2.0-alpha anteriores a v6.x-2.0-alpha4 de Drupal permite a usuarios remotos inyectar codigo de script web o código HTML de su elección a través de vectores de ataque sin especificar.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 107eme CVE 
+CVE ID: CVE-2009-4207, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Webform module 5.x before 5.x-2.7 and 6.x before 6.x-2.7, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via a submission.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Webform versiones v5.x anteriores a v5.x-2.7 y v6.x anteriores a v6.x-2.7, un módulo para Drupal, permite a atacantes remotos inyectar secuencias de comandos web o HTML de su elección mediante un envío de formulario.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 108eme CVE 
+CVE ID: CVE-2009-4296, Description: [{'lang': 'en', 'value': 'SQL injection vulnerability in the Taxonomy Timer module 5.x-1.8 and earlier and 6.x-alpha1 and earlier for Drupal allows remote attackers to execute arbitrary SQL commands via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de inyección SQL en el módulo Taxonomy Timer v5.x-1.8 y anteriores y v6.x-alpha1 v anteriores para Drupal  permite a atacantes remotos ejecutar comandos SQL arbitrarios a través de vectores sin especi'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 109eme CVE 
+CVE ID: CVE-2009-4429, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Sections module 5.x before 5.x-1.3 and 6.x before 6.x-1.3 for Drupal allows remote authenticated users with "administer sections" privileges to inject arbitrary web script or HTML via a section name (aka the Name field).'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Sections v5.x anteriores a v5.x-1.3 y v6.x anteriores a v6.x-1.3 para Drupal permite a usuarios autenticados remotamente con privilegios de "administrar secciones" inyectar secuencias de comandos web o HTML de su elección mediante un nombre de sección (también conocido como campo "Name").'}], Criticity : {}
+Voici les POCs publiques extraits
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+Drupal Module Sections - Cross-Sit | https://www.exploit-db.com/exploits/10485
+Drupal Module Sections 5.x-1.2/6.x | https://www.exploit-db.com/exploits/33410
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 110eme CVE 
+CVE ID: CVE-2009-4513, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in the Workflow module 5.x before 5.x-2.4 and 6.x before 6.x-1.2, a module for Drupal, allow remote authenticated users, with "administer workflow" privileges, to inject arbitrary web script or HTML via the name of a (1) workflow or (2) workflow state.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo para Drupal Workflow v5.x anteriores a v5.x-2.4 y v6.x anteriores a v6.x-1.2, permite a atacantes remotos autenticados con privilegios "administer Workflow", inyectar secuencias de comandos web o HTML a través del nombre de un (1) Workflow o (2) estado de Workflow.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 111eme CVE 
+CVE ID: CVE-2009-4514, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the OpenSocial Shindig-Integrator module 5.x and 6.x before 6.x-2.1, a module for Drupal, allows remote authenticated users, with "create application" privileges, to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo OpenSocial Shindig-Integrator v5.x y v6.x anteriores a v6.x-2.1, un módulo para Drupal, permite a usuarios autenticados remotamente, con privilegios de "crear aplicación", inyectar secuencias de comandos web o HTML de su elección mediante vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 112eme CVE 
+CVE ID: CVE-2009-4515, Description: [{'lang': 'en', 'value': 'The Storm module 6.x before 6.x-1.25 for Drupal does not enforce privilege requirements for storminvoiceitem nodes, which allows remote attackers to read node titles via unspecified vectors.'}, {'lang': 'es', 'value': 'El módulo Storm v6.x anterior a v6.x-1.25 para Drupal, no refuerza los requisitos de privilegios para los nodos storminvoiceitem; esto permite a atacantes remotos leer los títulos de los nodos a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 113eme CVE 
+CVE ID: CVE-2009-4516, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the FAQ Ask module 5.x and 6.x before 6.x-2.0, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo FAQ Ask v 5.x y v6.x anterior a v6.x-2.0 para Drupal, permite a atacantes remotos inyectar secuencias de comandos web o HTML de su elección a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 114eme CVE 
+CVE ID: CVE-2009-4517, Description: [{'lang': 'en', 'value': 'Cross-site request forgery (CSRF) vulnerability in the FAQ Ask module 5.x and 6.x before 6.x-2.0, a module for Drupal, allows remote attackers to hijack the authentication of arbitrary users for requests that access unpublished content.'}, {'lang': 'es', 'value': 'Vulnerabilidad de falsificación de petición en sitios cruzados (CSRF) en el módulo para Drupal FAQ Ask v5.x y v6.x anteriores a v6.x-2.0, permite a atacantes remotos secuestrar la autenticación de usuarios de su elección para peticiones de acceso a contenido no publicado.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 115eme CVE 
+CVE ID: CVE-2009-4518, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Insert Node module 5.x before 5.x-1.2 for Drupal allows remote attackers to inject arbitrary web script or HTML via an inserted node.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Insert Node v5.x anterior a v5.x-1.2 para Drupal permite a atacantes remotos inyectar secuencias de comandos web o HTML de su elección a través de un nodo insertado.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 116eme CVE 
+CVE ID: CVE-2009-4520, Description: [{'lang': 'en', 'value': 'The CCK Comment Reference module 5.x before 5.x-1.2 and 6.x before 6.x-1.3, a module for Drupal, allows remote attackers to bypass intended access restrictions and read comments by using the autocomplete path.'}, {'lang': 'es', 'value': 'El módulo CK Comment Reference v5.x anteriores a v5.x-1.2 y v6.x anteriores a v6.x-1.3, un módulo para Drupal, permite a atacantes remotos eludir las restricciones de acceso implementadas y leer comentarios al usar el autocompletado.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 117eme CVE 
+CVE ID: CVE-2009-4524, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the RealName module 6.x-1.x before 6.x-1.3 for Drupal allows remote attackers to inject arbitrary web script or HTML via a realname (aka real name) element.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo RealName v6.x-1.x anteriores a 6.x-1.3 para Drupal,  permite a atacantes remotos inyectar secuencias de comandos web o HTML a través del elemento realname (también conocido como name).'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 118eme CVE 
+CVE ID: CVE-2009-4525, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Print (aka Printer, e-mail and PDF versions) module 5.x before 5.x-4.9 and 6.x before 6.x-1.9, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via crafted data in a list of links.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Print (también conocido como Printer, para versiones de correo electrónico y PDF) v5.x anterior a v5.x-4.9 y v6.x anterior a v6.x-1.9, un módulo para Drupal, permite a atacantes remotos inyectar secuencias de comandos Web o HTML a través de un dato manipulado en una lista de enlaces.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 119eme CVE 
+CVE ID: CVE-2009-4526, Description: [{'lang': 'en', 'value': 'The Send by e-mail sub-module in the Print (aka Printer, e-mail and PDF versions) module 5.x before 5.x-4.9 and 6.x before 6.x-1.9, a module for Drupal, does not properly enforce privilege requirements, which allows remote attackers to read page titles by requesting a "Send to friend" form.'}, {'lang': 'es', 'value': 'El sub-módulo Send by e-mail en el módulo Print (también conocido como Printer, e-mail y versiones PDF) v5.x anterior a v5.x-4.9 y v6.x anterior a v6.x-1.9, para Drupal, no refuerza adecuadamente los privilegios, lo que permite a atacantes remotos leer los títulos de página solicitando un formulario "Send to a Friend" (Enviar a un amigo).'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 120eme CVE 
+CVE ID: CVE-2009-4527, Description: [{'lang': 'en', 'value': 'The Shibboleth authentication module 5.x before 5.x-3.4 and 6.x before 6.x-3.2, a module for Drupal, does not properly remove statically granted privileges after a logout or other session change, which allows physically proximate attackers to gain privileges by using an unattended web browser.'}, {'lang': 'es', 'value': 'El módulo de autenticación Shibboleth v5.x anterior a v5.x-3.4 y v6.x anterior a v6.x-3.2, un módulo para Drupal, no elimina adecuadamente los privilegios otorgados estáticamente después un cierre de sesión u otro cambio de sesión, lo que permite a atacantes próximos físicamente obtener privilegios utilizando un navegador web desatendido.\r\n'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 121eme CVE 
+CVE ID: CVE-2009-4528, Description: [{'lang': 'en', 'value': 'The Organic Groups (OG) Vocabulary module 6.x before 6.x-1.0 for Drupal allows remote authenticated group members to bypass intended access restrictions, and create, modify, or read a vocabulary, via unspecified vectors.'}, {'lang': 'es', 'value': 'El módulo Organic Groups  (OG)Vocabulary v6.x anterior a v6.x-1.0 para Drupal, permite a grupos miembros de usuarios autenticados remotamente evitar las restricciones de acceso establecidas, creando, modificando o leyendo palabras de su elección  a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 122eme CVE 
+CVE ID: CVE-2009-4532, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Webform module 5.x before 5.x-2.8 and 6.x before 6.x-2.8, a module for Drupal, allows remote authenticated users, with webform creation privileges, to inject arbitrary web script or HTML via a field label.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados en el módulo para Drupal Webform v5.x anterior a v5.x-2.8 y v6.x anterior a v6.x-2.8, permite a usuarios autenticados remotamente, con privilegio de creación en webform, inyectar secuencias de comandos web o HTML de su elección a través del campo "label".'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 123eme CVE 
+CVE ID: CVE-2009-4533, Description: [{'lang': 'en', 'value': 'The Webform module 5.x before 5.x-2.8 and 6.x before 6.x-2.8, a module for Drupal, does not prevent caching of a page that contains token placeholders for a default value, which allows remote attackers to read session variables via unspecified vectors.'}, {'lang': 'es', 'value': 'El módulo Webform v5.x anteriores a v5.x-2.8 y v6.x anteriores a v6.x-2.8, un módulo para Drupal, no evita el almacenamiento en caché de una página que contiene una variable token con un valor por defecto, permitiendo a atacantes remotos leer variables de sesión mediante vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 124eme CVE 
+CVE ID: CVE-2009-4534, Description: [{'lang': 'en', 'value': 'Open redirect vulnerability in the FAQ Ask module 5.x and 6.x before 6.x-2.0, a module for Drupal, allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de redirección abierta en el módulo FAQ Ask v5.x y v6.x anterior a v6.x-2.0, un módulo para Drupal, permite a atacantes remotos redireccionar a los usuarios a sitios Web de su elección y realizar ataques de phishing a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 125eme CVE 
+CVE ID: CVE-2009-4557, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Image Assist module 5.x-1.x before 5.x-1.8, 5.x-2.x before 2.0-alpha4, 6.x-1.x before 6.x-1.1, 6.x-2.x before 2.0-alpha4, and 6.x-3.x-dev before 2009-07-15, a module for Drupal, allows remote authenticated users, with image-node creation privileges, to inject arbitrary web script or HTML via a node title.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el modulo Image Assist v5.x-1.x anterior a v5.x-1.8, v5.x-2.x anterior a v2.0-alpha4, v6.x-1.x anterior a v6.x-1.1, v6.x-2.x anterior a v2.0-alpha4, y v6.x-3.x-dev anterior a 2009-07-15 para Drupal permite a usuarios remotos autenticados con privilegios de creación de nodos de imagen , inyectar secuencias de comandos web o HTML de forma arbitraria a través del titulo del nodo.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 126eme CVE 
+CVE ID: CVE-2009-4558, Description: [{'lang': 'en', 'value': 'The Image Assist module 5.x-1.x before 5.x-1.8, 5.x-2.x before 2.0-alpha4, 6.x-1.x before 6.x-1.1, 6.x-2.x before 2.0-alpha4, and 6.x-3.x-dev before 2009-07-15, a module for Drupal, does not properly enforce privilege requirements for unspecified pages, which allows remote attackers to read the (1) title or (2) body of an arbitrary node via unknown vectors.'}, {'lang': 'es', 'value': 'El módulo Image Assist v5.x-1.x anterior a v5.x-1.8, v5.x-2.x  anterior a v2.0-alpha4, v6.x-1.x  anterior a v6.x-1.1, v6.x-2.x  anterior a v2.0-alpha4, y v6.x-3.x-dev  anterior a v2009-07-15, para Drupal, no refuerza adecuadamente los requisitos de algunos privilegios para páginas que no se han especificado, lo que permite a atacantes remotos leer el (1)título (title) o (2)cuerpo (body) de un nodo de su elección a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 127eme CVE 
+CVE ID: CVE-2009-4559, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Submitted By module 6.x before 6.x-1.3 for Drupal allows remote authenticated users, with "administer content types" privileges, to inject arbitrary web script or HTML via an input string for "submitted by" text.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo "Submitted By" v6.x anterior a v6.x-1.3 para Drupal permite a los usuarios remotos autenticados, con privilegios para "administrar los tipos de contenido", inyectar secuencias de comandos web o HTML de su elección a través de una cadena de entrada para el texto "submitted by".'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 128eme CVE 
+CVE ID: CVE-2009-4602, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Randomizer module 5.x through 5.x-1.0 and 6.x through 6.x-1.0, a module for Drupal, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el modulo Randomizer v5.x-1.0 y v6.x hasta v6.x-1.0, un modulo de Drupal, permite a atacantes remotos inyectar secuencias arbitrarias de comandos web o HTML a través de vectores desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 129eme CVE 
+CVE ID: CVE-2010-0370, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Node Blocks module 5.x-1.1 and earlier, and 6.x-1.3 and earlier, a module for Drupal, allows remote authenticated users, with permissions to create or edit content and administer blocks, to inject arbitrary web script or HTML via the edit-title parameter (aka block title).'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Node Blocks 5.x-1.1, y versiones anteriores, y 6.x-1.3 y versiones anteriores, un módulo para Drupal, permite a atacantes remotos con permisos para crear o editar contenido y administrar bloques, inyectar secuencias de comandos web o HTML de su elección a través del parámetro "edit-title" (alias título de bloque).'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 130eme CVE 
+CVE ID: CVE-2010-0697, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the iTweak Upload module 6.x-1.x before 6.x-1.2 and 6.x-2.x before 6.x-2.3 for Drupal allows remote authenticated users, with create content and upload file permissions, to inject arbitrary web script or HTML via the file name of an uploaded file.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el modulo iTweak Upload v6.x-1.x anteriores a v6.x-1.2 y v6.x-2.x anteriores a v6.x-2.3 para Drupal permite a usuarios remotos autenticados, con permisos para crear contenidos y subir ficheros, inyectar secuencias arbitrarias de comandos web o HTML a través del nombre de un fichero subido.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 131eme CVE 
+CVE ID: CVE-2010-0752, Description: [{'lang': 'en', 'value': 'The week_post_page function in the Weekly Archive by Node Type module 6.x before 6.x-2.7 for Drupal does not properly implement node access restrictions when constructing SQL queries, which allows remote attackers to read restricted node listings via unspecified vectors.'}, {'lang': 'es', 'value': 'La función week_post_page en Weekly Archive para el módulo Node Type v6.x anteriores v6.x-2.7 para Drupal no implementa de forma adecuada las restricciones de acceso al nodo cuando construyen preguntas SQL, lo que permite a atacantes remotos para leer listados de nodo restringidos a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 132eme CVE 
+CVE ID: CVE-2010-1074, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Currency Exchange module before 6.x-1.2 for Drupal allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, related to watchdog logging.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Currency Exchange anterior a v6.x-1.2 para Drupal permite a atacantes remotos inyectar secuencias de comandos web o HTML a través de vectores no especificados, relacionados con la vigilancia de registro (watchdog logging).'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 133eme CVE 
+CVE ID: CVE-2010-1107, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Recent Comments module 5.x through 5.x-1.2 and 6.x through 6.x-1.0 for Drupal allows remote authenticated users to inject arbitrary web script or HTML via a "custom block title interface."'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el modulo Recent Comments v5.x hasta v5.x-1.2 y v6.x hasta v6.x-1.0 para Drupal permite a usuarios remotos autenticados inyectar secuencias de comandos web o HTML de forma arbitraria a traves de "custom block title interface."'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 134eme CVE 
+CVE ID: CVE-2010-1108, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Control Panel module 5.x through 5.x-1.5 and 6.x through 6.x-1.2 for Drupal allows remote authenticated users, with "administer blocks" privileges, to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Control Panel v5.x hasta v5.x-1.5 y v6.x hasta v6.x-1.2 para Drupal permite a usuarios autenticados remotamente, con privilegios para administrar bloques, inyectar código web o HTML de su elección a través de vectores sin especificar.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 135eme CVE 
+CVE ID: CVE-2010-1303, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in the Taxonomy Filter module 6.x before 6.x-1.1 for Drupal allow remote authenticated users, with administer taxonomy permissions or create node permissions when free tagging is enabled, to inject arbitrary web script or HTML via vocabulary (1) names, (2) terms, and (3) filter menus.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Taxonomy Filter v6.x anterior a v6.x-1.1 para Drupal, permite a usuarios autenticados remotamente con permisos de administrador "taxonomy" o de creador de nodo cuando "free tagging" está activado, inyectar secuencias de comandos web o HTML de su elección a través de los menús de vocabulario (1) "names", (2) "terms", y (3) "filter".'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 136eme CVE 
+CVE ID: CVE-2010-1358, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Bibliography (Biblio) module 5.x through 5.x-1.17 and 6.x through 6.x-1.9 for Drupal allows remote authenticated users, with "administer biblio" privileges, to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Bibliography (Biblio) v5.x hasta v5.x-1.17 y v6.x hasta v6.x-1.9 para Drupal permite a usuarios autenticados remotamente, con privilegios de "administrador de biblio", inyectar código web o HTML de su elección a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 137eme CVE 
+CVE ID: CVE-2010-1362, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Own Term module 6.x-1.0 for Drupal allows remote authenticated users, with "create additional terms" privileges, to inject arbitrary web script or HTML via the term description field in a term listing page.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de ejecución de comandos en sitios cruzados(XSS) en el modulo "Own Term" v6.x-1.0 para Drupal permite inyectar HTML o scripts web a usuarios remotos autenticados, con el privilegio "crear condiciones adicionales", a través del campo descripción en una página del anuncio de plazos.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 138eme CVE 
+CVE ID: CVE-2009-4771, Description: [{'lang': 'en', 'value': 'The PayPal Website Payments Standard functionality in the Ubercart module 5.x before 5.x-1.9 and 6.x before 6.x-2.1 for Drupal does not properly validate orders, which allows remote attackers to trigger unspecified "duplicate actions" via unknown vectors.'}, {'lang': 'es', 'value': 'la funcionalidad de "PayPal Website Payments Standard" (estándar de pago del sitio PayPal) del módulo Ubercart v5.x anteriores a la v5.x-1.9 y v6.x anteriores a la v6.x-2.1 de Drupal no valida apropiadamente los pedidos, lo que permite a atacantes remotos ejecutar "acciones duplicadas" sin especificar a través de vectores de ataque desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 139eme CVE 
+CVE ID: CVE-2009-4772, Description: [{'lang': 'en', 'value': 'Unspecified vulnerability in the PayPal Website Payments Standard functionality in the Ubercart module 5.x before 5.x-1.9 and 6.x before 6.x-2.1 for Drupal, when a custom checkout completion message is enabled, allows attackers to obtain sensitive information via unknown vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad sin especificar en la funcionalidad de "PayPal Website Payments Standard" (estándar de pago del sitio PayPal) del módulo Ubercart v5.x anteriores a la v5.x-1.9 y v6.x anteriores a la v6.x-2.1 de Drupal. Cuando se habilita un mensaje modificado de fin de la confirmación, permite a los atacantes obtener información confidencial a través de vectores de ataque sin especificar.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 140eme CVE 
+CVE ID: CVE-2009-4773, Description: [{'lang': 'en', 'value': 'Cross-site request forgery (CSRF) vulnerability in the order-management functionality in the Ubercart module 5.x before 5.x-1.9 and 6.x before 6.x-2.1 for Drupal allows remote attackers to hijack the authentication of unspecified victims via unknown vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de falsificación de petición en sitios cruzados (CSRF) en la funcionalidad "order-management" (gestión de órdenes) en el módulo Ubercart v5.x anteriores a la  v5.x-1.9 y v6.x anteriores a la v6.x-2.1 de Drupal. Permite a usuarios remotos autenticados secuestrar la autenticación de víctimas sin especificar a través de vectores de ataque desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 141eme CVE 
+CVE ID: CVE-2010-1530, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in the Internationalization module 6.x before 6.x-1.4 for Drupal allow remote authenticated users, with translate interface or administer blocks privileges, to inject arbitrary web script or HTML via (1) strings used in block translation or (2) the untranslated input.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de ejecución de comandos en sitios cruzados (XSS) en el módulo de internacionalización para Drupal v6.x antes de v6.x-1.4 permiten inyectar HTML o scripts web a usuarios remotos autenticados, con privilegios de interfaz de traducción o de administración de bloques, a través de (1) cadenas utilizadas en la traducción de bloques o (2) entradas sin traducir.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 142eme CVE 
+CVE ID: CVE-2010-1536, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the AddThis Button module 5.x before 5.x-2.2 and 6.x before 6.x-2.9 for Drupal allows remote authenticated users, with administer addthis privileges, to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo AddThis Button v5.x anterior a v5.x-2.2 y v6.x anterior a v6.x-2.9 para Drupal permite a usuarios autenticados en remoto con privilegios de administrar addthis, inyectar secuencias de comandos Web o HTML mediante vectores no especificados'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 143eme CVE 
+CVE ID: CVE-2010-1539, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Workflow module 5.x-2.x before 5.x-2.6 and 6.x-1.x before 6.x-1.4 for Drupal, when used with the Token module, might allow remote authenticated users to inject arbitrary web script or HTML via a certain Comment field.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Workflow 5.x-2.x en versiones anteriores a la 5.x-2.6 y 6.x-1.x en versiones anteriores a la 6.x-1.4 para Drupal, cuando se usa con el módulo Token, puede permitir a atacantes remotos autenticados inyectar secuencias de comandos web o HTML de su elección a través de un campo "Comment" determinado.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 144eme CVE 
+CVE ID: CVE-2010-1543, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the eTracker module before 6.x-1.2 for Drupal allows remote attackers to inject arbitrary web script or HTML by appending a crafted string to an arbitrary URL associated with the Drupal site.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo eTracker anterior v6.x-1.2 para Drupal permite a atacantes remotos inyectar código web o HTML de su elección por añadiéndolos a una cadena manipulada en una URL asociada de su elección con el sitio Drupal. \r\n'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 145eme CVE 
+CVE ID: CVE-2009-4829, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Automated Logout module 6.x-1.x before 6.x-1.7 and 6.x-2.x before 6.x-2.3 for Drupal allows remote authenticated users with administer autologout privileges to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Automated Logout v6.x-1.x anterior v6.x-1.7 y v6.x-2.x anterior v6.x-2.3 para Drupal  permite a usuarios autenticarse remotamente con privilegios de autologueo de administrador, el inyectar código web o HMTL de su elección a través de vectores no especificados. \r\n'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 146eme CVE 
+CVE ID: CVE-2010-1584, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Context module before 6.x-2.0-rc4 for Drupal allows remote authenticated users, with Administer Blocks privileges, to inject arbitrary web script or HTML via a block description.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Context anterior a v6.x-2.0-rc4 para Drupal permite a usuarios autenticados remotamente, con privilegios "Administer Blocks", inyectar código web o HTML a través de una descripción "block".'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 147eme CVE 
+CVE ID: CVE-2010-1976, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Taxonomy Breadcrumb module 6.x before 6.x-1.1 for Drupal allows remote authenticated users, with administer taxonomy permissions, to inject arbitrary web script or HTML via the node title in a Breadcrumb display.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Taxonomy Breadcrumb v6.x anteriores a v6.x-1.1 para Drupal, permite a usuarios autenticados remotamente, con permisos para administrar taxonomy, inyectar código web o HTML de su elección a través del nodo "title" en una visualización de Breadcrumb.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 148eme CVE 
+CVE ID: CVE-2010-1984, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Taxonomy Breadcrumb module 5.x before 5.x-1.5 and 6.x before 6.x-1.1 for Drupal allows remote authenticated users, with administer taxonomy permissions, to inject arbitrary web script or HTML via the taxonomy term name in a Breadcrumb display.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Taxonomy Breadcrumb v5.x anterior a v5.x-1.5 y v6.x anterior a v6.x-1.1 para Drupal, permite a usuarios autenticados en remoto con permisos de administrador de "taxonomy", inyectar secuencias de comandos Web o HTML a través del nombre del término taxonomy en una visualización de Breadcrumb.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 149eme CVE 
+CVE ID: CVE-2010-1998, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the CCK TableField module 6.x before 6.x-1.2 for Drupal allows remote authenticated users, with certain node creation or editing privileges, to inject arbitrary web script or HTML via table headers.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo CCK TableField v6.x anteriores a v6.x-1.2 para Drupal permite a usarios autenticados en remoto con ciertos privilegios de creación o edición de nodo inyectar código web o HTML a través de las cabeceras de tabla'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 150eme CVE 
+CVE ID: CVE-2010-2000, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Bibliography (Biblio) module 5.x through 5.x-1.17 and 6.x through 6.x-1.9 for Drupal allows remote authenticated users, with "administer biblio" privileges, to inject arbitrary web script or HTML via unspecified vectors, a different vulnerability than CVE-2010-1358.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en Bibliography (Biblio) módulo v5.x hasta v5.x-1.17 y v6.x hasta v6.x-1.9 para Drupal permite a usuarios autenticados en remoto con privilegios "administer biblio" inyectar código web o HTML a través de vectores sin especificar, diferente a la vulnerabilidad CVE-2010-1358'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 151eme CVE 
+CVE ID: CVE-2010-2001, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the CiviRegister module before 6.x-1.1 for Drupal allows remote attackers to inject arbitrary web script or HTML via the URI.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo CiviRegister en anteriores a v6.x-1.1 para Drupal permite a atacantes remotos inyectar código web o HTML a través de URI'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 152eme CVE 
+CVE ID: CVE-2010-2002, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Wordfilter module 5.x before 5.x-1.1 and 6.x before 6.x-1.1 for Drupal allows remote authenticated users, with "administer words filtered" privileges, to inject arbitrary web script or HTML via the word list.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Wordfilter v5.x anteriores a v5.x-1.1 y 6.x anteriores v6.x-1.1 para Drupal permite a usuarios autenticados en remoto, con privilegios "administer words filtered", inyectar código web o HTML a través de una lista de palabras.\r\n'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 153eme CVE 
+CVE ID: CVE-2010-2030, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the External Link Page module 5.x before 5.x-1.0 and 6.x before 6.x-1.2 for Drupal allows remote attackers to inject arbitrary web script or HTML via vectors related to the administration and redirect pages.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo External Link Page v5.x en versiones anteriores a la v5.x-1.0 y v6.x en versiones anteriores a la v6.x-1.2 de Drupal. Permite a atacantes remotos inyectar codigo de script web o código HTML de su elección a través de las páginas de administración y redirección.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 154eme CVE 
+CVE ID: CVE-2010-2048, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in the Heartbeat module 6.x before 6.x-4.9 for Drupal allow remote authenticated users to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de secuencias de comandos en sitios cruzados (XSS) en el módulo Heartbeat v6.x anterior a v6.x-4.9 para Drupal permite a usuarios autenticados remotamente inyectar secuencias de comandos web o HTML de su elección a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 155eme CVE 
+CVE ID: CVE-2010-2123, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in the Storm module 5.x and 6.x before 6.x-1.33 for Drupal allow remote authenticated users, with certain module privileges, to inject arbitrary web script or HTML via the (1) fullname, (2) address, (3) city, (4) provstate (aka state), (5) phone, or (6) taxid parameter in a stormorganization action to index.php; the (7) name parameter in a stormperson action to index.php; the (8) stepno (aka Step no.) or (9) title parameter in a stormtask action to index.php; the (10) title (aka Project) parameter in a stormticket action to index.php; or (11) unspecified parameters in a stormproject action to index.php.  NOTE: some of these details are obtained from third party information.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Storm v5.x y v6.x anterior a v6.x-1.33para Drupal permite a usuarios autenticados remotamente, con ciertos privilegios del módulo, inyectar código web o HTML a través de los parámetros (1) fullname, (2) address, (3) city, (4) provstate (también conocido como state), (5) phone, o (6) taxid en una acción "stormorganization" en index.php; el parámetro (7) name en una acción "stormperson" en index.php; los parámetros (8) stepno (también conocido como Step no.) o (9) title en una acción "stormtask" en index.php; el parámetro (10) title (también conocido como Project) en una cción "stormticket" en index.php; o (11) parámetros sin especificar en una acción "stormproject" en index.php. NOTA: algunos de estos detalles se han obtenido de información de terceros'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 156eme CVE 
+CVE ID: CVE-2010-2125, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in the Rotor Banner module 5.x before 5.x-1.8 and 6.x before 6.x-2.5 for Drupal allow remote authenticated users, with "create rotor item" or "edit any rotor item" privileges, to inject arbitrary web script or HTML via the (1) srs, (2) title, or (3) alt image attribute.'}, {'lang': 'es', 'value': 'Multiples vulnerabilidades de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Rotor Banner v5.x anterior a v5.x-1.8 y v6.x anterior a v6.x-2.5 para Drupal permite a usuarios autenticados remotamente, con privilegios "create rotor item" o "edit any rotor item", inyectar código web o HTML de su elección a través de los siguientes atributos de imagen (1) src, (2) title, or (3) alt'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 157eme CVE 
+CVE ID: CVE-2010-2158, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in the Storm module 5.x and 6.x before 6.x-1.33 for Drupal allow remote authenticated users, with certain module privileges, to inject arbitrary web script or HTML via the (1) fullname, (2) phone, or (3) im parameter in a stormperson action to index.php.  NOTE: the provenance of this information is unknown; the details are obtained solely from third party information.'}, {'lang': 'es', 'value': 'Multiples vulnerabilidades de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Storm v5.x y v6.x anterior a v6.x-1.33 para Drupal permite a usuarios autenticados remotamente, con ciertos privilegios del módulo, inyectar código web o HTML a través de los parámetros (1) fullname, (2) phone, o (3) im en una acción "stormperson" en index.php. NOTA: el origen de esta información es desconocido. Los detalles han sido obtenidos a partir de terceros.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 158eme CVE 
+CVE ID: CVE-2010-1958, Description: [{'lang': 'en', 'value': "Cross-site scripting (XSS) vulnerability in the FileField module 5.x before 5.x-2.5 and 6.x before 6.x-3.4 for Drupal allows remote authenticated users, with create or edit permissions and 'Path to File' or 'URL to File' display enabled, to inject arbitrary web script or HTML via the file name (filepath parameter)."}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo FileField v5.x anteriores a v5.x-2.5 y v6.x anteriores a v6.x-3.4 para Drupal. Permite a usuarios remotos autenticados, con permisos de creacción o edición y la caracterísitica de "Ruta a fichero" o "URL a fichero" activada, inyectar codigo de script web o código HTML de su elección a través del nombre de fichero (parámetro filepath).'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 159eme CVE 
+CVE ID: CVE-2010-2352, Description: [{'lang': 'en', 'value': 'The Node Reference module in Content Construction Kit (CCK) module 5.x before 5.x-1.11 and 6.x before 6.x-2.7 for Drupal does not perform access checks before displaying referenced nodes, which allows remote attackers to read controlled nodes.'}, {'lang': 'es', 'value': 'El módulo "Node Reference" (referencia de nodo) en el módulo "Content Construction Kit" (CCK o kit de construcción de contenido) v5.x en versiones anteriores a la v5.x-1.11 y v6.x en versiones anteriores a la v6.x-2.7 para Drupal no realiza comprobaciones de acceso antes de mostrar los nodos referenciados, lo que permite a atacantes remotos leer los nodos controlados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 160eme CVE 
+CVE ID: CVE-2010-2353, Description: [{'lang': 'en', 'value': 'The Node Reference module in Content Construction Kit (CCK) module 6.x before 6.x-2.7 for Drupal does not perform access checks for the source field in the backend URL for the autocomplete widget, which allows remote attackers to discover titles and IDs of controlled nodes.'}, {'lang': 'es', 'value': 'El módulo "Node Reference" (referencia de nodo) en el módulo "Content Construction Kit" (CCK o kit de construcción de contenido) v6.x en versiones anteriores a la v6.x-2.7 para Drupal no realiza comprobaciones de acceso para el campo "source" (fuente) en la URL de administración para la funcionalidad autocompletar (autocomplete widget), lo que permite a atacantes remotos descubrir títulos e IDs de los nodos controlados.\r\n'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 161eme CVE 
+CVE ID: CVE-2010-2724, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Hierarchical Select module 5.x before 5.x-3.2 and 6.x before 6.x-3.2 for Drupal allows remote authenticated users, with administer taxonomy permissions, to inject arbitrary web script or HTML via unspecified vectors in the hierarchical_select form.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Hierarchical Select 5.x en versiones anteriores a la 5.x-3.2 y 6.x en versiones anteriores a la 6.x-3.2 para Drupal, permite a atacantes remotos autenticados, con permisos de administrador "taxonomy", inyectar secuencias de comandos web o HTML de su elección mediante vectores no especificados el el formulario hierarchical_select.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 162eme CVE 
+CVE ID: CVE-2009-4990, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Webform report module 5.x and 6.x for Drupal allows remote attackers to inject arbitrary web script or HTML via a submission.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados en el módulo WebForm v5.x y v6.x para Drupal, permite a atacantes remotos inyectar secuencias de comandos web o HTML de su elección a través del envío de un formulario.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 163eme CVE 
+CVE ID: CVE-2010-3423, Description: [{'lang': 'en', 'value': 'SQL injection vulnerability in the Yr Weatherdata module for Drupal 6.x before 6.x-1.6 allows remote attackers to execute arbitrary SQL commands via the sorting method.'}, {'lang': 'es', 'value': 'Vulnerabilidad de inyección SQL en el módulo Yr Weatherdataa para Drupal v6.x anterior a v6.x-1.6 permite a atacantes remotos ejecutar comandos SQL a través del método de ordenación.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 164eme CVE 
+CVE ID: CVE-2010-4519, Description: [{'lang': 'en', 'value': 'Multiple cross-site request forgery (CSRF) vulnerabilities in the Views UI implementation in the Views module 5.x before 5.x-1.8 and 6.x before 6.x-2.11 for Drupal allow remote attackers to hijack the authentication of administrators for requests that (1) enable all Views or (2) disable all Views.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de secuencias de comandos en sitios cruzados (XSS) en la implementación de Views UI en el módulo Views v5.x anterior v5.x-1.8 y v6.x anterior v6.x-2.11 para Drupal permite a atacantes remotos secuestar la autenticación de administradores para peticiones que (1) activa todas las Views (2) inactiva todas Views.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 165eme CVE 
+CVE ID: CVE-2010-4520, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in the Views module 6.x before 6.x-2.11 for Drupal allow remote attackers to inject arbitrary web script or HTML via (1) a URL or (2) an aggregator feed title.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de secuencias de comandos en sitios cruzados (XSS) en el módulo Views v6.x anterior v6.x-2.11 para Drupal permite a atacantes remotos inyectar código web o HTML de su elección a través del título (1) una URL o (2)un título aggregator'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 166eme CVE 
+CVE ID: CVE-2010-4521, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Views module 6.x before 6.x-2.12 for Drupal allows remote attackers to inject arbitrary web script or HTML via a page path.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Views v6.x anterior v6.x-2.12 para Drupal permite a atacantes remotos inyectar código web y HTML de su elección a través de la ruta de página. \r\n\r\n'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 167eme CVE 
+CVE ID: CVE-2011-0899, Description: [{'lang': 'en', 'value': 'The AES encryption module 7.x-1.4 for Drupal leaves certain debugging code enabled in release, which records the plaintext password of the last logged-in user and allows remote attackers to gain privileges as that user.'}, {'lang': 'es', 'value': 'El módulo de encriptación AES v7.x-1.4 para Drupal deja cierto código habilitado en la depuración de la versión, registra en texto plano la contraseña del último usuario logueado y permite a atacantes remotos obtener privilegios como ese usuario.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 168eme CVE 
+CVE ID: CVE-2011-1066, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Messaging module 6.x-2.x before 6.x-2.4 and 6.x-4.x before 6.x-4.0-beta8 for Drupal allows remote attackers with administer messaging permissions to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Messaging para Drupal v6.x-2.x anterior a v6.x-2.4 y v6.x-4.x anterior a v6.x-4.0-beta8 permite a atacantes remotos con permisos de administración de mensajería para inyectar secuencias de comandos web o HTML a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 169eme CVE 
+CVE ID: CVE-2010-4775, Description: [{'lang': 'en', 'value': 'The Relevant Content module 5.x before 5.x-1.4 and 6.x before 6.x-1.5 for Drupal does not properly implement node access logic, which allows remote attackers to discover restricted node titles and relationships.'}, {'lang': 'es', 'value': 'El módulo Relevant Content v5.x anteriores a v5.x-1.4 y v6.x anteriores a v6.x-1.5 para Drupal no aplica adecuadamente la lógica de acceso a nodo, lo que permite a atacantes remotos a descubrir títulos de nodos restringidos y relaciones.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 170eme CVE 
+CVE ID: CVE-2011-1661, Description: [{'lang': 'en', 'value': 'The Node Quick Find module 6.x-1.1 for Drupal does not use db_rewrite_sql when presenting node titles, which allows remote attackers to bypass intended access restrictions and read potentially sensitive node titles via the autocomplete feature.'}, {'lang': 'es', 'value': 'Node Quick Find module v6.x-1.1 para Drupal no utiliza db_rewrite_sql cuando presenta títulos de nodo, permitiendo a atacantes remotos evitar las restricciones de acceso y leer títulos de nodo potencialmente sensibles a través de la característica autocomplete.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 171eme CVE 
+CVE ID: CVE-2011-1662, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in Translation Management module 6.x before 6.x-1.21 for Drupal allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Translation Management v6.x anterior a v6.x-1.21 para Drupal, permite a atacantes remotos inyectar secuencias de comando web o HTML a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 172eme CVE 
+CVE ID: CVE-2011-1663, Description: [{'lang': 'en', 'value': 'SQL injection vulnerability in the Translation Management module 6.x before 6.x-1.21 for Drupal allows remote attackers to execute arbitrary SQL commands via unspecified vectors.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de inyección SQL en el módulo Translation Management versiones 6.x anteriores a  6.x-1.21 para Drupal,  permite a los atacantes remotos ejecutar comandos SQL arbitrarios por medio de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 173eme CVE 
+CVE ID: CVE-2011-1664, Description: [{'lang': 'en', 'value': 'Cross-site request forgery (CSRF) vulnerability in the Translation Management module 6.x before 6.x-1.21 for Drupal allows remote attackers to hijack the authentication of unspecified victims via unknown vectors.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de tipo Cross-site request forgery (CSRF) en el módulo Translation Management versiones  6.x anteriores a  6.x-1.21 para Drupal,  permite a atacantes remotos secuestrar la autenticación de víctimas no especificadas por medio de vectores desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 174eme CVE 
+CVE ID: CVE-2010-4813, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Category Tokens module 6.x before 6.x-1.1 for Drupal allows remote authenticated users with administer taxonomy permissions to inject arbitrary web script or HTML by editing or creating vocabulary names, which are not properly handled in token help.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo Category Tokens v6.x antes de v6.x-1.1 para Drupal permite a usuarios autenticados remotamente con permisos para administrar la taxonomía inyectar secuencias de comandos web o HTML editando o creando nombres de vocabulario, que no son manipulados adecuadamente en la ayuda del token'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 175eme CVE 
+CVE ID: CVE-2009-5096, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Flag Content module 5.x-2.x before 5.x-2.10 for Drupal allows remote attackers to inject arbitrary web script or HTML via the Reason parameter.'}, {'lang': 'es', 'value': "Una vulnerabilidad de ejecución de comandos en sitios cruzados(XSS) en el módulo 'Flag Content' v5.x-2.x antes de v5.x-2.10 para Drupal permite a atacantes remotos inyectar secuencias de comandos web o HTML a través del parámetro 'Reason'."}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 176eme CVE 
+CVE ID: CVE-2011-4560, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Petition Node module 6.x-1.x before 6.x-1.5 for Drupal allows remote authenticated users to inject arbitrary web script or HTML via unspecified vectors related to signing a petition.'}, {'lang': 'es', 'value': "Una vulnerabilidad de ejecución de comandos en sitios cruzados (XSS) en el módulo para Drupal 'Petition Node' v6.x-1.x antes de v6.x-1.5 permite a usuarios remotos autenticados inyectar HTML o secuencias de comandos web a través de vectores no especificados relacionados con la firma de una petición."}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 177eme CVE 
+CVE ID: CVE-2011-5030, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Meta tags quick module 7.x-2.x before 7.x-2.3 for Drupal allows remote authenticated users with certain permissions to inject arbitrary web script or HTML via unspecified vectors, probably related to "names of entity bundles."'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de ejecución de secuencias de comandos en sitios cruzados (XSS)en Meta tags módulo rápido v7.x-2.x anterior a v7.x-2.3 para Drupal permite a usuarios remotos autenticados con permisos específicos inyectar secuencias de comandos web o HTML a través de vectores no especificados, probablemente relacionados con "nombres de los paquetes de la entidad."'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 178eme CVE 
+CVE ID: CVE-2012-0914, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in display_renderers/panels_renderer_editor.class.php in the admin view in the Panels module 6.x-2.x before 6.x-3.10 and 7.x-3.x before 7.x-3.0 for Drupal allows remote authenticated users with certain privileges to inject arbitrary web script or HTML via the Region title.'}, {'lang': 'es', 'value': "Vulnerbilidad de ejecución de secuencias de comandos web en sitios cruzados (XSS) en display_renderers/panels_renderer_editor.class.php en la vista de administración en el módulo Panels v6.x-2.x anterior a v6.x-3.10 y v7.x-3.x anterior v7.x-3.0 para Drupal permite a usuarios autenticados de forma remota con ciertos privilegios inyectar código web script de su elección o HTML a través del 'title' Region."}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 179eme CVE 
+CVE ID: CVE-2012-1056, Description: [{'lang': 'en', 'value': 'The Forward module 6.x-1.x before 6.x-1.21 and 7.x-1.x before 7.x-1.3 for Drupal does not properly enforce permissions for (1) Recent forwards, (2) Most forwarded, or (3) Dynamic blocks, which allows remote attackers to obtain node titles via unspecified vectors.'}, {'lang': 'es', 'value': "El módulo Forward v6.x-1.x anterior a v6.x-1.21 y v7.x-1.x anterior a v7.x-1.3 para Drupal no aplica correctamente los permisos para (1) reenvíos 'Recent' (2) enviado 'Most', o (3) bloques 'Dynamic', lo que permite a atacantes remotos obtener títulos de nodos a través de vectores no especificados."}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 180eme CVE 
+CVE ID: CVE-2012-1057, Description: [{'lang': 'en', 'value': 'Cross-site request forgery (CSRF) vulnerability in the clickthrough tracking functionality in the Forward module 6.x-1.x before 6.x-1.21 and 7.x-1.x before 7.x-1.3 for Drupal allows remote attackers to hijack the authentication of administrators for requests that increase node rankings via the tracking code, possibly related to improper "flood control."'}, {'lang': 'es', 'value': "Vulnerabilidad de falsificación de petición en sitios cruzados (CSRF) en la funcionalidad 'clickthrough tracking' en el módulo Forward v6.x-1.x anterior a v6.x-1.21 y v7.x-1.x anterior a v7.x-1.3 para Drupal permite a atacantes remotos secuestras la autenticación para administradores para peticiones de incremento de la clasificación del nodo a través de un código de seguimiento, posiblemente relacionado con un control incorrecto."}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 181eme CVE 
+CVE ID: CVE-2012-1060, Description: [{'lang': 'en', 'value': 'Multiple cross-site scripting (XSS) vulnerabilities in revisioning_theme.inc in the Taxonomy module in the Revisioning module 6.x-3.13 and other versions before 6.x-3.14 for Drupal allow remote authenticated users with certain privileges to inject arbitrary web script or HTML via the (1) tags or (2) term parameters.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de ejecución de comandos en sitios cruzados (XSS) en revisioning_theme.inc en el módulo Taxonomy en el módulo Revisioning v6.x-3.13 y otras versiones anteriores a v6.x-3.14 para Drupal permite a usuarios autenticados de forma remota tener ciertos privilegios para inyectar código web script o HTML a través de (1)tags o (2) parámetros term.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 182eme CVE 
+CVE ID: CVE-2011-4113, Description: [{'lang': 'en', 'value': 'SQL injection vulnerability in the Views module before 6.x-2.13 for Drupal allows remote attackers to execute arbitrary SQL commands via vectors related to "filters/arguments on certain types of views with specific configurations of arguments."'}, {'lang': 'es', 'value': 'Vulnerabilidad de inyección SQL en el módulo Views antes de v6.x-2.13 para Drupal permite a atacantes remotos ejecutar comandos SQL a través de vectores relacionados con "filtros o argumentos en ciertos tipos de vistas con configuraciones específicas de los argumentos."'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 183eme CVE 
+CVE ID: CVE-2012-2341, Description: [{'lang': 'en', 'value': 'Cross-site request forgery (CSRF) vulnerability in the Take Control module 6.x-2.x before 6.x-2.2 for Drupal allows remote attackers to hijack the authentication of unspecified users for Ajax requests that manipulate files.'}, {'lang': 'es', 'value': 'Vulnerabilidad de falsificación de peticiones en sitios cruzados (CSRF) en el módulo Take Control v6.x-2.x antes de v6.x-2.2 para Drupal, permite a atacantes remotos secuestrar la autenticación de usuarios no especificados en peticiones AJAX que manipulan ficheros.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 184eme CVE 
+CVE ID: CVE-2012-2907, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the aberdeen_breadcrumb function in template.php in the Aberdeen theme 6.x-1.x before 6.x-1.11 for Drupal, when set to append the content title to the breadcrumb, allows remote attackers to inject arbitrary web script or HTML via the content title in a breadcrumb.'}, {'lang': 'es', 'value': "Una vulnerabilidad de ejecución de comandos en sitios cruzados(XSS) en la función aberdeen_breadcrumb en el fichero template.php del tema 'Aberdeen' v6.x-1.x antes de v6.x-1.11 para Drupal, cuando se configura para que se pueda añadir los títulos de los contenidos en la ruta de navegación, permite a atacantes remotos inyectar secuencias de comandos web o HTML a través de los títulos de contenido en una ruta de navegación."}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 185eme CVE 
+CVE ID: CVE-2012-2339, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the Glossary module 6.x-1.x before 6.x-1.8 for Drupal allows remote attackers to inject arbitrary web script or HTML via unspecified vectors related to "taxonomy information."'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en el módulo Glosario ("Glossary") 6.x-1.x anteriores a la 6.x-1.8 de Drupal. Permite a atacantes remotos inyectar codigo de script web o código HTML de su elección a través de vectores sin especificar relacionados con información de taxonomías.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 186eme CVE 
+CVE ID: CVE-2012-2340, Description: [{'lang': 'en', 'value': 'The Contact Forms module 7.x-1.x before 7.x-1.2 for Drupal does not specify sufficiently restrictive permissions, which allows remote authenticated users with the "access the site-wide contact form" permission to modify the module settings via unspecified vectors.'}, {'lang': 'es', 'value': 'El módulo Contact Forms v7.x-1.x y anteriores a v7.x-1.2 para Drupal no especifica permisos suficientemente restrictivos, lo que permite a usuarios remotos autenticados con "acceso al formulario de contacto" permiso para modificar los ajustes del módulo a través de no vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 187eme CVE 
+CVE ID: CVE-2012-2056, Description: [{'lang': 'en', 'value': 'Cross-site request forgery (CSRF) vulnerability in the Content Lock module for Drupal allows remote attackers to hijack the authentication of unspecified victims via unknown vectors.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de falsificación de peticiones en sitios cruzados (CSRF)en el módulo de bloqueo de contenido (Content Lock) para Drupal permite a atacantes remotos secuestrar la autenticación de víctimas de su elección a través de vectores desconocidos.\r\n'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 188eme CVE 
+CVE ID: CVE-2013-0205, Description: [{'lang': 'en', 'value': 'Cross-site request forgery (CSRF) vulnerability in the RESTful Web Services (restws) module 7.x-1.x before 7.x-1.2 and 7.x-2.x before 7.x-2.0-alpha4 for Drupal allows remote attackers to hijack the authentication of arbitrary users via unknown vectors.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de falsificación de petición en sitios cruzados (CSRF) en el módulo RESTful Web Services (restws) v7.x-1.x anterior a v7.x-1.2 y v7.x-2.x anterior a v7.x-2.0-alpha4 para Drupal, permite a atacantes remotos secuestrar la autenticación de usuarios de su elección a traves de vectores desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 189eme CVE 
+CVE ID: CVE-2010-5312, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in jquery.ui.dialog.js in the Dialog widget in jQuery UI before 1.10.0 allows remote attackers to inject arbitrary web script or HTML via the title option.'}, {'lang': 'es', 'value': 'Vulnerabilidad de XSS en jquery.ui.dialog.js en el widget Dialog en jQuery UI anterior a 1.10.0 permite a atacantes remotos inyectar secuencias de comandos web o HTML arbitrarios a través de la opción del título.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.1, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 2.7}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 190eme CVE 
+CVE ID: CVE-2017-6927, Description: [{'lang': 'en', 'value': 'Drupal 8.4.x versions before 8.4.5 and Drupal 7.x versions before 7.57 has a Drupal.checkPlain() JavaScript function which is used to escape potentially dangerous text before outputting it to HTML (as JavaScript output does not typically go through Twig autoescaping). This function does not correctly handle all methods of injecting malicious HTML, leading to a cross-site scripting vulnerability under certain circumstances. The PHP functions which Drupal provides for HTML escaping are not affected.'}, {'lang': 'es', 'value': 'Las versiones 8.4.x de Drupal anteriores a la 8.4.5 y las versiones 7.x anteriores a la 7.57 tienen una función de JavaScript Drupal.checkPlain() que se emplea para escapar texto potencialmente peligroso antes de extraerlo como HTML (ya que la exportación JavaScript no suele pasar un proceso de autoescape Twig). Esta función no gestiona adecuadamente todos los métodos de inyección de HTML malicioso, lo que conduce a una vulnerabilidad de Cross-Site Scripting (XSS) en ciertas circunstancias. Las funciones de PHP que Drupal proporciona para escapar HTML no se han visto afectadas.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 191eme CVE 
+CVE ID: CVE-2017-6928, Description: [{'lang': 'en', 'value': "Drupal core 7.x versions before 7.57 when using Drupal's private file system, Drupal will check to make sure a user has access to a file before allowing the user to view or download it. This check fails under certain conditions in which one module is trying to grant access to the file and another is trying to deny it, leading to an access bypass vulnerability. This vulnerability is mitigated by the fact that it only occurs for unusual site configurations."}, {'lang': 'es', 'value': 'Las versiones 7.x de Drupal core anteriores a la 7.57, cuando emplean el sistema de archivos privado de Drupal, comprobarán si un usuario tiene acceso a un archivo antes de permitirle verlo o descargarlo. Esta comprobación fracasa en ciertos casos en los que un módulo intenta otorgar acceso al archivo y otro intenta denegarlo, lo que conduce a una vulnerabilidad de omisión de acceso. La vulnerabilidad se mitiga por el hecho de que solo ocurre en configuraciones de sitio poco comunes.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 192eme CVE 
+CVE ID: CVE-2017-6929, Description: [{'lang': 'en', 'value': 'A jQuery cross site scripting vulnerability is present when making Ajax requests to untrusted domains. This vulnerability is mitigated by the fact that it requires contributed or custom modules in order to exploit. For Drupal 8, this vulnerability was already fixed in Drupal 8.4.0 in the Drupal core upgrade to jQuery 3. For Drupal 7, it is fixed in the current release (Drupal 7.57) for jQuery 1.4.4 (the version that ships with Drupal 7 core) as well as for other newer versions of jQuery that might be used on the site, for example using the jQuery Update module.'}, {'lang': 'es', 'value': 'Hay una vulnerabilidad de Cross-Site Scripting (XSS) jQuery cuando se realizan peticiones Ajax a dominios no fiables. La vulnerabilidad se mitiga por el hecho de que requiere módulos que hayan sido entregados o personalizados para explotarla. En Drupal 8, esta vulnerabilidad ya se ha solucionado en la actualización core a jQuery 3 de la versión 8.4.0 de Drupal. En Drupal 7, se ha solucionado en la versión actual (Drupal 7.57) para jQuery 1.4.4 (la versión incluida en Drupal 7 core) y para otras versiones de jQuery que puedan estar empleándose en el sitio, por ejemplo, utilizando el módulo jQuery Update.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 193eme CVE 
+CVE ID: CVE-2017-6932, Description: [{'lang': 'en', 'value': 'Drupal core 7.x versions before 7.57 has an external link injection vulnerability when the language switcher block is used. A similar vulnerability exists in various custom and contributed modules. This vulnerability could allow an attacker to trick users into unwillingly navigating to an external site.'}, {'lang': 'es', 'value': 'Las versiones 7.x de Drupal core anteriores a la 7.57 tienen una vulnerabilidad de inyección de enlaces externos cuando se emplea el bloque de cambio de lenguaje. Existe una vulnerabilidad similar en varios módulos personalizados y contribuidos. Esta vulnerabilidad podría permitir que un atacante engañe a usuarios para que naveguen sin querer a un sitio externo.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 194eme CVE 
+CVE ID: CVE-2018-7600, Description: [{'lang': 'en', 'value': 'Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1 allows remote attackers to execute arbitrary code because of an issue affecting multiple subsystems with default or common module configurations.'}, {'lang': 'es', 'value': 'Drupal en versiones anteriores a la 7.58, 8.x anteriores a la 8.3.9, 8.4.x anteriores a la 8.4.6 y 8.5.x anteriores a la 8.5.1 permite que los atacantes remotos ejecuten código arbitrario debido a un problema que afecta a múltiples subsistemas con configuraciones de módulos por defecto o comunes.'}], Criticity : {}
+Voici les POCs publiques extraits
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+Drupal < 7.58 / < 8.3.9 / < 8.4.6  | https://www.exploit-db.com/exploits/44449
+Drupal < 8.3.9 / < 8.4.6 / < 8.5.1 | https://www.exploit-db.com/exploits/44448
+Drupal < 8.3.9 / < 8.4.6 / < 8.5.1 | https://www.exploit-db.com/exploits/44482
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 195eme CVE 
+CVE ID: CVE-2018-7602, Description: [{'lang': 'en', 'value': 'A remote code execution vulnerability exists within multiple subsystems of Drupal 7.x and 8.x. This potentially allows attackers to exploit multiple attack vectors on a Drupal site, which could result in the site being compromised. This vulnerability is related to Drupal core - Highly critical - Remote Code Execution - SA-CORE-2018-002. Both SA-CORE-2018-002 and this vulnerability are being exploited in the wild.'}, {'lang': 'es', 'value': 'Existe una vulnerabilidad de ejecución remota de código en múltiples subsistemas de Drupal en versiones 7.x y 8.x. Esto podría permitir que los atacantes exploten múltiples vectores de ataque en un sitio de Drupal, lo que podría resultar en el compromiso del sitio. Esta vulnerabilidad está relacionada con Drupal core - Highly critical - Remote Code Execution - SA-CORE-2018-002. Tanto SA-CORE-2018-002 como esta vulnerabilidad se están explotando "in the wild".'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.8, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.9}]
+Voici les POCs publiques extraits
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+Drupal < 7.58 - 'Drupalgeddon3' (A | https://www.exploit-db.com/exploits/44542
+Drupal < 7.58 - 'Drupalgeddon3' (A | https://www.exploit-db.com/exploits/44557
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 196eme CVE 
+CVE ID: CVE-2019-6338, Description: [{'lang': 'en', 'value': 'In Drupal Core versions 7.x prior to 7.62, 8.6.x prior to 8.6.6 and 8.5.x prior to 8.5.9; Drupal core uses the third-party PEAR Archive_Tar library. This library has released a security update which impacts some Drupal configurations. Refer to CVE-2018-1000888 for details'}, {'lang': 'es', 'value': 'Drupal Core, en sus versiones 7.x anteriores a la 7.62, en las 8.6.x anteriores a la 8.6.6 y en las 8.5.x anteriores a la 8.5.9, utiliza la biblioteca "PEAR Archive_Tar" de terceros. Esta biblioteca ha publicado una actualización de seguridad que impacta en algunas configuraciones de Drupal. Véase CVE-2018-1000888 para más información.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 197eme CVE 
+CVE ID: CVE-2019-6339, Description: [{'lang': 'en', 'value': "In Drupal Core versions 7.x prior to 7.62, 8.6.x prior to 8.6.6 and 8.5.x prior to 8.5.9; A remote code execution vulnerability exists in PHP's built-in phar stream wrapper when performing file operations on an untrusted phar:// URI. Some Drupal code (core, contrib, and custom) may be performing file operations on insufficiently validated user input, thereby being exposed to this vulnerability. This vulnerability is mitigated by the fact that such code paths typically require access to an administrative permission or an atypical configuration."}, {'lang': 'es', 'value': 'En Drupal Core, en sus versiones 7.x anteriores a la 7.62, en las 8.6.x anteriores a la 8.6.6 y en las 8.5.x anteriores a la 8.5.9, existe una vulnerabilidad de ejecución remota de código en el wrapper de transmisión phar integrada del PHP cuando se ejecutan operaciones de archivo en un URI "phar://" no fiable.  Algún código Drupal ("core", "contrib" y "custom") puede estar ejecutando operaciones de archivo en las entradas de usuarios no validadas de manera suficiente, lo que hace que estos se expongan a esta vulnerabilidad. Esta vulnerabilidad se mitiga por el hecho de que dichas rutas de código normalmente requieren acceso a un permiso del administrador o a una configuración atípica.'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 198eme CVE 
+CVE ID: CVE-2019-6341, Description: [{'lang': 'en', 'value': 'In Drupal 7 versions prior to 7.65; Drupal 8.6 versions prior to 8.6.13;Drupal 8.5 versions prior to 8.5.14. Under certain circumstances the File module/subsystem allows a malicious user to upload a file that can trigger a cross-site scripting (XSS) vulnerability.'}, {'lang': 'es', 'value': 'En Drupal 7, en versiones anteriores a la 7.65; Drupal 8.6, en versiones anteriores a la 8.6.13 y Drupal 8.5, en versiones anteriores a la 8.5.14. En ciertas condiciones, el módulo/subsistema File permite que un usuario malicioso suba un archivo que puede desencadenar una vulnerabilidad Cross-Site Scripting (XSS).'}], Criticity : {}
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 199eme CVE 
+CVE ID: CVE-2019-11358, Description: [{'lang': 'en', 'value': 'jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution. If an unsanitized source object contained an enumerable __proto__ property, it could extend the native Object.prototype.'}, {'lang': 'es', 'value': 'jQuery, en versiones anteriores a 3.4.0, como es usado en Drupal, Backdrop CMS, y otros productos, maneja mal jQuery.extend(true, {}, ...) debido a la contaminación de Object.prototype. Si un objeto fuente no sanitizado contenía una propiedad enumerable __proto__, podría extender el Object.prototype nativo.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.1, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 2.7}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 200eme CVE 
+CVE ID: CVE-2019-11831, Description: [{'lang': 'en', 'value': 'The PharStreamWrapper (aka phar-stream-wrapper) package 2.x before 2.1.1 and 3.x before 3.1.1 for TYPO3 does not prevent directory traversal, which allows attackers to bypass a deserialization protection mechanism, as demonstrated by a phar:///path/bad.phar/../good.phar URL.'}, {'lang': 'es', 'value': 'El paquete PharStreamWrapper (también conocido como phar-stream-wrapper), versiones 2.x anteriores a 2.1.1 y 3.x anteriores a 3.1.1 para TYPO3, no impide el salto de directorio, lo que permite a los atacantes eludir un mecanismo de protección de deserialización, como lo demuestra una URL phar:///path/bad.phar/../good.phar.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.8, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.9}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 201eme CVE 
+CVE ID: CVE-2020-11023, Description: [{'lang': 'en', 'value': "In jQuery versions greater than or equal to 1.0.3 and before 3.5.0, passing HTML containing <option> elements from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0."}, {'lang': 'es', 'value': 'En jQuery versiones mayores o iguales a 1.0.3 y anteriores a la versión 3.5.0, passing HTML contiene elementos  de fuentes no seguras – incluso después de sanearlo – para uno de los métodos de manipulación de  jQuery ´s DOM  ( i.e. html t(), adjunto (), y otros ) podrían ejecutar códigos no seguros. Este problema está corregido en JQuery 3.5.0.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.1, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 2.7}, {'source': 'security-advisories@github.com', 'type': 'Secondary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'HIGH', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.9, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 1.6, 'impactScore': 4.7}]
+Voici les POCs publiques extraits
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+jQuery 1.0.3 - Cross-Site Scriptin | https://www.exploit-db.com/exploits/49767
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 202eme CVE 
+CVE ID: CVE-2020-11022, Description: [{'lang': 'en', 'value': "In jQuery versions greater than or equal to 1.2 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0."}, {'lang': 'es', 'value': 'En las versiones de jQuery mayores o iguales a 1.2 y anteriores a la versión 3.5.0, se puede ejecutar HTML desde fuentes no seguras, incluso después de desinfectarlo, a uno de los métodos de manipulación DOM de jQuery (es decir .html (), .append () y otros). código no seguro Este problema está corregido en jQuery 3.5.0.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.1, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 2.7}, {'source': 'security-advisories@github.com', 'type': 'Secondary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'HIGH', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.9, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 1.6, 'impactScore': 4.7}]
+Voici les POCs publiques extraits
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+jQuery 1.2 - Cross-Site Scripting  | https://www.exploit-db.com/exploits/49766
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 203eme CVE 
+CVE ID: CVE-2020-28948, Description: [{'lang': 'en', 'value': 'Archive_Tar through 1.4.10 allows an unserialization attack because phar: is blocked but PHAR: is not blocked.'}, {'lang': 'es', 'value': 'Archive_Tar versiones hasta 1.4.10, permite un ataque de no serialización porque phar: está bloqueado pero PHAR: no está bloqueado'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H', 'attackVector': 'LOCAL', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 7.8, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 1.8, 'impactScore': 5.9}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 204eme CVE 
+CVE ID: CVE-2020-28949, Description: [{'lang': 'en', 'value': 'Archive_Tar through 1.4.10 has :// filename sanitization only to address phar attacks, and thus any other stream-wrapper attack (such as file:// to overwrite files) can still succeed.'}, {'lang': 'es', 'value': 'Archive_Tar versiones hasta 1.4.10, presenta una desinfección del nombre de archivo :// solo para abordar los ataques phar y, por lo tanto, cualquier otro ataque de empaquetado de flujo (tal y como file:// para sobrescribir archivos) aún puede tener éxito'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H', 'attackVector': 'LOCAL', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 7.8, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 1.8, 'impactScore': 5.9}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 205eme CVE 
+CVE ID: CVE-2020-13671, Description: [{'lang': 'en', 'value': 'Drupal core does not properly sanitize certain filenames on uploaded files, which can lead to files being interpreted as the incorrect extension and served as the wrong MIME type or executed as PHP for certain hosting configurations. This issue affects: Drupal Drupal Core 9.0 versions prior to 9.0.8, 8.9 versions prior to 8.9.9, 8.8 versions prior to 8.8.11, and 7 versions prior to 7.74.'}, {'lang': 'es', 'value': 'Drupal core no sanea apropiadamente determinados nombres de archivo en los archivos cargados, lo que puede conllevar a unos archivos ser interpretados como la extensión incorrecta y servir como el tipo MIME incorrecto o ser ejecutados como PHP para determinadas configuraciones de alojamiento.&#xa0;Este problema afecta: Drupal Drupal Core versiones 9.0 anteriores a 9.0.8, versiones 8.9 anteriores a 8.9.9, versiones 8.8 anteriores a 8.8.11 y  versiones 7 anteriores a 7.74'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'LOW', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 8.8, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 2.8, 'impactScore': 5.9}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 206eme CVE 
+CVE ID: CVE-2020-36193, Description: [{'lang': 'en', 'value': 'Tar.php in Archive_Tar through 1.4.11 allows write operations with Directory Traversal due to inadequate checking of symbolic links, a related issue to CVE-2020-28948.'}, {'lang': 'es', 'value': 'El archivo Tar.php en Archive_Tar versiones hasta 1.4.11, permite operaciones de escritura con Salto de Directorio debido a una comprobación inadecuada de enlaces simbólicos, un problema relacionado al CVE-2020-28948'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'HIGH', 'availabilityImpact': 'NONE', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 207eme CVE 
+CVE ID: CVE-2020-13666, Description: [{'lang': 'en', 'value': 'Cross-site scripting vulnerability in Drupal Core. Drupal AJAX API does not disable JSONP by default, allowing for an XSS attack. This issue affects: Drupal Drupal Core 7.x versions prior to 7.73; 8.8.x versions prior to 8.8.10; 8.9.x versions prior to 8.9.6; 9.0.x versions prior to 9.0.6.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de tipo cross-site scripting en Drupal Core.&#xa0;La API de Drupal AJAX no deshabilita JSONP por defecto, permitiendo un ataque de tipo XSS.&#xa0;Este problema afecta a: Drupal Drupal Core versiones 7.x anteriores a 7.73;&#xa0;Versiones 8.8.x anteriores a 8.8.10;&#xa0;Versiones 8.9.x anteriores a 8.9.6;&#xa0;Versiones 9.0.x anteriores a 9.0.6'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.1, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 2.7}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 208eme CVE 
+CVE ID: CVE-2020-13662, Description: [{'lang': 'en', 'value': 'Open Redirect vulnerability in Drupal Core allows a user to be tricked into visiting a specially crafted link which would redirect them to an arbitrary external URL. This issue affects: Drupal Drupal Core 7 version 7.70 and prior versions.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de Redireccionamiento Abierto en Drupal Core, permite engañar a un usuario de visitar un enlace especialmente diseñado que lo redireccionaría a una URL externa arbitraria.&#xa0;Este problema afecta a: Drupal Drupal Core 7 versión 7.70 y versiones anteriores'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.1, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 2.7}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 209eme CVE 
+CVE ID: CVE-2020-13663, Description: [{'lang': 'en', 'value': 'Cross Site Request Forgery vulnerability in Drupal Core Form API does not properly handle certain form input from cross-site requests, which can lead to other vulnerabilities.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de tipo Cross Site Request Forgery en la API de Drupal Core Form no maneja apropiadamente determinadas entradas de formularios de peticiones de tipo cross-site, lo que puede conllevar a otras vulnerabilidades'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 8.8, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 2.8, 'impactScore': 5.9}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 210eme CVE 
+CVE ID: CVE-2021-41182, Description: [{'lang': 'en', 'value': 'jQuery-UI is the official jQuery user interface library. Prior to version 1.13.0, accepting the value of the `altField` option of the Datepicker widget from untrusted sources may execute untrusted code. The issue is fixed in jQuery UI 1.13.0. Any string value passed to the `altField` option is now treated as a CSS selector. A workaround is to not accept the value of the `altField` option from untrusted sources.'}, {'lang': 'es', 'value': 'jQuery-UI es la biblioteca oficial de interfaz de usuario de jQuery. Antes de la versión 1.13.0, aceptar el valor de la opción "altField" del widget Datepicker desde fuentes no confiables puede ejecutar código no confiable. El problema es corregido en jQuery UI versión 1.13.0. Cualquier valor de cadena pasado a la opción "altField" se trata ahora como un selector CSS. Una solución es no aceptar el valor de la opción "altField" de fuentes no confiables'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.1, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 2.7}, {'source': 'security-advisories@github.com', 'type': 'Secondary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'HIGH', 'availabilityImpact': 'NONE', 'baseScore': 6.5, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 3.6}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 211eme CVE 
+CVE ID: CVE-2021-41183, Description: [{'lang': 'en', 'value': 'jQuery-UI is the official jQuery user interface library. Prior to version 1.13.0, accepting the value of various `*Text` options of the Datepicker widget from untrusted sources may execute untrusted code. The issue is fixed in jQuery UI 1.13.0. The values passed to various `*Text` options are now always treated as pure text, not HTML. A workaround is to not accept the value of the `*Text` options from untrusted sources.'}, {'lang': 'es', 'value': 'jQuery-UI es la biblioteca oficial de interfaz de usuario de jQuery. Antes de la versión 1.13.0, aceptar el valor de varias opciones "*Text" del widget Datepicker desde fuentes no confiables podía ejecutar código no confiable. El problema es corregido en jQuery UI versión 1.13.0. Los valores pasados a varias opciones "*Text" son ahora tratados siempre como texto puro, no como HTML. Una solución es no aceptar el valor de las opciones "*Text" de fuentes no confiables'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.1, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 2.7}, {'source': 'security-advisories@github.com', 'type': 'Secondary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'HIGH', 'availabilityImpact': 'NONE', 'baseScore': 6.5, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 3.6}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 212eme CVE 
+CVE ID: CVE-2021-41184, Description: [{'lang': 'en', 'value': 'jQuery-UI is the official jQuery user interface library. Prior to version 1.13.0, accepting the value of the `of` option of the `.position()` util from untrusted sources may execute untrusted code. The issue is fixed in jQuery UI 1.13.0. Any string value passed to the `of` option is now treated as a CSS selector. A workaround is to not accept the value of the `of` option from untrusted sources.'}, {'lang': 'es', 'value': 'jQuery-UI es la biblioteca oficial de interfaz de usuario de jQuery. Antes de la versión 1.13.0, aceptar el valor de la opción "of" de la utilidad ".position()" de fuentes no confiables podía ejecutar código no confiable. El problema es corregido en jQuery UI versión 1.13.0. Cualquier valor de cadena pasado a la opción "of" se trata ahora como un selector CSS. Una solución es no aceptar el valor de la opción "of" de fuentes no confiables'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.1, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 2.7}, {'source': 'security-advisories@github.com', 'type': 'Secondary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'HIGH', 'availabilityImpact': 'NONE', 'baseScore': 6.5, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 3.6}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 213eme CVE 
+CVE ID: CVE-2020-13672, Description: [{'lang': 'en', 'value': "Cross-site Scripting (XSS) vulnerability in Drupal core's sanitization API fails to properly filter cross-site scripting under certain circumstances. This issue affects: Drupal Core 9.1.x versions prior to 9.1.7; 9.0.x versions prior to 9.0.12; 8.9.x versions prior to 8.9.14; 7.x versions prior to 7.80."}, {'lang': 'es', 'value': 'Una vulnerabilidad de tipo Cross-site Scripting (XSS) en la API de saneo del núcleo de Drupal que no filtra apropiadamente las vulnerabilidades de tipo cross-site scripting en determinadas circunstancias. Este problema afecta a: Drupal Core versiones 9.1.x anteriores a la 9.1.7; versiones 9.0.x anteriores a la 9.0.12; versiones 8.9.x anteriores a la 8.9.14; versiones 7.x anteriores a la 7.80'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.1, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 2.7}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 214eme CVE 
+CVE ID: CVE-2022-25271, Description: [{'lang': 'en', 'value': "Drupal core's form API has a vulnerability where certain contributed or custom modules' forms may be vulnerable to improper input validation. This could allow an attacker to inject disallowed values or overwrite data. Affected forms are uncommon, but in certain cases an attacker could alter critical or sensitive data."}, {'lang': 'es', 'value': 'La API de formularios del núcleo de Drupal presenta una vulnerabilidad en la que determinados formularios de módulos contribuidos o personalizados pueden ser vulnerables a una comprobación inapropiada de entradas. Esto podría permitir a un atacante inyectar valores no permitidos o sobrescribir datos. Los formularios afectados son poco comunes, pero en determinados casos un atacante podría alterar datos críticos o confidenciales'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'HIGH', 'availabilityImpact': 'NONE', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 215eme CVE 
+CVE ID: CVE-2022-25275, Description: [{'lang': 'en', 'value': 'In some situations, the Image module does not correctly check access to image files not stored in the standard public files directory when generating derivative images using the image styles system. Access to a non-public file is checked only if it is stored in the "private" file system. However, some contributed modules provide additional file systems, or schemes, which may lead to this vulnerability. This vulnerability is mitigated by the fact that it only applies when the site sets (Drupal 9) $config[\'image.settings\'][\'allow_insecure_derivatives\'] or (Drupal 7) $conf[\'image_allow_insecure_derivatives\'] to TRUE. The recommended and default setting is FALSE, and Drupal core does not provide a way to change that in the admin UI. Some sites may require configuration changes following this security release. Review the release notes for your Drupal version if you have issues accessing files or image styles after updating.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'NONE', 'availabilityImpact': 'NONE', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 216eme CVE 
+CVE ID: CVE-2023-31250, Description: [{'lang': 'en', 'value': "The file download facility doesn't sufficiently sanitize file paths in certain situations. This may result in users gaining access to private files that they should not have access to. Some sites may require configuration changes following this security release. Review the release notes for your Drupal version if you have issues accessing private files after updating."}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'LOW', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'NONE', 'availabilityImpact': 'NONE', 'baseScore': 6.5, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 3.6}]
+Voici les POCs publiques extraits
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+

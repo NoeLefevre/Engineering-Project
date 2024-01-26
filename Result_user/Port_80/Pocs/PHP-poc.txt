@@ -1,0 +1,11 @@
+CVE-2013-6420 : PHP - 'openssl_x509_parse()' Memory Corruption   => https://www.exploit-db.com/exploits/30395
+CVE-2015-0235 : Exim - 'GHOST' glibc gethostbyname Buffer Overflow (Metasploit)   => https://www.exploit-db.com/exploits/36421
+CVE-2015-0273 : PHP DateTime - Use-After-Free   => https://www.exploit-db.com/exploits/36158
+CVE-2015-4148 : SMF (Simple Machine Forum) 2.0.10 - Remote Memory Exfiltration   => https://www.exploit-db.com/exploits/38304
+CVE-2015-6834 : PHP 5.4/5.5/5.6 - SplDoublyLinkedList 'Unserialize()' Use-After-Free   => https://www.exploit-db.com/exploits/38120
+CVE-2015-6835 : PHP Session Deserializer - Use-After-Free   => https://www.exploit-db.com/exploits/38123
+CVE-2016-6174 : IPS Community Suite 4.1.12.3 - PHP Code Injection   => https://www.exploit-db.com/exploits/40084
+CVE-2016-5399 : PHP 5.5.37/5.6.23/7.0.8 - 'bzread()' Out-of-Bounds Write   => https://www.exploit-db.com/exploits/40155
+CVE-2017-16642 : PHP 7.1.8 - Heap Buffer Overflow   => https://www.exploit-db.com/exploits/43133
+CVE-2018-7584 : PHP 7.2.2 - 'php_stream_url_wrap_http_ex' Buffer Overflow   => https://www.exploit-db.com/exploits/44846
+CVE-2019-6977 : PHP 7.2 - 'imagecolormatch()' Out of Band Heap Write   => https://www.exploit-db.com/exploits/46677

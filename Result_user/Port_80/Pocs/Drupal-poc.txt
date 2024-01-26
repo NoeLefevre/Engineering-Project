@@ -1,0 +1,7 @@
+CVE-2008-2629 : PLog 1.0.6 - 'albumID' SQL Injection   => https://www.exploit-db.com/exploits/5724
+CVE-2008-5998 : Drupal Module Ajax Checklist 5.x-1.0 - Multiple SQL Injections   => https://www.exploit-db.com/exploits/32415
+CVE-2009-4429 : Drupal Module Sections - Cross-Site Scripting   => https://www.exploit-db.com/exploits/10485
+CVE-2018-7600 : Drupal < 7.58 / < 8.3.9 / < 8.4.6 / < 8.5.1 - 'Drupalgeddon2' Remote Code Execution   => https://www.exploit-db.com/exploits/44449
+CVE-2018-7602 : Drupal < 7.58 - 'Drupalgeddon3' (Authenticated) Remote Code (Metasploit)   => https://www.exploit-db.com/exploits/44557
+CVE-2020-11023 : jQuery 1.0.3 - Cross-Site Scripting (XSS)   => https://www.exploit-db.com/exploits/49767
+CVE-2020-11022 : jQuery 1.2 - Cross-Site Scripting (XSS)   => https://www.exploit-db.com/exploits/49766

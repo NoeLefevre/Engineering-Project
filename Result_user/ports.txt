@@ -1,10 +1,10 @@
-# Nmap 7.94SVN scan initiated Fri Jan 19 13:35:52 2024 as: nmap -sV -p- -T4 -oN ports.txt --open 10.10.10.233
+# Nmap 7.94SVN scan initiated Sun Jan 21 11:31:02 2024 as: nmap -sV -p- -T4 -oN Result_user/ports.txt --open 10.10.10.233
 Nmap scan report for 10.10.10.233
-Host is up (0.035s latency).
+Host is up (0.016s latency).
 Not shown: 65533 closed tcp ports (reset)
 PORT   STATE SERVICE VERSION
 22/tcp open  ssh     OpenSSH 7.4 (protocol 2.0)
 80/tcp open  http    Apache httpd 2.4.6 ((CentOS) PHP/5.4.16)
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Jan 19 13:36:06 2024 -- 1 IP address (1 host up) scanned in 14.73 seconds
+# Nmap done at Sun Jan 21 11:31:17 2024 -- 1 IP address (1 host up) scanned in 14.29 seconds

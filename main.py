@@ -45,8 +45,8 @@ while True:
             print("Option 1, Reconnaissance, chargement du module...") 
             print("")
             reconnaissance.main(ip)
-            Services.main(ip)
-            CMS.main(ip)
+            #Services.main(ip)
+            #CMS.main(ip)
         elif choice == '2':
             print("Option 2, Exploitation, chargement du module...")
             exploitation.main(ip)

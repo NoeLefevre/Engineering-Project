@@ -1,0 +1,40 @@
+CVE-2009-0796 : 
+Apache mod_perl - 'Apache::Status' / 'Apache2::Status' Cross-Site Scripting   => https://www.exploit-db.com/exploits/9993
+CVE-2013-2765 : 
+ModSecurity - Remote Null Pointer Dereference   => https://www.exploit-db.com/exploits/25852
+CVE-2014-0226 : 
+Apache 2.4.7 mod_status - Scoreboard Handling Race Condition   => https://www.exploit-db.com/exploits/34133
+CVE-CVE-2017-7679-in-python : 
+https://github.com/snknritr/CVE-2017-7679-in-python
+CVE-2016-0736 : 
+Apache mod_session_crypto - Padding Oracle   => https://www.exploit-db.com/exploits/40961
+CVE-2017-9798 : 
+Apache < 2.2.34 / < 2.4.27 - OPTIONS Memory Leak   => https://www.exploit-db.com/exploits/42745
+https://github.com/brokensound77/OptionsBleed-POC-Scanner
+https://github.com/nitrado/CVE-2017-9798
+https://github.com/pabloec20/optionsbleed
+CVE-2018-1303 : 
+Ecessa ShieldLink SL175EHQ < 10.7.4 - Cross-Site Request Forgery (Add Superuser)   => https://www.exploit-db.com/exploits/44938
+CVE-2019-10098 : 
+Apache Httpd mod_rewrite - Open Redirects   => https://www.exploit-db.com/exploits/47689
+CVE-2019-10092 : 
+Apache Httpd mod_proxy - Error Page Cross-Site Scripting   => https://www.exploit-db.com/exploits/47688
+https://github.com/motikan2010/CVE-2019-10092_Docker
+CVE-CVE-2021-40438 : 
+https://github.com/sixpacksecurity/CVE-2021-40438
+https://github.com/Kashkovsky/CVE-2021-40438
+https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-40438-exploitation-attempt
+https://github.com/ericmann/apache-cve-poc
+https://github.com/gassara-kys/CVE-2021-40438
+https://github.com/WilsonFung414/CVE-2021-40438_Docker
+https://github.com/WilsonFung414/CVE-2021-40438_Docker_2
+https://github.com/sergiovks/CVE-2021-40438-Apache-2.4.48-SSRF-exploit
+CVE-2021-44790 : 
+Apache 2.4.x - Buffer Overflow   => https://www.exploit-db.com/exploits/51193
+https://github.com/nuPacaChi/-CVE-2021-44790
+CVE-CVE-2006-20001 : 
+https://github.com/Saksham2002/CVE-2006-20001
+CVE-linux-apache-fix-mod_rewrite-spaceInURL : 
+https://github.com/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL
+https://github.com/dhmosfunk/CVE-2023-25690-POC
+https://github.com/sergiovks/CVE-2023-25690-exploit

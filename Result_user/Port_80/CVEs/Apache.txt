@@ -1,0 +1,605 @@
+Voici scan des CVEs pour le service Apache avec le numéro de version : 2.4.6
+ 
+Voici la 1eme CVE 
+CVE ID: CVE-2007-4723, Description: [{'lang': 'en', 'value': 'Directory traversal vulnerability in Ragnarok Online Control Panel 4.3.4a, when the Apache HTTP Server is used, allows remote attackers to bypass authentication via directory traversal sequences in a URI that ends with the name of a publicly available page, as demonstrated by a "/...../" sequence and an account_manage.php/login.php final component for reaching the protected account_manage.php page.'}, {'lang': 'es', 'value': 'Vulnerabilidad de salto de directorio en Ragnarok Online Control Panel 4.3.4a, cuando se utiliza Apache HTTP Server, permite a atacantes remotos evitar la autenticación mediante secuencias de salto de directorio en un URI que termina con el nombre de una página públicamente disponible, como ha sido demostrado por la secuencia "/...../" y un componente final account_manage.php/login.php para acceder a la página protegida account_manage.php.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 2eme CVE 
+CVE ID: CVE-2009-0796, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in Status.pm in Apache::Status and Apache2::Status in mod_perl1 and mod_perl2 for the Apache HTTP Server, when /perl-status is accessible, allows remote attackers to inject arbitrary web script or HTML via the URI.'}, {'lang': 'es', 'value': 'Vulnerabilidad de secuencias de comandos en sitios cruzados (XSS) en Status.pm en Apache::Status y Apache2::Status en mod_perl1 y mod_perl2 para Apache HTTP Server, cuando /perl-status esta accesible, permite a atacantes remotos inyectar código web o HTML de modo arbitrario a través de la URI.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+Apache mod_perl - 'Apache::Status' | https://www.exploit-db.com/exploits/9993
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 3eme CVE 
+CVE ID: CVE-2009-2299, Description: [{'lang': 'en', 'value': 'The Artofdefence Hyperguard Web Application Firewall (WAF) module before 2.5.5-11635, 3.0 before 3.0.3-11636, and 3.1 before 3.1.1-11637, a module for the Apache HTTP Server, allows remote attackers to cause a denial of service (memory consumption) via an HTTP request with a large Content-Length value but no POST data.'}, {'lang': 'es', 'value': 'Artofdefence Hyperguard Web Application Firewall (WAF) módulo anterior a v2.5.5-11635, v3.0 anterior a v3.0.3-11636, y v3.1 anteriores a v3.1.1-11637, un módulo para el Apache HTTP Server, permite a loa atacantes remotos causar una denegación de servicio (consumo de memoria) a través de una petición HTTP con un valor largo Content-Length pero no datos POST.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 4eme CVE 
+CVE ID: CVE-2011-1176, Description: [{'lang': 'en', 'value': 'The configuration merger in itk.c in the Steinar H. Gunderson mpm-itk Multi-Processing Module 2.2.11-01 and 2.2.11-02 for the Apache HTTP Server does not properly handle certain configuration sections that specify NiceValue but not AssignUserID, which might allow remote attackers to gain privileges by leveraging the root uid and root gid of an mpm-itk process.'}, {'lang': 'es', 'value': 'La fusión de configuración en itk.c en el Steinar H. Gunderson mpm-itk Multi-Processing Module v2.2.11-01 y v2.2.11-02 para el Servidor Apache HTTP, no maneja adecuadamente ciertas secciones de configuración que especifican NiceValue pero no AssignUserID, lo que podría permitir a atacantes remotos obtener privilegios mediante el aprovechamiento de la UID y GID de root de un proceso mpm-itk.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 5eme CVE 
+CVE ID: CVE-2011-2688, Description: [{'lang': 'en', 'value': 'SQL injection vulnerability in mysql/mysql-auth.pl in the mod_authnz_external module 3.2.5 and earlier for the Apache HTTP Server allows remote attackers to execute arbitrary SQL commands via the user field.'}, {'lang': 'es', 'value': 'Vulnerabilidad de inyección SQL en mysql/mysql-auth.pl en el módulo de mod_authnz_external v3.2.5 y anteriores para Apache HTTP Server, permite a atacantes remotos ejecutar comandos SQL a través del campo de usuario.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 6eme CVE 
+CVE ID: CVE-2012-3526, Description: [{'lang': 'en', 'value': 'The reverse proxy add forward module (mod_rpaf) 0.5 and 0.6 for the Apache HTTP Server allows remote attackers to cause a denial of service (server or application crash) via multiple X-Forwarded-For headers in a request.'}, {'lang': 'es', 'value': 'El proxy inverso agrega módulos (mod_rpaf) 0.5 y 0.6 para el Servidor Apache HTTP permite a atacantes remotos provocar una denegación de servicio (servidor o bloqueo de la aplicación) a través de múltiples X-Forwarded-For cabeceras de una petición.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 7eme CVE 
+CVE ID: CVE-2012-4001, Description: [{'lang': 'en', 'value': 'The mod_pagespeed module before 0.10.22.6 for the Apache HTTP Server does not properly verify its host name, which allows remote attackers to trigger HTTP requests to arbitrary hosts via unspecified vectors, as demonstrated by requests to intranet servers.'}, {'lang': 'es', 'value': 'El módulo mod_pagespeed anterior a v0.10.22.6 para Apache HTTP Server no verifica de forma adecuada su nombre de host, lo que permite a atacantes remotos provocar peticiones HTTP a cualquier hosts, a través de vectores no especificados, como lo demuestran las peticiones a los servidores de la intranet.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 8eme CVE 
+CVE ID: CVE-2012-4360, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in the mod_pagespeed module 0.10.19.1 through 0.10.22.4 for the Apache HTTP Server allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de ejecución de secuencias de comandos en sitios cruzados (XSS) en el módulo mod_pagespeed v0.10.19.1 hasta v0.10.22.4 para Apache HTTP Server\r\npermite a atacantes remotos inyectar secuencias de comandos web o HTML a través del parámetro\r\nNOTA: Algunos de estos detalles se han obtenidos de terceros.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 9eme CVE 
+CVE ID: CVE-2013-0941, Description: [{'lang': 'en', 'value': 'EMC RSA Authentication API before 8.1 SP1, RSA Web Agent before 5.3.5 for Apache Web Server, RSA Web Agent before 5.3.5 for IIS, RSA PAM Agent before 7.0, and RSA Agent before 6.1.4 for Microsoft Windows use an improper encryption algorithm and a weak key for maintaining the stored data of the node secret for the SecurID Authentication API, which allows local users to obtain sensitive information via cryptographic attacks on this data.'}, {'lang': 'es', 'value': 'La API de autenticación de EMC RSA anterior a v8.1 SP1, RSA Web Agent anterior a v5.3.5 para Apache Web Server, RSA Web Agent anterior a v5.3.5 para IIS, RSA PAM Agent anterior a v7.0, y RSA Agent anterior a v6.1.4 para  Microsoft Windows utiliza un algoritmo de cifrado inadecuado y una clave débil para el mantenimiento de los datos almacenados en el nodo secreto para la API de autenticación SecurID, permitiendo a usuarios locales obtener información sensible mediante ataques criptográficos de estos datos.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 10eme CVE 
+CVE ID: CVE-2013-0942, Description: [{'lang': 'en', 'value': 'Cross-site scripting (XSS) vulnerability in EMC RSA Authentication Agent 7.1 before 7.1.1 for Web for Internet Information Services, and 7.1 before 7.1.1 for Web for Apache, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad XSS en EMC RSA Authentication Agent 7.1 anterior a 7.1.1 en IIS, y 7.1 anterior a 7.1.1 para Apache, permite a atacantes remotos inyectar secuencias de comandos web o HTML a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 11eme CVE 
+CVE ID: CVE-2013-2765, Description: [{'lang': 'en', 'value': 'The ModSecurity module before 2.7.4 for the Apache HTTP Server allows remote attackers to cause a denial of service (NULL pointer dereference, process crash, and disk consumption) via a POST request with a large body and a crafted Content-Type header.'}, {'lang': 'es', 'value': 'El módulo ModSecurity anterior a 2.7.4 para Apache HTTP Server, permite a atacantes remotos provocar una denegación de servicio (deferencia a puntero NULO, caída de proceso y consumo de disco) a través de una petición POST con un cuerpo (body) de gran tamaño y una cabecera Content-Type manipulada.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+ModSecurity - Remote Null Pointer  | https://www.exploit-db.com/exploits/25852
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 12eme CVE 
+CVE ID: CVE-2013-4365, Description: [{'lang': 'en', 'value': 'Heap-based buffer overflow in the fcgid_header_bucket_read function in fcgid_bucket.c in the mod_fcgid module before 2.3.9 for the Apache HTTP Server allows remote attackers to have an unspecified impact via unknown vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de desbordamiento de buffer (heap) en la función fcgid_header_bucket_read de fcgd_bucket.c en el modulo mod_fcgid anterior a 2.3.9 para Apache HTTP Server permite a atacantes remotos tener unimpacto no especificado a través de vectores desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 13eme CVE 
+CVE ID: CVE-2013-6438, Description: [{'lang': 'en', 'value': 'The dav_xml_get_cdata function in main/util.c in the mod_dav module in the Apache HTTP Server before 2.4.8 does not properly remove whitespace characters from CDATA sections, which allows remote attackers to cause a denial of service (daemon crash) via a crafted DAV WRITE request.'}, {'lang': 'es', 'value': 'La función dav_xml_get_cdata en main/util.c en el módulo mod_dav en el Apache HTTP Server anterior a 2.4.8 no elimina debidamente caracteres de espacio en blanco de secciones CDATA, lo que permite a atacantes remotos causar una denegación de servicio (caída de demonio) a través de una solicitud DAV WRITE manipulada.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 14eme CVE 
+CVE ID: CVE-2014-0098, Description: [{'lang': 'en', 'value': 'The log_cookie function in mod_log_config.c in the mod_log_config module in the Apache HTTP Server before 2.4.8 allows remote attackers to cause a denial of service (segmentation fault and daemon crash) via a crafted cookie that is not properly handled during truncation.'}, {'lang': 'es', 'value': 'La función log_cookie en mod_log_config.c en el módulo mod_log_config en el Apache HTTP Server anterior a 2.4.8 permite a atacantes remotos causar una denegación de servicio (fallo de segmentación y caída de demonio) a través de una cookie manipulada que no es manejada debidamente durante truncado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 15eme CVE 
+CVE ID: CVE-2013-5704, Description: [{'lang': 'en', 'value': 'The mod_headers module in the Apache HTTP Server 2.2.22 allows remote attackers to bypass "RequestHeader unset" directives by placing a header in the trailer portion of data sent with chunked transfer coding.  NOTE: the vendor states "this is not a security issue in httpd as such."'}, {'lang': 'es', 'value': 'El módulo mod_headers en el servidor de Apache HTTP 2.2.22 permite a atacantes remotos evadir directivas "RequestHeader unset" mediante la colocación de una cabera en la porción "trailer" de datos enviados con codificación de transferencia fragmentada.  NOTA: el proveedor afirma que "esto no es un problema de seguridad en httpd como tal."'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 16eme CVE 
+CVE ID: CVE-2013-4352, Description: [{'lang': 'en', 'value': 'The cache_invalidate function in modules/cache/cache_storage.c in the mod_cache module in the Apache HTTP Server 2.4.6, when a caching forward proxy is enabled, allows remote HTTP servers to cause a denial of service (NULL pointer dereference and daemon crash) via vectors that trigger a missing hostname value.'}, {'lang': 'es', 'value': 'La función cache_invalidate en modules/cache/cache_storage.c en el módulo mod_cache en Apache HTTP Server 2.4.6, cuando un proxy del cacheo de reenvíos está habilitado, permite a servidores HTTP remotos causar una denegación de servicio (referencia a puntero nulo y caída del demonio) a través de vectores que provocan un valor de nombre de anfitrión ausente.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 17eme CVE 
+CVE ID: CVE-2014-0117, Description: [{'lang': 'en', 'value': 'The mod_proxy module in the Apache HTTP Server 2.4.x before 2.4.10, when a reverse proxy is enabled, allows remote attackers to cause a denial of service (child-process crash) via a crafted HTTP Connection header.'}, {'lang': 'es', 'value': 'El módulo mod_proxy en Apache HTTP Server 2.4.x anterior a 2.4.10, cuando un proxy inverso está habilitado, permite a atacantes remotos causar una denegación de servicio (caída del proceso hijo) a través de una cabecera de conexión HTTP manipulada.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 18eme CVE 
+CVE ID: CVE-2014-0118, Description: [{'lang': 'en', 'value': 'The deflate_in_filter function in mod_deflate.c in the mod_deflate module in the Apache HTTP Server before 2.4.10, when request body decompression is enabled, allows remote attackers to cause a denial of service (resource consumption) via crafted request data that decompresses to a much larger size.'}, {'lang': 'es', 'value': 'La función deflate_in_filter en mod_deflate.c en el módulo mod_deflate en Apache HTTP Server anterior a 2.4.10, cuando la descompresión del cuerpo de una solicitud está habilitada, permite a atacantes remotos causar una denegación de servicio (consumo de recursos) a través de datos de solicitudes manipulados que descomprime a un tamaño mucho más grande.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 19eme CVE 
+CVE ID: CVE-2014-0226, Description: [{'lang': 'en', 'value': 'Race condition in the mod_status module in the Apache HTTP Server before 2.4.10 allows remote attackers to cause a denial of service (heap-based buffer overflow), or possibly obtain sensitive credential information or execute arbitrary code, via a crafted request that triggers improper scoreboard handling within the status_handler function in modules/generators/mod_status.c and the lua_ap_scoreboard_worker function in modules/lua/lua_request.c.'}, {'lang': 'es', 'value': 'Condición de carrera en el módulo mod_status en Apache HTTP Server anterior a 2.4.10 permite a atacantes remotos causar una denegación de servicio (desbordamiento de buffer basado en memoria dinámica), o posiblemente obtener información sensible de credenciales o ejecutar código arbitrario, a través de una solicitud manipulada que provoca el manejo indebido de la tabla de clasificación (scoreboard) dentro de la función status_handler en modules/generators/mod_status.c y la función lua_ap_scoreboard_worker en modules/lua/lua_request.c.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+Apache 2.4.7 mod_status - Scoreboa | https://www.exploit-db.com/exploits/34133
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 20eme CVE 
+CVE ID: CVE-2014-0231, Description: [{'lang': 'en', 'value': 'The mod_cgid module in the Apache HTTP Server before 2.4.10 does not have a timeout mechanism, which allows remote attackers to cause a denial of service (process hang) via a request to a CGI script that does not read from its stdin file descriptor.'}, {'lang': 'es', 'value': 'El módulo mod_cgid en Apache HTTP Server anterior a 2.4.10 no tiene un mecanismo de timeout, lo que permite a atacantes remotos causar una denegación de servicio (cuelgue del proceso) a través de una solicitud en una secuencia de comandos CGI que no lee desde su descriptor de ficheros stdin.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 21eme CVE 
+CVE ID: CVE-2015-3184, Description: [{'lang': 'en', 'value': 'mod_authz_svn in Apache Subversion 1.7.x before 1.7.21 and 1.8.x before 1.8.14, when using Apache httpd 2.4.x, does not properly restrict anonymous access, which allows remote anonymous users to read hidden files via the path name.'}, {'lang': 'es', 'value': 'Vulnerabilidad en mod_authz_svn en Apache Subversion 1.7.x en versiones anteriores a 1.7.21 y 1.8.x en versiones anteriores a 1.8.14, al utilizar Apache httpd 2.4.x, no restringe correctamente el acceso anónimo, lo que permite a usuarios anónimos remotos leer archivos ocultos a través del nombre de la ruta.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 22eme CVE 
+CVE ID: CVE-2015-3185, Description: [{'lang': 'en', 'value': 'The ap_some_auth_required function in server/request.c in the Apache HTTP Server 2.4.x before 2.4.14 does not consider that a Require directive may be associated with an authorization setting rather than an authentication setting, which allows remote attackers to bypass intended access restrictions in opportunistic circumstances by leveraging the presence of a module that relies on the 2.2 API behavior.'}, {'lang': 'es', 'value': 'Vulnerabilidad en la función ap_some_auth_required en ap_some_auth_required del Servidor HTTP Apache en su versión 2.4.x anteriores a la 2.4.14 no considera que una directiva Require puede estar asociada con el establecimiento de una autorización en lugar de un ajuste de autenticación lo cual permite a atacantes remotos evadir las restricciones destinadas al acceso en circunstancias oportunas mediante el aprovechamiento de la presencia de un módulo que se basa en el comportamiento en la API 2.2.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 23eme CVE 
+CVE ID: CVE-2014-3523, Description: [{'lang': 'en', 'value': 'Memory leak in the winnt_accept function in server/mpm/winnt/child.c in the WinNT MPM in the Apache HTTP Server 2.4.x before 2.4.10 on Windows, when the default AcceptFilter is enabled, allows remote attackers to cause a denial of service (memory consumption) via crafted requests.'}, {'lang': 'es', 'value': 'Fuga de memoria en la función winnt_accept en server/mpm/winnt/child.c en el MPM WinNT en Apache HTTP Server 2.4.x anterior a 2.4.10 en Windows, cuando el AcceptFilter por defecto está habilitado, permite a atacantes remotos causar una denegación de servicio (consumo de memoria) a través de solicitudes manipuladas.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 24eme CVE 
+CVE ID: CVE-2014-3581, Description: [{'lang': 'en', 'value': 'The cache_merge_headers_out function in modules/cache/cache_util.c in the mod_cache module in the Apache HTTP Server before 2.4.11 allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via an empty HTTP Content-Type header.'}, {'lang': 'es', 'value': 'La función cache_merge_headers_out en modules/cache/cache_util.c en el módulo mod_cache en el servidor Apache HTTP anterior a 2.4.11 permite a atacantes remotos causar una denegación de servicio (referencia a puntero nulo y caída de la aplicación) a través de una cabecera HTTP Content-Type vacía.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 25eme CVE 
+CVE ID: CVE-2014-8109, Description: [{'lang': 'en', 'value': 'mod_lua.c in the mod_lua module in the Apache HTTP Server 2.3.x and 2.4.x through 2.4.10 does not support an httpd configuration in which the same Lua authorization provider is used with different arguments within different contexts, which allows remote attackers to bypass intended access restrictions in opportunistic circumstances by leveraging multiple Require directives, as demonstrated by a configuration that specifies authorization for one group to access a certain directory, and authorization for a second group to access a second directory.'}, {'lang': 'es', 'value': 'El módulo mod_lua.c en el módulo mod_lua en Apache HTTP Server 2.3.x y 2.4.x a través de 2.4.10 no soporta la configuración httpd en la cual el proveedor de autorización Lua se usa con argumentos diferentes dentro de contextos diferentes, lo que permite a atacantes remotos saltarse las restricciones de acceso en ciertas circunstancias aprovechando múltiples directivas requeridas, como se demuestra por una configuración que especifica la autorización para un grupo para acceder a un directorio determinado, y una autorización para un segundo grupo para acceder a un segundo directorio.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 26eme CVE 
+CVE ID: CVE-2015-0228, Description: [{'lang': 'en', 'value': 'The lua_websocket_read function in lua_request.c in the mod_lua module in the Apache HTTP Server through 2.4.12 allows remote attackers to cause a denial of service (child-process crash) by sending a crafted WebSocket Ping frame after a Lua script has called the wsupgrade function.'}, {'lang': 'es', 'value': 'La función lua_websocket_read en lua_request.c en el módulo mod_lua en Apache HTTP Server hasta 2.4.12 permite a atacantes remotos causar una denegación de servicio (caída del proceso hijo) mediante el envío de un Frame WebSocket Ping manipulado después de que una secuencia de comandos Lua haya llamado a la función wsupgrade.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 27eme CVE 
+CVE ID: CVE-2016-5387, Description: [{'lang': 'en', 'value': 'The Apache HTTP Server through 2.4.23 follows RFC 3875 section 4.1.18 and therefore does not protect applications from the presence of untrusted client data in the HTTP_PROXY environment variable, which might allow remote attackers to redirect an application\'s outbound HTTP traffic to an arbitrary proxy server via a crafted Proxy header in an HTTP request, aka an "httpoxy" issue.  NOTE: the vendor states "This mitigation has been assigned the identifier CVE-2016-5387"; in other words, this is not a CVE ID for a vulnerability.'}, {'lang': 'es', 'value': 'El Apache HTTP Server hasta la versión 2.4.23 sigue a RFC 3875 sección 4.1.18 y por lo tanto no protege aplicaciones de la presencia de datos de clientes no confiables en ambiente variable de HTTP_PROXY, lo que puede permitir a atacantes remotos redireccionar el tráfico HTTP saliente de aplicación a un servidor proxy arbitrario a través de una cabecera Proxy manipulada en una petición HTTP, también conocido como problema "httpoxy". NOTA: el vendedor afirma "Se ha asignado a esta mitigación el identificador CVE-2016-5387"; en otras palabras, esto no es un CVE ID para una vulnerabilidad.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'HIGH', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 8.1, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 2.2, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 28eme CVE 
+CVE ID: CVE-2017-3167, Description: [{'lang': 'en', 'value': 'In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, use of the ap_get_basic_auth_pw() by third-party modules outside of the authentication phase may lead to authentication requirements being bypassed.'}, {'lang': 'es', 'value': 'En Apache httpd, en versiones 2.2.x anteriores a la 2.2.33 y versiones 2.4.x anteriores a la 2.4.26, el uso de ap_get_basic_auth_pw() por parte de módulos de terceros fuera de la fase de autenticación puede dar lugar a que se omitan requisitos de autenticación..'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.8, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 29eme CVE 
+CVE ID: CVE-2017-7679, Description: [{'lang': 'en', 'value': 'In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, mod_mime can read one byte past the end of a buffer when sending a malicious Content-Type response header.'}, {'lang': 'es', 'value': 'En Apache httpd, en versiones 2.2.x anteriores a la 2.2.33 y versiones 2.4.x anteriores a la 2.4.26, mod_mime puede leer un byte más allá del final de un búfer cuando está enviando una cabecera de respuesta del tipo Content maliciosa.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 30eme CVE 
+CVE ID: CVE-2017-9788, Description: [{'lang': 'en', 'value': "In Apache httpd before 2.2.34 and 2.4.x before 2.4.27, the value placeholder in [Proxy-]Authorization headers of type 'Digest' was not initialized or reset before or between successive key=value assignments by mod_auth_digest. Providing an initial key with no '=' assignment could reflect the stale value of uninitialized pool memory used by the prior request, leading to leakage of potentially confidential information, and a segfault in other cases resulting in denial of service."}, {'lang': 'es', 'value': 'En Apache httpd, en versiones anteriores a la 2.2.34 y en versiones 2.4.x anteriores a la 2.4.27, el valor placeholder en cabeceras [Proxy-]Authorization del tipo \'Digest\' no se inicializó o reinició antes de o entre las asignaciones sucesivas key=value por mod_auth_digest. Proporcionar una clave inicial sin asignación "=" podría reflejar el valor obsoleto de la memoria agrupada no inicializada utilizada por la petición anterior. Esto podría dar lugar al filtrado de información potencialmente confidencial y, en otros casos, a un fallo de segmentación que daría como resultado una denegación de servicio (DoS)'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 31eme CVE 
+CVE ID: CVE-2016-0736, Description: [{'lang': 'en', 'value': 'In Apache HTTP Server versions 2.4.0 to 2.4.23, mod_session_crypto was encrypting its data/cookie using the configured ciphers with possibly either CBC or ECB modes of operation (AES256-CBC by default), hence no selectable or builtin authenticated encryption. This made it vulnerable to padding oracle attacks, particularly with CBC.'}, {'lang': 'es', 'value': 'En Apache HTTP Server versiones 2.4.0 hasta  2.4.23, mod_session_crypto fue cifraba su cookie y datos utilizando los cifrados configurados posiblemente con los modos de operación CBC o ECB (AES256-CBC por defecto), por lo tanto, no se puede seleccionar ni crear cifrado autenticado integrado. Esto lo hizo vulnerable a los ataques de tipo oráculo de relleno (padding oracle), particularmente con CBC.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+Apache mod_session_crypto - Paddin | https://www.exploit-db.com/exploits/40961
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 32eme CVE 
+CVE ID: CVE-2016-2161, Description: [{'lang': 'en', 'value': 'In Apache HTTP Server versions 2.4.0 to 2.4.23, malicious input to mod_auth_digest can cause the server to crash, and each instance continues to crash even for subsequently valid requests.'}, {'lang': 'es', 'value': 'En Apache HTTP Server versiones 2.4.0 hasta 2.4.23, una entrada maliciosa a mod_auth_digest puede causar que el servidor se bloquee y cada instancia continúa bloqueado incluso para las peticiones válidas posteriormente.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 33eme CVE 
+CVE ID: CVE-2016-8743, Description: [{'lang': 'en', 'value': 'Apache HTTP Server, in all releases prior to 2.2.32 and 2.4.25, was liberal in the whitespace accepted from requests and sent in response lines and headers. Accepting these different behaviors represented a security concern when httpd participates in any chain of proxies or interacts with back-end application servers, either through mod_proxy or using conventional CGI mechanisms, and may result in request smuggling, response splitting and cache pollution.'}, {'lang': 'es', 'value': 'El servidor HTTP Apache, en todas las distribuciones anteriores a la 2.2.32 y la 2.4.25 era liberal en el espacio en blanco aceptado de peticiones y enviado en lineas y cabeceras de respuesta. La aceptación de estos comportamientos diferentes representaba un problema a nivel de seguridad cuando httpd participa en cualquier cadena de proxies o interactúa con servidores de aplicaciones backend, ya sea mediante mod_proxy o utilizando mecanismos CGI convencionales y puede dar lugar al tráfico de peticiones, división de respuestas y contaminación de la caché.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'HIGH', 'availabilityImpact': 'NONE', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 34eme CVE 
+CVE ID: CVE-2017-9798, Description: [{'lang': 'en', 'value': "Apache httpd allows remote attackers to read secret data from process memory if the Limit directive can be set in a user's .htaccess file, or if httpd.conf has certain misconfigurations, aka Optionsbleed. This affects the Apache HTTP Server through 2.2.34 and 2.4.x through 2.4.27. The attacker sends an unauthenticated OPTIONS HTTP request when attempting to read secret data. This is a use-after-free issue and thus secret data is not always sent, and the specific data depends on many factors including configuration. Exploitation with .htaccess can be blocked with a patch to the ap_limit_section function in server/core.c."}, {'lang': 'es', 'value': 'Apache httpd permite que atacantes remotos lean datos secretos de la memoria de proceso si la directiva Limit se puede establecer en un archivo .htaccess del usuario o si existen ciertos errores de configuración en httpd.conf. Esto también se conoce como Optionsbleed. Esta vulnerabilidad afecta a Apache HTTP Server hasta la versión 2.2.34 y a las versiones 2.4.x hasta la 2.4.27. El atacante envía una petición HTTP OPTIONS sin autenticar cuando intenta leer datos secretos. Este es un problema de uso de memoria previamente liberada y, por lo tanto, los datos secretos no siempre se envían y los datos específicos dependen de muchos factores, entre los que se encuentra la configuración. La explotación con .htaccess puede bloquearse con un parche en la función ap_limit_section en server/core.c.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'NONE', 'availabilityImpact': 'NONE', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+Apache < 2.2.34 / < 2.4.27 - OPTIO | https://www.exploit-db.com/exploits/42745
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 35eme CVE 
+CVE ID: CVE-2016-8612, Description: [{'lang': 'en', 'value': 'Apache HTTP Server mod_cluster before version httpd 2.4.23 is vulnerable to an Improper Input Validation in the protocol parsing logic in the load balancer resulting in a Segmentation Fault in the serving httpd process.'}, {'lang': 'es', 'value': 'Apache HTTP Server mod_cluster, en versiones anteriores a httpd 2.4.23, es vulnerable a una validación de entradas incorrecta en la lógica de análisis de protocolo en el balanceador de carga, lo que resulta en un fallo de segmentación en el proceso httpd en servicio.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 36eme CVE 
+CVE ID: CVE-2017-15710, Description: [{'lang': 'en', 'value': "In Apache httpd 2.0.23 to 2.0.65, 2.2.0 to 2.2.34, and 2.4.0 to 2.4.29, mod_authnz_ldap, if configured with AuthLDAPCharsetConfig, uses the Accept-Language header value to lookup the right charset encoding when verifying the user's credentials. If the header value is not present in the charset conversion table, a fallback mechanism is used to truncate it to a two characters value to allow a quick retry (for example, 'en-US' is truncated to 'en'). A header value of less than two characters forces an out of bound write of one NUL byte to a memory location that is not part of the string. In the worst case, quite unlikely, the process would crash which could be used as a Denial of Service attack. In the more likely case, this memory is already reserved for future use and the issue has no effect at all."}, {'lang': 'es', 'value': "Si mod_authnz_ldap se configura con AuthLDAPCharsetConfig, en las versiones 2.0.23 hasta la 2.0.65, versiones 2.2.0 hasta la 2.2.34 y versiones 2.4.0 hasta la 2.4.29 en Apache httpd, usa el valor de cabecera Accept-Language para buscar la codificación de charset adecuado cuando se verifican las credenciales de usuario. Si el valor de la cabecera no está presente en la tabla de conversión de charset, se utiliza un mecanismo alternativo para truncarlo en un valor de dos caracteres para permitir que se efectúe un quick retry (por ejemplo, 'en-US' se trunca a 'en'). Un valor de cabecera inferior a dos caracteres fuerza una lectura fuera de límites de un byte NULL a una ubicación de memoria que no forma parte de la cadena. En el peor de los casos, aunque poco probable, el proceso se bloquearía, lo que se podría utilizar como un ataque denegación de servicio (DoS). Es mucho más probable que esta memoria ya esté reservada para su uso futuro y que el problema no tenga ningún tipo de impacto."}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 37eme CVE 
+CVE ID: CVE-2017-15715, Description: [{'lang': 'en', 'value': "In Apache httpd 2.4.0 to 2.4.29, the expression specified in <FilesMatch> could match '$' to a newline character in a malicious filename, rather than matching only the end of the filename. This could be exploited in environments where uploads of some files are are externally blocked, but only by matching the trailing portion of the filename."}, {'lang': 'es', 'value': 'En las versiones 2.4.0 hasta la 2.4.29 de Apache httpd, la expresión especificada en  podría unir "$" con un carácter nueva línea o newline en un nombre de archivo malicioso, en lugar de interpretarse, únicamente, como el final del nombre de archivo. Esto se podría explotar en entornos donde las subidas de algunos archivos están bloqueadas de manera externa, pero solo uniendo la porción final del nombre del archivo.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 38eme CVE 
+CVE ID: CVE-2018-1283, Description: [{'lang': 'en', 'value': 'In Apache httpd 2.4.0 to 2.4.29, when mod_session is configured to forward its session data to CGI applications (SessionEnv on, not the default), a remote user may influence their content by using a "Session" header. This comes from the "HTTP_SESSION" variable name used by mod_session to forward its data to CGIs, since the prefix "HTTP_" is also used by the Apache HTTP Server to pass HTTP header fields, per CGI specifications.'}, {'lang': 'es', 'value': 'En Apache httpd, versiones 2.4.0 hasta la 2.4.29, cuando se configura mod_session para que reenvíe sus datos de sesión a aplicaciones CGI (SessionEnv habilitado, no por defecto), un usuario remoto podría influir en su contenido empleando una cabecera "Session". Esto viene del nombre de variable "HTTP_SESSION", empleado por mod_session para reenviar sus datos a interfaces de entrada común (CGI), dado que el prefijo "HTTP_" también es utilizado por el servidor Apache HTTP para pasar sus campos de cabecera HTTP, por especificaciones CGI.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 39eme CVE 
+CVE ID: CVE-2018-1301, Description: [{'lang': 'en', 'value': 'A specially crafted request could have crashed the Apache HTTP Server prior to version 2.4.30, due to an out of bound access after a size limit is reached by reading the HTTP header. This vulnerability is considered very hard if not impossible to trigger in non-debug mode (both log and build level), so it is classified as low risk for common server usage.'}, {'lang': 'es', 'value': 'Una petición especialmente manipulada podría haber provocado el cierre inesperado del servidor Apache HTTP en versiones anteriores a la 2.4.30, debido a un acceso fuera de límites tras alcanzar un límite de tamaño mediante la lectura de una cabecera HTTP. Esta vulnerabilidad se considera crítica si no es imposible desencadenarla en un modo que no sea de depuración (tanto a nivel de log como de build), por lo que se clasifica como vulnerabilidad de riesgo bajo para un uso común del servidor.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 40eme CVE 
+CVE ID: CVE-2018-1302, Description: [{'lang': 'en', 'value': 'When an HTTP/2 stream was destroyed after being handled, the Apache HTTP Server prior to version 2.4.30 could have written a NULL pointer potentially to an already freed memory. The memory pools maintained by the server make this vulnerability hard to trigger in usual configurations, the reporter and the team could not reproduce it outside debug builds, so it is classified as low risk.'}, {'lang': 'es', 'value': 'Cuando un flujo de datos o stream HTTP/2 se destruye después de haber sido manipulado, el servidor Apache HTTP en versiones anteriores a la 2.4.30 podría escribir un puntero NULL en una memoria ya liberada. Los bloques de memoria mantenidos por el servidor hacen que sea difícil que esta vulnerabilidad tenga lugar en configuraciones normales, el informador y el equipo no podían reproducirla fuera de builds de depuración, por lo que se clasifica como de riesgo bajo.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 41eme CVE 
+CVE ID: CVE-2018-1303, Description: [{'lang': 'en', 'value': 'A specially crafted HTTP request header could have crashed the Apache HTTP Server prior to version 2.4.30 due to an out of bound read while preparing data to be cached in shared memory. It could be used as a Denial of Service attack against users of mod_cache_socache. The vulnerability is considered as low risk since mod_cache_socache is not widely used, mod_cache_disk is not concerned by this vulnerability.'}, {'lang': 'es', 'value': 'Una cabecera HTTP especialmente manipulada podría haber provocado el cierre inesperado del servidor Apache HTTP en versiones anteriores a la 2.4.30, debido a una lectura fuera de límites mientras se preparan los datos que se van a almacenar en la memoria caché compartida. Esto se podría utilizar como ataque de denegación de servicio (DoS) contra usuarios de mod_cache_socache. Se considera como de riesgo bajo debido a que mod_cache_socache no se suele utilizar y mod_cache_disk no está relacionado con esta vulnerabilidad.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+Ecessa ShieldLink SL175EHQ < 10.7. | https://www.exploit-db.com/exploits/44938
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 42eme CVE 
+CVE ID: CVE-2018-1312, Description: [{'lang': 'en', 'value': 'In Apache httpd 2.2.0 to 2.4.29, when generating an HTTP Digest authentication challenge, the nonce sent to prevent reply attacks was not correctly generated using a pseudo-random seed. In a cluster of servers using a common Digest authentication configuration, HTTP requests could be replayed across servers by an attacker without detection.'}, {'lang': 'es', 'value': 'En Apache httpd, en versiones desde la 2.2.0 hasta la 2.4.29, cuando se genera un desafío de autenticación HTTP Digest, el nonce enviado para evitar ataques replay no se generó correctamente empleando una semilla pseudoaleatoria. En un clúster de servidores, utilizando una configuración de autenticación Digest común, las peticiones HTTP se podrían reemplazar en los servidores por un atacante si que este sea detectado.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.8, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 43eme CVE 
+CVE ID: CVE-2016-4975, Description: [{'lang': 'en', 'value': 'Possible CRLF injection allowing HTTP response splitting attacks for sites which use mod_userdir. This issue was mitigated by changes made in 2.4.25 and 2.2.32 which prohibit CR or LF injection into the "Location" or other outbound header key or value. Fixed in Apache HTTP Server 2.4.25 (Affected 2.4.1-2.4.23). Fixed in Apache HTTP Server 2.2.32 (Affected 2.2.0-2.2.31).'}, {'lang': 'es', 'value': 'Posible inyección CRLF que permite ataques de separación de respuesta HTTP para los sitios que emplean mod_userdir. Este problema fue mitigado gracias a los cambios realizados en las versiones 2.4.25 y 2.2.32, que prohíben la inyección CR o LF en "Location" o en otro tipo de clave o valor de cabecera saliente. Esto se ha solucionado en Apache HTTP Server 2.4.25 (2.4.1-2.4.23 afectadas). Esto se ha solucionado en Apache HTTP Server 2.2.32 (2.2.0-2.2.31 afectadas).'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 44eme CVE 
+CVE ID: CVE-2018-17199, Description: [{'lang': 'en', 'value': 'In Apache HTTP Server 2.4 release 2.4.37 and prior, mod_session checks the session expiry time before decoding the session. This causes session expiry time to be ignored for mod_session_cookie sessions since the expiry time is loaded when the session is decoded.'}, {'lang': 'es', 'value': 'En Apache HTTP Server 2.4, en sus distribuciones 2.4.37 y anteriores, mod_session comprueba el tiempo de caducidad de la sesión antes de descodificarla. Esto provoca que se ignore el tiempo de caducidad de la sesión para sesiones mod_session_cookie, debido a que el tiempo de caducidad se carga cuando la sesión está descodificada.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 45eme CVE 
+CVE ID: CVE-2019-0217, Description: [{'lang': 'en', 'value': 'In Apache HTTP Server 2.4 release 2.4.38 and prior, a race condition in mod_auth_digest when running in a threaded server could allow a user with valid credentials to authenticate using another username, bypassing configured access control restrictions.'}, {'lang': 'es', 'value': 'En Apache HTTP Server 2.4 versión 2.4.38 y anteriores, una condición de carrera en mod_auth_digest cuando se ejecuta en un servidor multihilo podría permitir a un usuario con credenciales válidas autenticarse usando otro nombre de usuario, evitando las restricciones de control de acceso configuradas.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'HIGH', 'privilegesRequired': 'LOW', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 1.6, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 46eme CVE 
+CVE ID: CVE-2019-0220, Description: [{'lang': 'en', 'value': "A vulnerability was found in Apache HTTP Server 2.4.0 to 2.4.38. When the path component of a request URL contains multiple consecutive slashes ('/'), directives such as LocationMatch and RewriteRule must account for duplicates in regular expressions while other aspects of the servers processing will implicitly collapse them."}, {'lang': 'es', 'value': "Se descubrió una vulnerabilidad en Apache HTTP Server 2.4.0 hasta 2.4.38. Cuando el componente del recorrido de la solicitud de la URL contiene múltiples barras diagonales consecutivas ('/'),  como por ejemplo LocationMatch y RewriteRule debe tener en cuenta los duplicados en las expresiones regulares que otros aspectos del procesamiento de los servidores los colapsarán implícitamente."}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 47eme CVE 
+CVE ID: CVE-2019-10098, Description: [{'lang': 'en', 'value': 'In Apache HTTP server 2.4.0 to 2.4.39, Redirects configured with mod_rewrite that were intended to be self-referential might be fooled by encoded newlines and redirect instead to an unexpected URL within the request URL.'}, {'lang': 'es', 'value': 'En el servidor HTTP Apache versiones 2.4.0 hasta 2.4.39, los Redireccionamientos configurados con mod_rewrite que fueron previstos a estar auto referenciados podrían ser engañados por nuevas líneas codificadas y redireccionadas a una URL inesperada dentro de la URL de la petición.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.1, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 2.7}]
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+Apache Httpd mod_rewrite - Open Re | https://www.exploit-db.com/exploits/47689
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 48eme CVE 
+CVE ID: CVE-2019-10092, Description: [{'lang': 'en', 'value': 'In Apache HTTP Server 2.4.0-2.4.39, a limited cross-site scripting issue was reported affecting the mod_proxy error page. An attacker could cause the link on the error page to be malformed and instead point to a page of their choice. This would only be exploitable where a server was set up with proxying enabled but was misconfigured in such a way that the Proxy Error page was displayed.'}, {'lang': 'es', 'value': 'En Apache HTTP Server versiones 2.4.0 hasta 2.4.39, se reportó un problema de cross-site scripting limitado que afecta la página de error de mod_proxy. Un atacante podría causar que el enlace sobre la página de error sea malformado y, en su lugar, apunte a una página de su elección. Esto solo sería explotable donde se configuró un servidor con proxy activado pero se configuró erradamente de tal manera que la página Proxy Error fue desplegada.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.1, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 2.7}]
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+Apache Httpd mod_proxy - Error Pag | https://www.exploit-db.com/exploits/47688
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 49eme CVE 
+CVE ID: CVE-2020-1934, Description: [{'lang': 'en', 'value': 'In Apache HTTP Server 2.4.0 to 2.4.41, mod_proxy_ftp may use uninitialized memory when proxying to a malicious FTP server.'}, {'lang': 'es', 'value': 'En Apache HTTP Server versiones 2.4.0 hasta 2.4.41, mod_proxy_ftp puede usar memoria no inicializada cuando al enviar un proxy hacia un servidor FTP malicioso.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'NONE', 'availabilityImpact': 'NONE', 'baseScore': 5.3, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 3.9, 'impactScore': 1.4}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 50eme CVE 
+CVE ID: CVE-2020-1927, Description: [{'lang': 'en', 'value': 'In Apache HTTP Server 2.4.0 to 2.4.41, redirects configured with mod_rewrite that were intended to be self-referential might be fooled by encoded newlines and redirect instead to an an unexpected URL within the request URL.'}, {'lang': 'es', 'value': 'En Apache HTTP Server versiones 2.4.0 hasta 2.4.41, los redireccionamientos configurados con mod_rewrite que pretendían ser autorreferenciales podrían ser engañados por nuevas líneas codificadas y redireccionadas en lugar de una URL inesperada dentro de la URL de petición.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.1, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 2.7}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 51eme CVE 
+CVE ID: CVE-2020-11985, Description: [{'lang': 'en', 'value': 'IP address spoofing when proxying using mod_remoteip and mod_rewrite For configurations using proxying with mod_remoteip and certain mod_rewrite rules, an attacker could spoof their IP address for logging and PHP scripts. Note this issue was fixed in Apache HTTP Server 2.4.24 but was retrospectively allocated a low severity CVE in 2020.'}, {'lang': 'es', 'value': 'Una falsificación de direcciones IP cuando se está usando un proxy por medio de mod_remoteip y mod_rewrite para las configuraciones que usan el proxy con mod_remoteip y determinadas reglas de mod_rewrite, un atacante podría falsificar su dirección IP para el registro y los scripts PHP. Note que este problema se corrigió en Apache HTTP Server versión 2.4.24, pero se le asignó retrospectivamente un CVE de poca gravedad en 2020'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 5.3, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 3.9, 'impactScore': 1.4}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 52eme CVE 
+CVE ID: CVE-2019-17567, Description: [{'lang': 'en', 'value': 'Apache HTTP Server versions 2.4.6 to 2.4.46 mod_proxy_wstunnel configured on an URL that is not necessarily Upgraded by the origin server was tunneling the whole connection regardless, thus allowing for subsequent requests on the same connection to pass through with no HTTP validation, authentication or authorization possibly configured.'}, {'lang': 'es', 'value': 'Apache HTTP Server versiones 2.4.6 a 2.4.46 la función mod_proxy_wstunnel configurado en una URL que no es necesariamente Actualizada por el servidor de origen estaba tunelizando toda la conexión a pesar de ello, permitiendo así para las peticiones posteriores en la misma conexión pasar sin comprobación HTTP, autenticación o autorización posiblemente configurada'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 5.3, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 3.9, 'impactScore': 1.4}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 53eme CVE 
+CVE ID: CVE-2020-13938, Description: [{'lang': 'en', 'value': 'Apache HTTP Server versions 2.4.0 to 2.4.46 Unprivileged local users can stop httpd on Windows'}, {'lang': 'es', 'value': 'Apache HTTP Server versiones 2.4.0 a 2.4.46 Los usuarios locales sin privilegios pueden detener httpd en Windows'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'attackVector': 'LOCAL', 'attackComplexity': 'LOW', 'privilegesRequired': 'LOW', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'NONE', 'availabilityImpact': 'HIGH', 'baseScore': 5.5, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 1.8, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 54eme CVE 
+CVE ID: CVE-2020-35452, Description: [{'lang': 'en', 'value': 'Apache HTTP Server versions 2.4.0 to 2.4.46 A specially crafted Digest nonce can cause a stack overflow in mod_auth_digest. There is no report of this overflow being exploitable, nor the Apache HTTP Server team could create one, though some particular compiler and/or compilation option might make it possible, with limited consequences anyway due to the size (a single byte) and the value (zero byte) of the overflow'}, {'lang': 'es', 'value': 'Apache HTTP Server versiones 2.4.0 a 2.4.46 Un Digest nonce especialmente diseñado puede causar un desbordamiento de pila en la función mod_auth_digest. No existe reportes de que este desbordamiento sea explotable, ni el equipo del Servidor HTTP Apache podría crear uno, aunque algún compilador y/o opción de compilación particular podría hacerlo posible, con consecuencias limitadas de todos modos debido al tamaño (un solo byte) y el valor (cero bytes) del desbordamiento'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'LOW', 'baseScore': 7.3, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.4}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 55eme CVE 
+CVE ID: CVE-2021-26690, Description: [{'lang': 'en', 'value': 'Apache HTTP Server versions 2.4.0 to 2.4.46 A specially crafted Cookie header handled by mod_session can cause a NULL pointer dereference and crash, leading to a possible Denial Of Service'}, {'lang': 'es', 'value': 'Apache HTTP Server versiones 2.4.0 a 2.4.46, un encabezado de Cookie especialmente diseñado y gestionado por la función mod_session puede causar una desviación del puntero NULL y un fallo, lo que puede causar una denegación de servicio'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'NONE', 'availabilityImpact': 'HIGH', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 56eme CVE 
+CVE ID: CVE-2021-26691, Description: [{'lang': 'en', 'value': 'In Apache HTTP Server versions 2.4.0 to 2.4.46 a specially crafted SessionHeader sent by an origin server could cause a heap overflow'}, {'lang': 'es', 'value': 'Apache HTTP Server versiones 2.4.0 a 2.4.46 , un parámetro SessionHeader especialmente diseñado enviado por un servidor de origen podría causar un desbordamiento de pila'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.8, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 57eme CVE 
+CVE ID: CVE-2021-32785, Description: [{'lang': 'en', 'value': 'mod_auth_openidc is an authentication/authorization module for the Apache 2.x HTTP server that functions as an OpenID Connect Relying Party, authenticating users against an OpenID Connect Provider. When mod_auth_openidc versions prior to 2.4.9 are configured to use an unencrypted Redis cache (`OIDCCacheEncrypt off`, `OIDCSessionType server-cache`, `OIDCCacheType redis`), `mod_auth_openidc` wrongly performed argument interpolation before passing Redis requests to `hiredis`, which would perform it again and lead to an uncontrolled format string bug. Initial assessment shows that this bug does not appear to allow gaining arbitrary code execution, but can reliably provoke a denial of service by repeatedly crashing the Apache workers. This bug has been corrected in version 2.4.9 by performing argument interpolation only once, using the `hiredis` API. As a workaround, this vulnerability can be mitigated by setting `OIDCCacheEncrypt` to `on`, as cache keys are cryptographically hashed before use when this option is enabled.'}, {'lang': 'es', 'value': 'mod_auth_openidc es un módulo de autenticación/autorización para el servidor HTTP Apache versión 2.x que funciona como OpenID Connect Relying Party, autenticando a usuarios contra un OpenID Connect Provider. Cuando mod_auth_openidc versiones anteriores a 2.4.9 están configuradas para usar una caché Redis no cifrada ("OIDCCacheEncrypt off", "OIDCSessionType server-cache", "OIDCCacheType redis"), "mod_auth_openidc" llevaba a cabo erróneamente la interpolación de argumentos antes de pasar las peticiones de Redis a "hiredis", que lo llevaría a cabo de nuevo y conlleva a un bug de cadena de formato no controlado. La evaluación inicial muestra que este bug no parece permitir ganar la ejecución de código arbitrario, pero puede provocar de forma fiable una denegación de servicio al bloquear repetidamente los trabajadores de Apache. Este bug se ha corregido en versión 2.4.9 al llevar a cabo la interpolación de argumentos sólo una vez, usando la API "hiredis". Como solución, esta vulnerabilidad puede ser mitigada ajustando "OIDCCacheEncrypt" a "on", ya que las claves de la caché son criptografiadas con hash antes de su uso cuando esta opción está activada'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'NONE', 'availabilityImpact': 'HIGH', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}, {'source': 'security-advisories@github.com', 'type': 'Secondary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'NONE', 'availabilityImpact': 'LOW', 'baseScore': 5.3, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 3.9, 'impactScore': 1.4}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 58eme CVE 
+CVE ID: CVE-2021-32786, Description: [{'lang': 'en', 'value': 'mod_auth_openidc is an authentication/authorization module for the Apache 2.x HTTP server that functions as an OpenID Connect Relying Party, authenticating users against an OpenID Connect Provider. In versions prior to 2.4.9, `oidc_validate_redirect_url()` does not parse URLs the same way as most browsers do. As a result, this function can be bypassed and leads to an Open Redirect vulnerability in the logout functionality. This bug has been fixed in version 2.4.9 by replacing any backslash of the URL to redirect with slashes to address a particular breaking change between the different specifications (RFC2396 / RFC3986 and WHATWG). As a workaround, this vulnerability can be mitigated by configuring `mod_auth_openidc` to only allow redirection whose destination matches a given regular expression.'}, {'lang': 'es', 'value': 'mod_auth_openidc es un módulo de autenticación/autorización para el servidor HTTP Apache versión 2.x que funciona como un OpenID Connect Relying Party, autenticando a usuarios contra un OpenID Connect Provider. En versiones anteriores a 2.4.9, "oidc_validate_redirect_url()" no analiza las URLs de la misma manera que la mayoría de los navegadores. Como resultado, esta función puede ser omitida y conlleva a una vulnerabilidad de Redirección Abierta en la funcionalidad logout. Este bug ha sido corregido en versión 2.4.9 al reemplazar cualquier barra invertida de la URL a redirigir por barras inclinadas para solucionar un cambio particular de ruptura entre las diferentes especificaciones (RFC2396 / RFC3986 y WHATWG). Como solución, esta vulnerabilidad puede ser mitigada configurando "mod_auth_openidc" para que sólo permita la redirección cuyo destino coincida con una expresión regular determinada'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.1, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 2.7}, {'source': 'security-advisories@github.com', 'type': 'Secondary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 4.7, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 1.4}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 59eme CVE 
+CVE ID: CVE-2021-32791, Description: [{'lang': 'en', 'value': 'mod_auth_openidc is an authentication/authorization module for the Apache 2.x HTTP server that functions as an OpenID Connect Relying Party, authenticating users against an OpenID Connect Provider. In mod_auth_openidc before version 2.4.9, the AES GCM encryption in mod_auth_openidc uses a static IV and AAD. It is important to fix because this creates a static nonce and since aes-gcm is a stream cipher, this can lead to known cryptographic issues, since the same key is being reused. From 2.4.9 onwards this has been patched to use dynamic values through usage of cjose AES encryption routines.'}, {'lang': 'es', 'value': 'mod_auth_openidc es un módulo de autenticación/autorización para el servidor HTTP Apache versión 2.x que funciona como OpenID Connect Relying Party, autenticando a usuarios contra un OpenID Connect Provider. En mod_auth_openidc versiones anteriores a 2.4.9, el cifrado AES GCM en mod_auth_openidc usa un IV estático y un AAD. Es importante corregirlo porque esto crea un nonce estático y como aes-gcm es un cifrado de flujo, esto puede conllevar a problemas criptográficos conocidos, ya que se está reutilizando la misma clave. A partir de la versión 2.4.9 esto ha sido parcheado para usar valores dinámicos mediante el uso de rutinas de cifrado AES cjose'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'HIGH', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'NONE', 'availabilityImpact': 'NONE', 'baseScore': 5.9, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.2, 'impactScore': 3.6}, {'source': 'security-advisories@github.com', 'type': 'Secondary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'HIGH', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'NONE', 'availabilityImpact': 'NONE', 'baseScore': 5.9, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.2, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 60eme CVE 
+CVE ID: CVE-2021-32792, Description: [{'lang': 'en', 'value': 'mod_auth_openidc is an authentication/authorization module for the Apache 2.x HTTP server that functions as an OpenID Connect Relying Party, authenticating users against an OpenID Connect Provider. In mod_auth_openidc before version 2.4.9, there is an XSS vulnerability in when using `OIDCPreservePost On`.'}, {'lang': 'es', 'value': 'mod_auth_openidc es un módulo de autenticación/autorización para el servidor HTTP Apache versión 2.x que funciona como OpenID Connect Relying Party, autenticando a usuarios contra un proveedor de OpenID Connect. En mod_auth_openidc versiones anteriores a 2.4.9, se presenta una vulnerabilidad de tipo XSS cuando se usa el parámetro "OIDCPreservePost On"'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'CHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 6.1, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.8, 'impactScore': 2.7}, {'source': 'security-advisories@github.com', 'type': 'Secondary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'HIGH', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'UNCHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'NONE', 'availabilityImpact': 'NONE', 'baseScore': 3.1, 'baseSeverity': 'LOW'}, 'exploitabilityScore': 1.6, 'impactScore': 1.4}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 61eme CVE 
+CVE ID: CVE-2021-34798, Description: [{'lang': 'en', 'value': 'Malformed requests may cause the server to dereference a NULL pointer. This issue affects Apache HTTP Server 2.4.48 and earlier.'}, {'lang': 'es', 'value': 'Unas peticiones malformadas pueden causar que el servidor haga desreferencia a un puntero NULL. Este problema afecta a Apache HTTP Server versiones 2.4.48 y anteriores'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'NONE', 'availabilityImpact': 'HIGH', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 62eme CVE 
+CVE ID: CVE-2021-39275, Description: [{'lang': 'en', 'value': 'ap_escape_quotes() may write beyond the end of a buffer when given malicious input. No included modules pass untrusted data to these functions, but third-party / external modules may. This issue affects Apache HTTP Server 2.4.48 and earlier.'}, {'lang': 'es', 'value': 'la función ap_escape_quotes() puede escribir más allá del final de un buffer cuando se le da una entrada maliciosa. Ningún módulo incluido pasa datos no confiables a estas funciones, pero los módulos externos o de terceros pueden hacerlo. Este problema afecta a Apache HTTP Server versiones 2.4.48 y anteriores'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.8, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 63eme CVE 
+CVE ID: CVE-2021-40438, Description: [{'lang': 'en', 'value': 'A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier.'}, {'lang': 'es', 'value': 'Un uri-path diseñado puede causar que mod_proxy reenvíe la petición a un servidor de origen elegido por el usuario remoto. Este problema afecta a Apache HTTP Server versiones 2.4.48 y anteriores'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'HIGH', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'CHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.0, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 2.2, 'impactScore': 6.0}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 64eme CVE 
+CVE ID: CVE-2021-44790, Description: [{'lang': 'en', 'value': 'A carefully crafted request body can cause a buffer overflow in the mod_lua multipart parser (r:parsebody() called from Lua scripts). The Apache httpd team is not aware of an exploit for the vulnerabilty though it might be possible to craft one. This issue affects Apache HTTP Server 2.4.51 and earlier.'}, {'lang': 'es', 'value': 'Un cuerpo de petición cuidadosamente diseñado puede causar un desbordamiento de búfer en el analizador multiparte mod_lua (r:parsebody() llamado desde scripts Lua). El equipo de Apache httpd no presenta constancia de que se presente una explotación para esta vulnerabilidad, aunque podría ser posible diseñar uno. Este problema afecta a Apache HTTP Server versiones 2.4.51 y anteriores'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.8, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+Apache 2.4.x - Buffer Overflow     | https://www.exploit-db.com/exploits/51193
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 65eme CVE 
+CVE ID: CVE-2022-22719, Description: [{'lang': 'en', 'value': 'A carefully crafted request body can cause a read to a random memory area which could cause the process to crash. This issue affects Apache HTTP Server 2.4.52 and earlier.'}, {'lang': 'es', 'value': 'Un cuerpo de petición cuidadosamente diseñado puede causar una lectura en una zona de memoria aleatoria que podría causar al proceso un bloqueo. Este problema afecta al servidor HTTP Apache versiones 2.4.52 y anteriores'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'NONE', 'availabilityImpact': 'HIGH', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 66eme CVE 
+CVE ID: CVE-2022-22720, Description: [{'lang': 'en', 'value': 'Apache HTTP Server 2.4.52 and earlier fails to close inbound connection when errors are encountered discarding the request body, exposing the server to HTTP Request Smuggling'}, {'lang': 'es', 'value': 'Apache HTTP Server versiones 2.4.52 y anteriores, no cierran la conexión entrante cuando son encontrados errores descartando el cuerpo de la petición, exponiendo al servidor al contrabando de peticiones HTTP'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.8, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 67eme CVE 
+CVE ID: CVE-2022-22721, Description: [{'lang': 'en', 'value': 'If LimitXMLRequestBody is set to allow request bodies larger than 350MB (defaults to 1M) on 32 bit systems an integer overflow happens which later causes out of bounds writes. This issue affects Apache HTTP Server 2.4.52 and earlier.'}, {'lang': 'es', 'value': 'Si LimitXMLRequestBody está configurado para permitir cuerpos de petición de más de 350 MB (por defecto 1M) en sistemas de 32 bits, es producido un desbordamiento de enteros que causa posteriormente escrituras fuera de límites. Este problema afecta a Apache HTTP Server 2.4.52 y anteriores'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.1, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.2}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 68eme CVE 
+CVE ID: CVE-2022-23943, Description: [{'lang': 'en', 'value': 'Out-of-bounds Write vulnerability in mod_sed of Apache HTTP Server allows an attacker to overwrite heap memory with possibly attacker provided data. This issue affects Apache HTTP Server 2.4 version 2.4.52 and prior versions.'}, {'lang': 'es', 'value': 'Una vulnerabilidad de escritura fuera de límites en mod_sed de Apache HTTP Server permite a un atacante sobrescribir la memoria de la pila con datos posiblemente proporcionados por el atacante. Este problema afecta a Apache HTTP Server 2.4 versiones 2.4.52 y anteriores'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.8, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 69eme CVE 
+CVE ID: CVE-2022-26377, Description: [{'lang': 'en', 'value': "Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling') vulnerability in mod_proxy_ajp of Apache HTTP Server allows an attacker to smuggle requests to the AJP server it forwards requests to. This issue affects Apache HTTP Server Apache HTTP Server 2.4 version 2.4.53 and prior versions."}, {'lang': 'es', 'value': 'Una vulnerabilidad de Interpretación Incoherente de las Peticiones HTTP ("Contrabando de Peticiones HTTP") en la función mod_proxy_ajp de Apache HTTP Server permite a un atacante contrabandear peticiones al servidor AJP al que reenvía las peticiones. Este problema afecta a Apache HTTP Server, versión 2.4.53 y anteriores'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'HIGH', 'availabilityImpact': 'NONE', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 70eme CVE 
+CVE ID: CVE-2022-28330, Description: [{'lang': 'en', 'value': 'Apache HTTP Server 2.4.53 and earlier on Windows may read beyond bounds when configured to process requests with the mod_isapi module.'}, {'lang': 'es', 'value': 'Apache HTTP Server versiones 2.4.53 y anteriores en Windows, puede leer más allá de los límites cuando es configurado para procesar peticiones con el módulo mod_isapi'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'NONE', 'availabilityImpact': 'NONE', 'baseScore': 5.3, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 3.9, 'impactScore': 1.4}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 71eme CVE 
+CVE ID: CVE-2022-28614, Description: [{'lang': 'en', 'value': "The ap_rwrite() function in Apache HTTP Server 2.4.53 and earlier may read unintended memory if an attacker can cause the server to reflect very large input using ap_rwrite() or ap_rputs(), such as with mod_luas r:puts() function. Modules compiled and distributed separately from Apache HTTP Server that use the 'ap_rputs' function and may pass it a very large (INT_MAX or larger) string must be compiled against current headers to resolve the issue."}, {'lang': 'es', 'value': "La función ap_rwrite() en el Servidor HTTP Apache 2.4.53 y anteriores puede leer memoria no intencionada si un atacante puede hacer que el servidor refleje una entrada muy grande usando ap_rwrite() o ap_rputs(), como con la función mod_luas r:puts(). Los módulos compilados y distribuidos por separado del Servidor HTTP Apache que usan la función 'ap_rputs' y pueden pasarle una cadena muy grande (INT_MAX o mayor) deben ser compilados contra las cabeceras actuales para resolver el problema"}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'NONE', 'availabilityImpact': 'NONE', 'baseScore': 5.3, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 3.9, 'impactScore': 1.4}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 72eme CVE 
+CVE ID: CVE-2022-28615, Description: [{'lang': 'en', 'value': 'Apache HTTP Server 2.4.53 and earlier may crash or disclose information due to a read beyond bounds in ap_strcmp_match() when provided with an extremely large input buffer. While no code distributed with the server can be coerced into such a call, third-party modules or lua scripts that use ap_strcmp_match() may hypothetically be affected.'}, {'lang': 'es', 'value': 'Apache HTTP Server versiones 2.4.53 y anteriores, puede fallar o revelar información debido a una lectura más allá de los límites en la función ap_strcmp_match() cuando le es proporcionado un búfer de entrada extremadamente grande. Mientras que ningún código distribuido con el servidor puede ser coaccionado en tal llamada, los módulos de terceros o los scripts lua que usan ap_strcmp_match() pueden hipotéticamente ser afectados'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'NONE', 'availabilityImpact': 'HIGH', 'baseScore': 9.1, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.2}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 73eme CVE 
+CVE ID: CVE-2022-29404, Description: [{'lang': 'en', 'value': 'In Apache HTTP Server 2.4.53 and earlier, a malicious request to a lua script that calls r:parsebody(0) may cause a denial of service due to no default limit on possible input size.'}, {'lang': 'es', 'value': 'En Apache HTTP Server 2.4.53 y anteriores, una petición maliciosa a un script lua que llame a r:parsebody(0) puede causar una denegación de servicio debido a que no presenta un límite por defecto en el tamaño posible de la entrada'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'NONE', 'availabilityImpact': 'HIGH', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 74eme CVE 
+CVE ID: CVE-2022-30556, Description: [{'lang': 'en', 'value': 'Apache HTTP Server 2.4.53 and earlier may return lengths to applications calling r:wsread() that point past the end of the storage allocated for the buffer.'}, {'lang': 'es', 'value': 'Apache HTTP Server versiones 2.4.53 y anteriores, pueden devolver longitudes a las aplicaciones que llaman a r:wsread() que apuntan más allá del final del almacenamiento asignado para el buffer'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'NONE', 'availabilityImpact': 'NONE', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 75eme CVE 
+CVE ID: CVE-2022-31813, Description: [{'lang': 'en', 'value': 'Apache HTTP Server 2.4.53 and earlier may not send the X-Forwarded-* headers to the origin server based on client side Connection header hop-by-hop mechanism. This may be used to bypass IP based authentication on the origin server/application.'}, {'lang': 'es', 'value': 'Apache HTTP Server versiones 2.4.53 y anteriores, no envían los encabezados X-Forwarded-* al servidor de origen basándose en el mecanismo hop-by-hop del encabezado de conexión del lado del cliente. Esto puede usarse para evitar la autenticación basada en la IP en el servidor de origen/aplicación'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.8, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 76eme CVE 
+CVE ID: CVE-2006-20001, Description: [{'lang': 'en', 'value': 'A carefully crafted If: request header can cause a memory read, or write of a single zero byte, in a pool (heap) memory location beyond the header value sent. This could cause the process to crash.\n\nThis issue affects Apache HTTP Server 2.4.54 and earlier.\n'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'NONE', 'availabilityImpact': 'HIGH', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 77eme CVE 
+CVE ID: CVE-2022-36760, Description: [{'lang': 'en', 'value': "Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling') vulnerability in mod_proxy_ajp of Apache HTTP Server allows an attacker to smuggle requests to the AJP server it forwards requests to.  This issue affects Apache HTTP Server Apache HTTP Server 2.4 version 2.4.54 and prior versions."}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'HIGH', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'CHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.0, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 2.2, 'impactScore': 6.0}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 78eme CVE 
+CVE ID: CVE-2022-37436, Description: [{'lang': 'en', 'value': 'Prior to Apache HTTP Server 2.4.55, a malicious backend can cause the response headers to be truncated early, resulting in some headers being incorporated into the response body. If the later headers have any security purpose, they will not be interpreted by the client.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'LOW', 'availabilityImpact': 'NONE', 'baseScore': 5.3, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 3.9, 'impactScore': 1.4}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 79eme CVE 
+CVE ID: CVE-2023-25690, Description: [{'lang': 'en', 'value': 'Some mod_proxy configurations on Apache HTTP Server versions 2.4.0 through 2.4.55 allow a HTTP Request Smuggling attack.\n\n\n\n\nConfigurations are affected when mod_proxy is enabled along with some form of RewriteRule\n or ProxyPassMatch in which a non-specific pattern matches\n some portion of the user-supplied request-target (URL) data and is then\n re-inserted into the proxied request-target using variable \nsubstitution. For example, something like:\n\n\n\n\nRewriteEngine on\nRewriteRule "^/here/(.*)" "http://example.com:8080/elsewhere?$1"; [P]\nProxyPassReverse /here/ http://example.com:8080/\n\n\nRequest splitting/smuggling could result in bypass of access controls in the proxy server, proxying unintended URLs to existing origin servers, and cache poisoning. Users are recommended to update to at least version 2.4.56 of Apache HTTP Server.\n\n\n'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.8, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 80eme CVE 
+CVE ID: CVE-2023-31122, Description: [{'lang': 'en', 'value': 'Out-of-bounds Read vulnerability in mod_macro of Apache HTTP Server.This issue affects Apache HTTP Server: through 2.4.57.\n\n'}, {'lang': 'es', 'value': 'Vulnerabilidad de lectura fuera de límites en mod_macro del servidor Apache HTTP. Este problema afecta al servidor Apache HTTP: hasta 2.4.57.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'NONE', 'availabilityImpact': 'HIGH', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 81eme CVE 
+CVE ID: CVE-2023-45802, Description: [{'lang': 'en', 'value': 'When a HTTP/2 stream was reset (RST frame) by a client, there was a time window were the request\'s memory resources were not reclaimed immediately. Instead, de-allocation was deferred to connection close. A client could send new requests and resets, keeping the connection busy and open and causing the memory footprint to keep on growing. On connection close, all resources were reclaimed, but the process might run out of memory before that.\n\nThis was found by the reporter during testing of\xa0CVE-2023-44487 (HTTP/2 Rapid Reset Exploit) with their own test client. During "normal" HTTP/2 use, the probability to hit this bug is very low. The kept memory would not become noticeable before the connection closes or times out.\n\nUsers are recommended to upgrade to version 2.4.58, which fixes the issue.\n'}, {'lang': 'es', 'value': 'Cuando un cliente restablecía una secuencia HTTP/2 (trama RST), había una ventana de tiempo en la que los recursos de memoria de la solicitud no se recuperaban inmediatamente. En cambio, la desasignación se aplazó hasta el cierre de la conexión. Un cliente podría enviar nuevas solicitudes y reinicios, manteniendo la conexión ocupada y abierta y provocando que la huella de memoria siga creciendo. Al cerrar la conexión, se recuperaron todos los recursos, pero el proceso podría quedarse sin memoria antes de eso. El periodista descubrió esto durante la prueba de CVE-2023-44487 (HTTP/2 Rapid Reset Exploit) con su propio cliente de prueba. Durante el uso "normal" de HTTP/2, la probabilidad de encontrar este error es muy baja. La memoria guardada no se notará antes de que la conexión se cierre o se agote el tiempo de espera. Se recomienda a los usuarios actualizar a la versión 2.4.58, que soluciona el problema.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'HIGH', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'NONE', 'availabilityImpact': 'HIGH', 'baseScore': 5.9, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.2, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+

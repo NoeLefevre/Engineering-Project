@@ -1,0 +1,1176 @@
+Voici scan des CVEs pour le service PHP avec le numéro de version : 5.4.16
+ 
+Voici la 1eme CVE 
+CVE ID: CVE-2007-3205, Description: [{'lang': 'en', 'value': 'The parse_str function in (1) PHP, (2) Hardened-PHP, and (3) Suhosin, when called without a second parameter, might allow remote attackers to overwrite arbitrary variables by specifying variable names and values in the string to be parsed.  NOTE: it is not clear whether this is a design limitation of the function or a bug in PHP, although it is likely to be regarded as a bug in Hardened-PHP and Suhosin.'}, {'lang': 'es', 'value': 'La función parse_str en (1) PHP, (2) Hardened-PHP y (3) Suhosin, cuando se llama sin un segundo parámetro, podría permitir a los atacantes remotos sobrescribir variables arbitrarias mediante la especificación de nombres de variables y valores en la cadena que será analizada. NOTA: no está claro si se trata de una limitación creada en la función o un error en PHP, aunque es probable que sea considerada como un error en Hardened-PHP y Suhosin.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 2eme CVE 
+CVE ID: CVE-2013-4113, Description: [{'lang': 'en', 'value': 'ext/xml/xml.c in PHP before 5.3.27 does not properly consider parsing depth, which allows remote attackers to cause a denial of service (heap memory corruption) or possibly have unspecified other impact via a crafted document that is processed by the xml_parse_into_struct function.'}, {'lang': 'es', 'value': 'ext/xml/xml.c en PHP anteriores a v5.3.27 no consideran adecuado un análisis sintáctico profundo, lo que permite a atacantes remotos provocar una denegación de servicio (corrupción de memoria dinámica)o posiblemente tener otro impacto no especificado a través de documentos manipulados que sea procesado por la función xml_parse_into_struct.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 3eme CVE 
+CVE ID: CVE-2013-2220, Description: [{'lang': 'en', 'value': 'Buffer overflow in the radius_get_vendor_attr function in the Radius extension before 1.2.7 for PHP allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a large Vendor Specific Attributes (VSA) length value.'}, {'lang': 'es', 'value': 'Desbordamiento de búfer en la función radius_get_vendor_attr en la extensión Radius anterior a 1.2.7 para PHP, permite a atacantes remotos provocar una denegación de servicio (caída) y posiblemente la ejecución de código arbitraria a través de un valor alto en Vendor Specific Attributes (VSA).'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 4eme CVE 
+CVE ID: CVE-2011-4718, Description: [{'lang': 'en', 'value': 'Session fixation vulnerability in the Sessions subsystem in PHP before 5.5.2 allows remote attackers to hijack web sessions by specifying a session ID.'}, {'lang': 'es', 'value': 'Vulnerabilidad de fijación de sesión en el subsistema Sessions en PHP anterior a v5.5.2 permite a atacantes remotos secuestrar sesiones web especificando un ID de sesión.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 5eme CVE 
+CVE ID: CVE-2013-4248, Description: [{'lang': 'en', 'value': "The openssl_x509_parse function in openssl.c in the OpenSSL module in PHP before 5.4.18 and 5.5.x before 5.5.2 does not properly handle a '\\0' character in a domain name in the Subject Alternative Name field of an X.509 certificate, which allows man-in-the-middle attackers to spoof arbitrary SSL servers via a crafted certificate issued by a legitimate Certification Authority, a related issue to CVE-2009-2408."}, {'lang': 'es', 'value': 'La función openssl_x509_parse en openssl.c en el módulo OpenSSL en PHP anterior a v5.4.18 y v5.5.x anterior v5.5.2 no manejar adecuadamente un carácter “\\0” en un nombre de dominio en el campo Subject Alternative Name de un certificado X.509, lo que permite a atacantes "man-in-the-middle" suplantar servidores SSL de su elección mediante un certificado manipulado expedido por una Autoridad Certificadora legítima, un problema relacionado con CVE-2009-2408.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 6eme CVE 
+CVE ID: CVE-2013-6712, Description: [{'lang': 'en', 'value': 'The scan function in ext/date/lib/parse_iso_intervals.c in PHP through 5.5.6 does not properly restrict creation of DateInterval objects, which might allow remote attackers to cause a denial of service (heap-based buffer over-read) via a crafted interval specification.'}, {'lang': 'es', 'value': 'La función de análisis en ext/date/lib/parse_iso_intervals.c de PHP hasta la versión 5.5.6 no restringe adecuadamente la creación de objetos DateInterval, lo que podría permitir a atacantes remotos provocar una denegación de servicio (desbordamiento de búfer basado en memoria dinámica) a través de una especificación de intervalo manipulada.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 7eme CVE 
+CVE ID: CVE-2013-6420, Description: [{'lang': 'en', 'value': 'The asn1_time_to_time_t function in ext/openssl/openssl.c in PHP before 5.3.28, 5.4.x before 5.4.23, and 5.5.x before 5.5.7 does not properly parse (1) notBefore and (2) notAfter timestamps in X.509 certificates, which allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted certificate that is not properly handled by the openssl_x509_parse function.'}, {'lang': 'es', 'value': 'La función asn1_time_to_time_t en ext / openssl / openssl.c en PHP anterior a 5.3.28, 5.4.x aterior a 5.4.23 y 5.5.x anterior de 5.5.7 no trata correctamente las marcas de tiempo (timestamps)  (1) notBefore y (2) notAfter  en certificados X 0.509 , lo que permite a atacantes remotos ejecutar código arbitrario o causar una denegación de servicio (corrupción de memoria) a través de un certificado manipulado que no está tratado adecuadamente  por  la función openssl_x509_parse.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+PHP - 'openssl_x509_parse()' Memor | https://www.exploit-db.com/exploits/30395
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 8eme CVE 
+CVE ID: CVE-2013-7327, Description: [{'lang': 'en', 'value': 'The gdImageCrop function in ext/gd/gd.c in PHP 5.5.x before 5.5.9 does not check return values, which allows remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact via invalid imagecrop arguments that lead to use of a NULL pointer as a return value, a different vulnerability than CVE-2013-7226.'}, {'lang': 'es', 'value': 'La función gdImageCrop en ext/gd/gd.c en PHP 5.5.x anterior a 5.5.9 no comprueba los valores de retorno, lo que permite a atacantes remotos causar una denegación de servicio (caída de aplicación) o posiblemente tener otro impacto no especificado a través de argumentos imagecrop no válidos que conducen al uso de un puntero nulo como valor de retorno, una vulnerabilidad diferente a CVE-2013-7226.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 9eme CVE 
+CVE ID: CVE-2014-2020, Description: [{'lang': 'en', 'value': 'ext/gd/gd.c in PHP 5.5.x before 5.5.9 does not check data types, which might allow remote attackers to obtain sensitive information by using a (1) string or (2) array data type in place of a numeric data type, as demonstrated by an imagecrop function call with a string for the x dimension value, a different vulnerability than CVE-2013-7226.'}, {'lang': 'es', 'value': 'ext/gd/gd.c en PHP 5.5.x anterior a 5.5.9 no comprueba tipos de datos, lo que podría permitir a atacantes remotos obtener información sensible mediante el uso de (1) una cadena o (2) un tipo de dato array en lugar de un tipo de dato numérico, tal y como se demostró mediante la llamada de la función imagecrop con una cadena para el valor de dimensión x, una vulnerabilidad diferente a CVE-2013-7226.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 10eme CVE 
+CVE ID: CVE-2014-1943, Description: [{'lang': 'en', 'value': 'Fine Free file before 5.17 allows context-dependent attackers to cause a denial of service (infinite recursion, CPU consumption, and crash) via a crafted indirect offset value in the magic of a file.'}, {'lang': 'es', 'value': 'Fine Free File anterior a 5.17 permite a atacantes dependientes de contexto causar una denegación de servicio (recursión infinita, consumo de CPU y caída) a través de un valor manipulado de desplazamiento indirecto en el "magic" de un archivo.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 11eme CVE 
+CVE ID: CVE-2014-2270, Description: [{'lang': 'en', 'value': 'softmagic.c in file before 5.17 and libmagic allows context-dependent attackers to cause a denial of service (out-of-bounds memory access and crash) via crafted offsets in the softmagic of a PE executable.'}, {'lang': 'es', 'value': 'softmagic.c en archivo anterior a 5.17 y libmagic permite a atacantes dependientes de contexto causar una denegación de servicio (acceso a memoria fuera de rango y caída) a través de desplazamientos (“offsets”) manipulados en el softmagic de un ejecutable PE.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 12eme CVE 
+CVE ID: CVE-2014-2497, Description: [{'lang': 'en', 'value': 'The gdImageCreateFromXpm function in gdxpm.c in libgd, as used in PHP 5.4.26 and earlier, allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted color table in an XPM file.'}, {'lang': 'es', 'value': 'La función gdImageCreateFromXpm en gdxpm.c en libgd, utilizado en PHP 5.4.26 y anteriores, permite a atacantes remotos causar una denegación de servicio (referencia a puntero cero y caída de aplicación) a través de una tabla de color manipulada en un archivo XPM.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 13eme CVE 
+CVE ID: CVE-2013-7345, Description: [{'lang': 'en', 'value': 'The BEGIN regular expression in the awk script detector in magic/Magdir/commands in file before 5.15 uses multiple wildcards with unlimited repetitions, which allows context-dependent attackers to cause a denial of service (CPU consumption) via a crafted ASCII file that triggers a large amount of backtracking, as demonstrated via a file with many newline characters.'}, {'lang': 'es', 'value': 'La expresión regular BEGIN en el detector de script de awk en el archivo magic/Magdir/commands anterior a 5.15 utiliza múltiples comodines con repeticiones ilimitadas, lo que permite a atacantes dependientes de contexto causar una denegación de servicio (consumo de CPU) a través de un archivo ASCII manipulado que provoca una gran cantidad de retroceso, como se demostró a través de un archivo con muchos caracteres de nueva línea.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 14eme CVE 
+CVE ID: CVE-2014-0185, Description: [{'lang': 'en', 'value': 'sapi/fpm/fpm/fpm_unix.c in the FastCGI Process Manager (FPM) in PHP before 5.4.28 and 5.5.x before 5.5.12 uses 0666 permissions for the UNIX socket, which allows local users to gain privileges via a crafted FastCGI client.'}, {'lang': 'es', 'value': 'sapi/fpm/fpm/fpm_unix.c en FastCGI Process Manager (FPM) en PHP anterior a 5.4.28 y 5.5.x anterior a 5.5.12 utiliza permisos 0666 para el socket UNIX, lo que permite a usuarios locales ganar privilegios a través de un cliente FastCGI manipulado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 15eme CVE 
+CVE ID: CVE-2014-0237, Description: [{'lang': 'en', 'value': 'The cdf_unpack_summary_info function in cdf.c in the Fileinfo component in PHP before 5.4.29 and 5.5.x before 5.5.13 allows remote attackers to cause a denial of service (performance degradation) by triggering many file_printf calls.'}, {'lang': 'es', 'value': 'La función cdf_unpack_summary_info en cdf.c en el componente Fileinfo en PHP anterior a 5.4.29 y 5.5.x anterior a 5.5.13 permite a atacantes remotos causar una denegación de servicio (degradación de rendimiento) mediante la provocación de muchas llamadas file_printf.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 16eme CVE 
+CVE ID: CVE-2014-0238, Description: [{'lang': 'en', 'value': 'The cdf_read_property_info function in cdf.c in the Fileinfo component in PHP before 5.4.29 and 5.5.x before 5.5.13 allows remote attackers to cause a denial of service (infinite loop or out-of-bounds memory access) via a vector that (1) has zero length or (2) is too long.'}, {'lang': 'es', 'value': 'La función cdf_read_property_info en cdf.c en el componente Fileinfo en PHP anterior a 5.4.29 y 5.5.x anterior a 5.5.13 permite a atacantes remotos causar una denegación de servicio (bucle infinito o acceso a memoria fuera de rango) a través de un vector que (1) tiene longitud cero o (2) es demasiado largo.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 17eme CVE 
+CVE ID: CVE-2014-3981, Description: [{'lang': 'en', 'value': 'acinclude.m4, as used in the configure script in PHP 5.5.13 and earlier, allows local users to overwrite arbitrary files via a symlink attack on the /tmp/phpglibccheck file.'}, {'lang': 'es', 'value': 'acinclude.m4, utilizado en la secuencia de comandos de configuración en PHP 5.5.13 y anteriores, permite a usuarios locales sobrescribir archivos arbitrarios a través de un ataque de enlace simbólico sobre el archivo /tmp/phpglibccheck.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 18eme CVE 
+CVE ID: CVE-2014-4049, Description: [{'lang': 'en', 'value': 'Heap-based buffer overflow in the php_parserr function in ext/standard/dns.c in PHP 5.6.0beta4 and earlier allows remote servers to cause a denial of service (crash) and possibly execute arbitrary code via a crafted DNS TXT record, related to the dns_get_record function.'}, {'lang': 'es', 'value': 'Desbordamiento de buffer basado en memoria dinámica en la función php_parserr en ext/standard/dns.c en PHP 5.6.0beta4 y anteriores permite a servidores remotos causar una denegación de servicio (caída) y posiblemente ejecutar código arbitrario a través de un registro DNS TXT manipulado, relacionado con la función dns_get_record.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 19eme CVE 
+CVE ID: CVE-2014-3538, Description: [{'lang': 'en', 'value': 'file before 5.19 does not properly restrict the amount of data read during a regex search, which allows remote attackers to cause a denial of service (CPU consumption) via a crafted file that triggers backtracking during processing of an awk rule.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2013-7345.'}, {'lang': 'es', 'value': 'file anterior a 5.19 no restringe debidamente la cantidad de datos leídos durante una búsqueda regex, lo que permite a atacantes remotos causar una denegación de servicio (consumo de CPU) a través de un fichero manipulado que provoca un retroceso durante el procesamiento de una norma awk. NOTA: esta vulnerabilidad existe debido a una soluciona incompleta para CVE-2013-7345.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 20eme CVE 
+CVE ID: CVE-2014-4721, Description: [{'lang': 'en', 'value': 'The phpinfo implementation in ext/standard/info.c in PHP before 5.4.30 and 5.5.x before 5.5.14 does not ensure use of the string data type for the PHP_AUTH_PW, PHP_AUTH_TYPE, PHP_AUTH_USER, and PHP_SELF variables, which might allow context-dependent attackers to obtain sensitive information from process memory by using the integer data type with crafted values, related to a "type confusion" vulnerability, as demonstrated by reading a private SSL key in an Apache HTTP Server web-hosting environment with mod_ssl and a PHP 5.3.x mod_php.'}, {'lang': 'es', 'value': "La implementación phpinfo en ext/standard/info.c en PHP anterior a 5.4.30 y 5.5.x anterior a 5.5.14 no asegura el uso del tipo de datos de cadenas para las variables PHP_AUTH_PW, PHP_AUTH_TYPE, PHP_AUTH_USER y PHP_SELF, lo que podría permitir a atacantes dependientes de contexto obtener información sensible de la memoria de proceso mediante el uso de el tipo de datos de enteros con valores manipulados, relacionado con una vulnerabilidad de 'confusión de tipo', tal y como fue demostrado mediante la lectura de una clave SSL privada en un entorno de alojamiento web de Apache HTTP Server con mod_ssl y un 5.3.x mod_php de PHP."}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 21eme CVE 
+CVE ID: CVE-2014-0207, Description: [{'lang': 'en', 'value': 'The cdf_read_short_sector function in cdf.c in file before 5.19, as used in the Fileinfo component in PHP before 5.4.30 and 5.5.x before 5.5.14, allows remote attackers to cause a denial of service (assertion failure and application exit) via a crafted CDF file.'}, {'lang': 'es', 'value': 'La función cdf_read_short_sector en cdf.c en file anterior a 5.19, utilizado en el componente Fileinfo en PHP anterior a 5.4.30 y 5.5.x anterior a 5.5.14, permite a atacantes remotos causar una denegación de servicio (fallo de aserción y cierre de aplicación) a través de un fichero CDF manipulado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 22eme CVE 
+CVE ID: CVE-2014-3478, Description: [{'lang': 'en', 'value': 'Buffer overflow in the mconvert function in softmagic.c in file before 5.19, as used in the Fileinfo component in PHP before 5.4.30 and 5.5.x before 5.5.14, allows remote attackers to cause a denial of service (application crash) via a crafted Pascal string in a FILE_PSTRING conversion.'}, {'lang': 'es', 'value': 'Desbordamiento de buffer en la función mconvert en softmagic.c en file anterior a 5.19, utilizado en el componente Fileinfo en PHP anterior a 5.4.30 y 5.5.x anterior a 5.5.14, permite a atacantes remotos causar una denegación de servicio (caída de aplicación) a través de una cadena Pascal manipulada en una conversión FILE_PSTRING.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 23eme CVE 
+CVE ID: CVE-2014-3479, Description: [{'lang': 'en', 'value': 'The cdf_check_stream_offset function in cdf.c in file before 5.19, as used in the Fileinfo component in PHP before 5.4.30 and 5.5.x before 5.5.14, relies on incorrect sector-size data, which allows remote attackers to cause a denial of service (application crash) via a crafted stream offset in a CDF file.'}, {'lang': 'es', 'value': 'La función cdf_check_stream_offset en cdf.c en file anterior a 5.19, utilizado en el componente Fileinfo en PHP anterior a 5.4.30 y 5.5.x anterior a 5.5.14, depende de datos de tamaño de sectores incorrectos, lo que permite a atacantes remotos causar una denegación de servicio (caída de aplicación) a través de un desplazamiento de flujo manipulado en un fichero CDF.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 24eme CVE 
+CVE ID: CVE-2014-3480, Description: [{'lang': 'en', 'value': 'The cdf_count_chain function in cdf.c in file before 5.19, as used in the Fileinfo component in PHP before 5.4.30 and 5.5.x before 5.5.14, does not properly validate sector-count data, which allows remote attackers to cause a denial of service (application crash) via a crafted CDF file.'}, {'lang': 'es', 'value': 'La función cdf_count_chain function en cdf.c en file anterior a 5.19, utilizado en el componente Fileinfo en PHP anterior a 5.4.30 y 5.5.x anterior a 5.5.14, no valida debidamente datos de la cuenta de sectores, lo que permite a atacantes remotos causar una denegación de servicio (caída de aplicación) a través de un fichero CDF manipulado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 25eme CVE 
+CVE ID: CVE-2014-3487, Description: [{'lang': 'en', 'value': 'The cdf_read_property_info function in file before 5.19, as used in the Fileinfo component in PHP before 5.4.30 and 5.5.x before 5.5.14, does not properly validate a stream offset, which allows remote attackers to cause a denial of service (application crash) via a crafted CDF file.'}, {'lang': 'es', 'value': 'La función cdf_read_property_info en file anterior a 5.19, utilizado en el componente Fileinfo en PHP anterior a 5.4.30 y 5.5.x anterior a 5.5.14, no valida debidamente un desplazamiento de flujo, lo que permite a atacantes remotos causar una denegación de servicio (caída de aplicación) a través de un fichero CDF manipulado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 26eme CVE 
+CVE ID: CVE-2014-3515, Description: [{'lang': 'en', 'value': 'The SPL component in PHP before 5.4.30 and 5.5.x before 5.5.14 incorrectly anticipates that certain data structures will have the array data type after unserialization, which allows remote attackers to execute arbitrary code via a crafted string that triggers use of a Hashtable destructor, related to "type confusion" issues in (1) ArrayObject and (2) SPLObjectStorage.'}, {'lang': 'es', 'value': "El componente SPL en PHP anterior a 5.4.30 y 5.5.x anterior a 5.5.14 anticipa incorrectamente que ciertas estructuras de datos tendrán el tipo de datos array después de deserialización, lo que permite a atacantes remotos ejecutar código arbitrario a través de una cadena manipulada que provoca el uso de un destructor Hashtable, relacionado con problemas de 'confusión de tipos' en (1) ArrayObject y (2) SPLObjectStorage."}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 27eme CVE 
+CVE ID: CVE-2014-4670, Description: [{'lang': 'en', 'value': 'Use-after-free vulnerability in ext/spl/spl_dllist.c in the SPL component in PHP through 5.5.14 allows context-dependent attackers to cause a denial of service or possibly have unspecified other impact via crafted iterator usage within applications in certain web-hosting environments.'}, {'lang': 'es', 'value': 'Vulnerabilidad de uso después de liberación en ext/spl/spl_dllist.c en el componente SPL en PHP hasta 5.5.14 permite a atacantes dependientes de contexto causar una denegación de servicio o posiblemente tener otro impacto no especificado a través del uso manipulado de un iterador dentro de aplicaciones en ciertos entornos de alojamiento de web.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 28eme CVE 
+CVE ID: CVE-2014-4698, Description: [{'lang': 'en', 'value': 'Use-after-free vulnerability in ext/spl/spl_array.c in the SPL component in PHP through 5.5.14 allows context-dependent attackers to cause a denial of service or possibly have unspecified other impact via crafted ArrayIterator usage within applications in certain web-hosting environments.'}, {'lang': 'es', 'value': 'Vulnerabilidad de uso después de liberación en ext/spl/spl_array.c en el componente SPL en PHP hasta 5.5.14 permite a atacantes dependientes de contexto causar una denegación de servicio o posiblemente tener otro impacto no especificado a través de el uso manipulado de ArrayIterator dentro de aplicaciones en ciertos entornos de alojamiento de web.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 29eme CVE 
+CVE ID: CVE-2014-3587, Description: [{'lang': 'en', 'value': 'Integer overflow in the cdf_read_property_info function in cdf.c in file through 5.19, as used in the Fileinfo component in PHP before 5.4.32 and 5.5.x before 5.5.16, allows remote attackers to cause a denial of service (application crash) via a crafted CDF file.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2012-1571.'}, {'lang': 'es', 'value': 'Desbordamiento de enteros en la función cdf_read_property_info en cdf.c en ficheros hasta 5.19, utilizado en el componente Fileinfo en PHP anterior a 5.4.32 y 5.5.x anterior a 5.5.16, permite a atacantes remotos causar una denegación de servicios (la caída de la aplicación) a través de un fichero CDF manipulado. NOTA: esta vulnerabilidad existe debido a una solución incompleta para CVE-2012-1571.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 30eme CVE 
+CVE ID: CVE-2014-3597, Description: [{'lang': 'en', 'value': 'Multiple buffer overflows in the php_parserr function in ext/standard/dns.c in PHP before 5.4.32 and 5.5.x before 5.5.16 allow remote DNS servers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted DNS record, related to the dns_get_record function and the dn_expand function.  NOTE: this issue exists because of an incomplete fix for CVE-2014-4049.'}, {'lang': 'es', 'value': 'Múltiples desbordamientos de buffer en la función php_parserr en ext/standard/dns.c en PHP anterior a 5.4.32 y 5.5.x anterior a 5.5.16 permiten a servidores DNS remotos causar una denegación de servicio (la caída de la aplicación) o posiblemente ejecutar código arbitrario a través de un registro DNS manipulado, relacionado con la función dns_get_record y la función dn_expand. NOTA: este problema existe debido a una solución incompleta para CVE-2014-4049.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 31eme CVE 
+CVE ID: CVE-2014-5459, Description: [{'lang': 'en', 'value': 'The PEAR_REST class in REST.php in PEAR in PHP through 5.6.0 allows local users to write to arbitrary files via a symlink attack on a (1) rest.cachefile or (2) rest.cacheid file in /tmp/pear/cache/, related to the retrieveCacheFirst and useLocalCache functions.'}, {'lang': 'es', 'value': 'La clase PEAR_REST en REST.php en PEAR en PHP hasta 5.6.0 permite a usuarios locales escribir en ficheros arbitrarios a través de un ataque de enlace simbólico sobre un fichero (1) rest.cachefile o (2) rest.cacheid en /tmp/pear/cache/, relacionado con las funciones retrieveCacheFirst y useLocalCache.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 32eme CVE 
+CVE ID: CVE-2014-3668, Description: [{'lang': 'en', 'value': 'Buffer overflow in the date_from_ISO8601 function in the mkgmtime implementation in libxmlrpc/xmlrpc.c in the XMLRPC extension in PHP before 5.4.34, 5.5.x before 5.5.18, and 5.6.x before 5.6.2 allows remote attackers to cause a denial of service (application crash) via (1) a crafted first argument to the xmlrpc_set_type function or (2) a crafted argument to the xmlrpc_decode function, related to an out-of-bounds read operation.'}, {'lang': 'es', 'value': 'Desbordamiento de buffer en la función date_from_ISO8601 en la implementación mkgmtime en libxmlrpc/xmlrpc.c en la extensión XMLRPC en PHP anterior a 5.4.34, 5.5.x anterior a 5.5.18, y 5.6.x anterior a 5.6.2 permite a atacantes remotos causar una denegación de servicio (caída de aplicación) a través de (1) un primer argumento manipulado en la función xmlrpc_set_type o (2) un argumento manipulado en la función xmlrpc_decode, relacionado con una operación de lectura fuera de rango.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 33eme CVE 
+CVE ID: CVE-2014-3669, Description: [{'lang': 'en', 'value': 'Integer overflow in the object_custom function in ext/standard/var_unserializer.c in PHP before 5.4.34, 5.5.x before 5.5.18, and 5.6.x before 5.6.2 allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via an argument to the unserialize function that triggers calculation of a large length value.'}, {'lang': 'es', 'value': 'Desbordamiento de enteros en la función object_custom en ext/standard/var_unserializer.c en PHP anterior a 5.4.34, 5.5.x anterior a 5.5.18, y 5.6.x anterior a 5.6.2 permite a atacantes remotos causar una denegación de servicio (caída de aplicación) o posiblemente ejecutar código arbitrario a través de un argumento en la función unserialize que provoca el calculo de un valor grande de longitud.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 34eme CVE 
+CVE ID: CVE-2014-3670, Description: [{'lang': 'en', 'value': 'The exif_ifd_make_value function in exif.c in the EXIF extension in PHP before 5.4.34, 5.5.x before 5.5.18, and 5.6.x before 5.6.2 operates on floating-point arrays incorrectly, which allows remote attackers to cause a denial of service (heap memory corruption and application crash) or possibly execute arbitrary code via a crafted JPEG image with TIFF thumbnail data that is improperly handled by the exif_thumbnail function.'}, {'lang': 'es', 'value': "La función exif_ifd_make_value en exif.c en la extensión EXIF en PHP anterior a 5.4.34, 5.5.x anterior a 5.5.18, y 5.6.x anterior a 5.6.2 opera sobre arrays de punto flotante incorrectamente, lo que permite a atacantes remotos causar una denegación de servicio (corrupción de memoria dinámica y caída de aplicación) o posiblemente ejecutar código arbitrario a través de un imagen JPEG manipulado con datos 'thumbnail' TIFF que son manejados indebidamente por la función exif_thumbnail."}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 35eme CVE 
+CVE ID: CVE-2014-3710, Description: [{'lang': 'en', 'value': 'The donote function in readelf.c in file through 5.20, as used in the Fileinfo component in PHP 5.4.34, does not ensure that sufficient note headers are present, which allows remote attackers to cause a denial of service (out-of-bounds read and application crash) via a crafted ELF file.'}, {'lang': 'es', 'value': 'La función donote en readelf.c en file hasta 5.20, utilizado en el componente Fileinfo en PHP 5.4.34, no asegura que suficientes cabeceras de notas están presentes, lo que permite a atacantes remotos causar una denegación de servicio (lectura fuera de rango y caída de aplicación) a través de un fichero ELF manipulado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 36eme CVE 
+CVE ID: CVE-2014-8142, Description: [{'lang': 'en', 'value': 'Use-after-free vulnerability in the process_nested_data function in ext/standard/var_unserializer.re in PHP before 5.4.36, 5.5.x before 5.5.20, and 5.6.x before 5.6.4 allows remote attackers to execute arbitrary code via a crafted unserialize call that leverages improper handling of duplicate keys within the serialized properties of an object, a different vulnerability than CVE-2004-1019.'}, {'lang': 'es', 'value': 'Vulnerabilidad de uso después de liberación en la función process_nested_data en core/dom/ProcessingInstruction.cpp en ext/standard/var_unserializer.re en PHP anterior a 5.4.36, 5.5.x anterior a 5.5.20, y 5.6.x anterior a 5.6.4, permite a atacantes remotos ejecutar código arbitrario mediante una petición manipulada no serializada que aprovecha un tratamiento incorrecto de las claves duplicadas sin sin las propiedades serializadas de un objeto, una vulnerabilidad diferente de CVE-2004-1019.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 37eme CVE 
+CVE ID: CVE-2014-9425, Description: [{'lang': 'en', 'value': 'Double free vulnerability in the zend_ts_hash_graceful_destroy function in zend_ts_hash.c in the Zend Engine in PHP through 5.5.20 and 5.6.x through 5.6.4 allows remote attackers to cause a denial of service or possibly have unspecified other impact via unknown vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de doble liberación en la función zend_ts_hash_graceful_destroy en zend_ts_hash.c en Zend Engine en PHP hasta 5.5.20 y 5.6.x hasta 5.6.4 permite a atacantes remotos causar una denegación de servicio o la posibilidad de tener otro impacto sin especificar a través de vectores no conocidos.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 38eme CVE 
+CVE ID: CVE-2014-9426, Description: [{'lang': 'en', 'value': 'The apprentice_load function in libmagic/apprentice.c in the Fileinfo component in PHP through 5.6.4 attempts to perform a free operation on a stack-based character array, which allows remote attackers to cause a denial of service (memory corruption or application crash) or possibly have unspecified other impact via unknown vectors.  NOTE: this is disputed by the vendor because the standard erealloc behavior makes the free operation unreachable'}, {'lang': 'es', 'value': '** DISPUTADA ** La función apprentice_load en libmagic/apprentice.c en el componente Fileinfo en PHP hasta 5.6.4 intenta realizar una operación libre sobre un array de caracteres basado en pila, lo que permite a atacantes remotos causar una denegación de servicio (corrupción de memoria o caída de la aplicación) o posiblemente tener otro impacto no especificado a través de vectores desconocidos. NOTA: esto lo disputa el proveedor porque el comportamiento erealloc estándar hace que la operación libre sea inalcanzable.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 39eme CVE 
+CVE ID: CVE-2015-0231, Description: [{'lang': 'en', 'value': 'Use-after-free vulnerability in the process_nested_data function in ext/standard/var_unserializer.re in PHP before 5.4.37, 5.5.x before 5.5.21, and 5.6.x before 5.6.5 allows remote attackers to execute arbitrary code via a crafted unserialize call that leverages improper handling of duplicate numerical keys within the serialized properties of an object.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2014-8142.'}, {'lang': 'es', 'value': 'Vulnerabilidad del uso después de liberación en la función process_nested_data en ext/standard/var_unserializer.re en PHP anterior a 5.4.37, 5.5.x anterior a 5.5.21, y 5.6.x anterior a 5.6.5 permite a atacantes remotos ejecutar código arbitrario a través de una llamada de no serializar manipulada que aprovecha el manejo incorrecto de claves numéricas duplicadas dentro de las propiedades serializadas de un objeto. NOTA: este vulnerabilidad existe debido a una solución incompleta para CVE-2014-8142.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 40eme CVE 
+CVE ID: CVE-2015-0232, Description: [{'lang': 'en', 'value': 'The exif_process_unicode function in ext/exif/exif.c in PHP before 5.4.37, 5.5.x before 5.5.21, and 5.6.x before 5.6.5 allows remote attackers to execute arbitrary code or cause a denial of service (uninitialized pointer free and application crash) via crafted EXIF data in a JPEG image.'}, {'lang': 'es', 'value': 'La función exif_process_unicode en ext/exif/exif.c en PHP anterior a 5.4.37, 5.5.x anterior a 5.5.21, y 5.6.x anterior a 5.6.5 permite a atacantes remotos ejecutar código arbitrario o causar una denegación de servicio (liberación de puntero no inicializado y caída de la aplicación) a través de datos EXIF manipulados en una imagen JPEG.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 41eme CVE 
+CVE ID: CVE-2015-0235, Description: [{'lang': 'en', 'value': 'Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2.2, and other 2.x versions before 2.18, allows context-dependent attackers to execute arbitrary code via vectors related to the (1) gethostbyname or (2) gethostbyname2 function, aka "GHOST."'}, {'lang': 'es', 'value': "Desbordamiento de buffer basado en memoria dinámica en la función __nss_hostname_digits_dots en glibc 2.2, y otras versiones 2.x anteriores a 2.18, permite a atacantes dependientes de contexto ejecutar código arbitrario a través de vectores relacionados con la funciín (1) gethostbyname o (2) gethostbyname2, también conocido como 'GHOST.'"}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+Exim - 'GHOST' glibc gethostbyname | https://www.exploit-db.com/exploits/36421
+Exim ESMTP 4.80 - glibc gethostbyn | https://www.exploit-db.com/exploits/35951
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+----------------------------------- --------------------------------------------
+ Paper Title                       |  URL
+----------------------------------- --------------------------------------------
+Ghost Vulnerability CVE-[01;31m[K2015-0235[m[K  | https://www.exploit-db.com/papers/35952
+----------------------------------- --------------------------------------------
+
+Voici la 42eme CVE 
+CVE ID: CVE-2013-6501, Description: [{'lang': 'en', 'value': 'The default soap.wsdl_cache_dir setting in (1) php.ini-production and (2) php.ini-development in PHP through 5.6.7 specifies the /tmp directory, which makes it easier for local users to conduct WSDL injection attacks by creating a file under /tmp with a predictable filename that is used by the get_sdl function in ext/soap/php_sdl.c.'}, {'lang': 'es', 'value': 'La configuración por defecto soap.wsdl_cache_dir en (1) php.ini-production y (2) php.ini-development en PHP hasta 5.6.7 especifica el directorio /tmp, lo que facilita a usuarios locales realizar ataques de inyección WSDL mediante la creación de un fichero bajo /tmp con un nombre de fichero previsible que la función get_sdl utiliza en ext/soap/php_sdl.c.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 43eme CVE 
+CVE ID: CVE-2014-9652, Description: [{'lang': 'en', 'value': 'The mconvert function in softmagic.c in file before 5.21, as used in the Fileinfo component in PHP before 5.4.37, 5.5.x before 5.5.21, and 5.6.x before 5.6.5, does not properly handle a certain string-length field during a copy of a truncated version of a Pascal string, which might allow remote attackers to cause a denial of service (out-of-bounds memory access and application crash) via a crafted file.'}, {'lang': 'es', 'value': 'La función mconvert en softmagic.c en file anterior a 5.21, utilizado en el componente Fileinfo en PHP anterior a 5.4.37, 5.5.x anterior a 5.5.21, y 5.6.x anterior a 5.6.5, no maneja correctamente cierto campo de longitud de cadenas durante una copia de una versión trucada de una cadena Pascal, lo que podría permitir a atacantes remotos causar una denegación de servicio (acceso a memoria fuera de rango y caída de aplicación) a través de un fichero manipulado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 44eme CVE 
+CVE ID: CVE-2014-9653, Description: [{'lang': 'en', 'value': 'readelf.c in file before 5.22, as used in the Fileinfo component in PHP before 5.4.37, 5.5.x before 5.5.21, and 5.6.x before 5.6.5, does not consider that pread calls sometimes read only a subset of the available data, which allows remote attackers to cause a denial of service (uninitialized memory access) or possibly have unspecified other impact via a crafted ELF file.'}, {'lang': 'es', 'value': 'readelf.c en file anterior a 5.22, utilizado en el componente Fileinfo en PHP anterior a 5.4.37, 5.5.x anterior a 5.5.21, y 5.6.x anterior a 5.6.5, no considera que las llamadas a pread a veces leen solamente un subjuego de los datos disponibles, lo que permite a atacantes remotos causar una denegación de servicio (acceso a memoria no inicializada) o posiblemente tener otro impacto a través de un fichero ELF manipulado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 45eme CVE 
+CVE ID: CVE-2014-9705, Description: [{'lang': 'en', 'value': 'Heap-based buffer overflow in the enchant_broker_request_dict function in ext/enchant/enchant.c in PHP before 5.4.38, 5.5.x before 5.5.22, and 5.6.x before 5.6.6 allows remote attackers to execute arbitrary code via vectors that trigger creation of multiple dictionaries.'}, {'lang': 'es', 'value': 'Desbordamiento de buffer basado en memoria dinámica en la función enchant_broker_request_dict en ext/enchant/enchant.c en PHP anterior a 5.4.38, 5.5.x anterior a 5.5.22, y 5.6.x anterior a 5.6.6 permite a atacantes remotos ejecutar código arbitrario a través de vectores que provocan la creación de múltiples diccionarios.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 46eme CVE 
+CVE ID: CVE-2014-9709, Description: [{'lang': 'en', 'value': 'The GetCode_ function in gd_gif_in.c in GD 2.1.1 and earlier, as used in PHP before 5.5.21 and 5.6.x before 5.6.5, allows remote attackers to cause a denial of service (buffer over-read and application crash) via a crafted GIF image that is improperly handled by the gdImageCreateFromGif function.'}, {'lang': 'es', 'value': 'La función GetCode_ en gd_gif_in.c en GD 2.1.1 y anteriores, utilizado en PHP anterior a 5.5.21 y 5.6.x anterior a 5.6.5, permite a atacantes remotos causar una denegación de servicio (sobre lectura de buffer y caída de aplicación) a través de una imagen GIF manipulada que es manejada incorrectamente por la función gdImageCreateFromGif.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 47eme CVE 
+CVE ID: CVE-2015-0273, Description: [{'lang': 'en', 'value': 'Multiple use-after-free vulnerabilities in ext/date/php_date.c in PHP before 5.4.38, 5.5.x before 5.5.22, and 5.6.x before 5.6.6 allow remote attackers to execute arbitrary code via crafted serialized input containing a (1) R or (2) r type specifier in (a) DateTimeZone data handled by the php_date_timezone_initialize_from_hash function or (b) DateTime data handled by the php_date_initialize_from_hash function.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de uso después de liberación en ext/date/php_date.c en PHP anterior a 5.4.38, 5.5.x anterior a 5.5.22, y 5.6.x anterior a 5.6.6 permiten a atacantes remotos ejecutar código arbitrario a través de entradas serializadas manipuladas que contienen un especificador de tipo (1) R o (2) r en (a) datos de DateTimeZone manejados por la función php_date_timezone_initialize_from_hash o (b) datos de DateTime manejados por la función php_date_initialize_from_hash.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+PHP DateTime - Use-After-Free      | https://www.exploit-db.com/exploits/36158
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 48eme CVE 
+CVE ID: CVE-2015-1351, Description: [{'lang': 'en', 'value': 'Use-after-free vulnerability in the _zend_shared_memdup function in zend_shared_alloc.c in the OPcache extension in PHP through 5.6.7 allows remote attackers to cause a denial of service or possibly have unspecified other impact via unknown vectors.'}, {'lang': 'es', 'value': 'Vulnerabilidad de uso después de liberación en la función _zend_shared_memdup en zend_shared_alloc.c en la extensión OPcache en PHP hasta 5.6.7 permite a atacantes remotos causar una denegación de servicio o posiblemente tener otro impacto no especificado a través de vectores desconocidos.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 49eme CVE 
+CVE ID: CVE-2015-1352, Description: [{'lang': 'en', 'value': 'The build_tablename function in pgsql.c in the PostgreSQL (aka pgsql) extension in PHP through 5.6.7 does not validate token extraction for table names, which allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted name.'}, {'lang': 'es', 'value': 'La función build_tablename en pgsql.c en la extensión PostgreSQL (también conocido como pgsql) en PHP hasta 5.6.7 no valida la extracción de tokens para nombres de tablas, lo que permite a atacantes remotos causar una denegación de servicio (referencia a puntero nulo y caída de aplicación) a través de un nombre manipulado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 50eme CVE 
+CVE ID: CVE-2015-2301, Description: [{'lang': 'en', 'value': 'Use-after-free vulnerability in the phar_rename_archive function in phar_object.c in PHP before 5.5.22 and 5.6.x before 5.6.6 allows remote attackers to cause a denial of service or possibly have unspecified other impact via vectors that trigger an attempted renaming of a Phar archive to the name of an existing file.'}, {'lang': 'es', 'value': 'Vulnerabilidad de uso después de liberación en la función phar_rename_archive en phar_object.c en PHP anterior a 5.5.22 y 5.6.x anterior a 5.6.6 permite a atacantes remotos causar una denegación de servicio o posiblemente tener otro impacto no especificado a través de vectores que provocan un intento de renombrar un archivo Phar al nombre de un fichero existente.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 51eme CVE 
+CVE ID: CVE-2015-2305, Description: [{'lang': 'en', 'value': 'Integer overflow in the regcomp implementation in the Henry Spencer BSD regex library (aka rxspencer) alpha3.8.g5 on 32-bit platforms, as used in NetBSD through 6.1.5 and other products, might allow context-dependent attackers to execute arbitrary code via a large regular expression that leads to a heap-based buffer overflow.'}, {'lang': 'es', 'value': 'Desbordamiento de enteros en la implementación regcomp en la librería Henry Spencer BSD regex (también conocido como rxspencer) alpha3.8.g5 en las plataformas de 32 bits, utilizado en NetBSD hasta 6.1.5 y otros productos, podría permitir a atacantes dependientes de contexto ejecutar código arbitrario a través de una expresión regular grande que conlleva a un desbordamiento de buffer basado en memoria dinámica.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 52eme CVE 
+CVE ID: CVE-2015-2331, Description: [{'lang': 'en', 'value': 'Integer overflow in the _zip_cdir_new function in zip_dirent.c in libzip 0.11.2 and earlier, as used in the ZIP extension in PHP before 5.4.39, 5.5.x before 5.5.23, and 5.6.x before 5.6.7 and other products, allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a ZIP archive that contains many entries, leading to a heap-based buffer overflow.'}, {'lang': 'es', 'value': 'Desbordamiento de enteros en la función _zip_cdir_new en zip_dirent.c en libzip 0.11.2 y anteriores, utilizado en la extensión ZIP en PHP anterior a 5.4.39, 5.5.x anterior a 5.5.23, y 5.6.x anterior a 5.6.7 y otros productos, permite a atacantes remotos causar una denegación de servicio (caída de aplicación) o posiblemente ejecutar código arbitrario a través de un archivo ZIP que contiene muchas entradas, posteriormente conduciendo a un desbordamiento de buffer basado en memoria dinámica.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 53eme CVE 
+CVE ID: CVE-2015-2348, Description: [{'lang': 'en', 'value': 'The move_uploaded_file implementation in ext/standard/basic_functions.c in PHP before 5.4.39, 5.5.x before 5.5.23, and 5.6.x before 5.6.7 truncates a pathname upon encountering a \\x00 character, which allows remote attackers to bypass intended extension restrictions and create files with unexpected names via a crafted second argument.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2006-7243.'}, {'lang': 'es', 'value': 'La implementación move_uploaded_file en ext/standard/basic_functions.c en PHP anterior a 5.4.39, 5.5.x anterior a 5.5.23, y 5.6.x anterior a 5.6.7 trunca un nombre de ruta al encontrar un caracter \\x00, lo que permite a atacantes remotos evadir las restricciones de extensiones y crear ficheros con nombres no esperados a través de un segundo argumento manipulado. NOTA: esta vulnerabilidad existe debido a una solución incompleta para CVE-2006-7243.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 54eme CVE 
+CVE ID: CVE-2015-2787, Description: [{'lang': 'en', 'value': 'Use-after-free vulnerability in the process_nested_data function in ext/standard/var_unserializer.re in PHP before 5.4.39, 5.5.x before 5.5.23, and 5.6.x before 5.6.7 allows remote attackers to execute arbitrary code via a crafted unserialize call that leverages use of the unset function within an __wakeup function, a related issue to CVE-2015-0231.'}, {'lang': 'es', 'value': 'Vulnerabilidad de uso después de liberación en la función process_nested_data en ext/standard/var_unserializer.re en PHP anterior a 5.4.39, 5.5.x anterior a 5.5.23, y 5.6.x anterior a 5.6.7 permite a atacantes remotos ejecutar código arbitrario a través de una llamada no serializada manipulada que aprovecha el uso de la función unset dentro de una función __wakeup, un problema relacionado con CVE-2015-0231.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 55eme CVE 
+CVE ID: CVE-2015-3414, Description: [{'lang': 'en', 'value': 'SQLite before 3.8.9 does not properly implement the dequoting of collation-sequence names, which allows context-dependent attackers to cause a denial of service (uninitialized memory access and application crash) or possibly have unspecified other impact via a crafted COLLATE clause, as demonstrated by COLLATE"""""""" at the end of a SELECT statement.'}, {'lang': 'es', 'value': "SQLite anterior a 3.8.9 no implementa correctamente la descomillación de nombres de secuencias de colaciones, lo que permite a atacantes dependientes de contexto causar una denegación de servicio (acceso a memoria no inicializada y caída de aplicación) o posiblemente tener otro impacto no especificado a través de una clausula COLLATE manipulada, tal y como fue demostrado por COLLATE'''''''' al final de una declaración SELECT."}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 56eme CVE 
+CVE ID: CVE-2015-3415, Description: [{'lang': 'en', 'value': 'The sqlite3VdbeExec function in vdbe.c in SQLite before 3.8.9 does not properly implement comparison operators, which allows context-dependent attackers to cause a denial of service (invalid free operation) or possibly have unspecified other impact via a crafted CHECK clause, as demonstrated by CHECK(0&O>O) in a CREATE TABLE statement.'}, {'lang': 'es', 'value': 'La función sqlite3VdbeExec en vdbe.c en SQLite anterior a 3.8.9 no implementa correctamente los operadores de comparaciones, lo que permite a atacantes dependientes de contexto causar una denegación de servicio (operación de liberación inválida) o posiblemente tener otro impacto no especificado a través de una clausula CHECK manipulada, tal y como fue demostrado por CHECK(0&O>O) en una declaración CREATE TABLE.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 57eme CVE 
+CVE ID: CVE-2015-3416, Description: [{'lang': 'en', 'value': 'The sqlite3VXPrintf function in printf.c in SQLite before 3.8.9 does not properly handle precision and width values during floating-point conversions, which allows context-dependent attackers to cause a denial of service (integer overflow and stack-based buffer overflow) or possibly have unspecified other impact via large integers in a crafted printf function call in a SELECT statement.'}, {'lang': 'es', 'value': 'La función sqlite3VXPrintf en printf.c en SQLite anterior a 3.8.9 no maneja correctamente los valores de precisión y anchura durante las conversaciones de puntos flotantes (floating-point), lo que permite a atacantes dependientes de contexto causar una denegación de servicio (desbordamiento de enteros y desbordamiento de buffer basado en pila) o posiblemente tener otro impacto no especificado a través de enteros grandes en una llamada a la función printf manipulada en una declaración SELECT.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 58eme CVE 
+CVE ID: CVE-2015-2783, Description: [{'lang': 'en', 'value': 'ext/phar/phar.c in PHP before 5.4.40, 5.5.x before 5.5.24, and 5.6.x before 5.6.8 allows remote attackers to obtain sensitive information from process memory or cause a denial of service (buffer over-read and application crash) via a crafted length value in conjunction with crafted serialized data in a phar archive, related to the phar_parse_metadata and phar_parse_pharfile functions.'}, {'lang': 'es', 'value': 'ext/phar/phar.c en PHP anterior a 5.4.40, 5.5.x anterior a 5.5.24, y 5.6.x anterior a 5.6.8 permite a atacantes remotos obtener información sensible de la memoria de procesos o causar una denegación de servicio (sobre lectura de buffer y caída de aplicación) a través de un valor de longitud manipulado en conjunto con datos seializados manipulados en un archivo phar, relacionado con las funciones phar_parse_metadata y phar_parse_pharfile.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 59eme CVE 
+CVE ID: CVE-2015-3307, Description: [{'lang': 'en', 'value': 'The phar_parse_metadata function in ext/phar/phar.c in PHP before 5.4.40, 5.5.x before 5.5.24, and 5.6.x before 5.6.8 allows remote attackers to cause a denial of service (heap metadata corruption) or possibly have unspecified other impact via a crafted tar archive.'}, {'lang': 'es', 'value': 'La función phar_parse_metadata en ext/phar/phar.c en PHP anterior a 5.4.40, 5.5.x anterior a 5.5.24, y 5.6.x anterior a 5.6.8 permite a atacantes remotos causar una denegación de servicio (corrupción de metadatos de la memoria dinámica) o posiblemente tener otro impacto no especificado a través de un archivo tar manipulado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 60eme CVE 
+CVE ID: CVE-2015-3329, Description: [{'lang': 'en', 'value': 'Multiple stack-based buffer overflows in the phar_set_inode function in phar_internal.h in PHP before 5.4.40, 5.5.x before 5.5.24, and 5.6.x before 5.6.8 allow remote attackers to execute arbitrary code via a crafted length value in a (1) tar, (2) phar, or (3) ZIP archive.'}, {'lang': 'es', 'value': 'Múltiples desbordamientos de buffer basado en pila en la función phar_set_inode en phar_internal.h en PHP anterior a 5.4.40, 5.5.x anterior a 5.5.24, y 5.6.x anterior a 5.6.8 permiten a atacantes remotos ejecutar código arbitrario a través de un valor de longitud manipulado en un archivo (1) tar, (2) phar, o (3) ZIP.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 61eme CVE 
+CVE ID: CVE-2015-3330, Description: [{'lang': 'en', 'value': 'The php_handler function in sapi/apache2handler/sapi_apache2.c in PHP before 5.4.40, 5.5.x before 5.5.24, and 5.6.x before 5.6.8, when the Apache HTTP Server 2.4.x is used, allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via pipelined HTTP requests that result in a "deconfigured interpreter."'}, {'lang': 'es', 'value': "La función php_handler en sapi/apache2handler/sapi_apache2.c en PHP anterior a 5.4.40, 5.5.x anterior a 5.5.24, y 5.6.x anterior a 5.6.8, cuando Apache HTTP Server 2.4.x está utilizado, permite a atacantes remotos causar una denegación de servicio (caída de aplicación) o posiblemente ejecutar código arbitrario a través de solicitudes HTTP segmentadas que resultan en un 'interprete desconfigurado.'"}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 62eme CVE 
+CVE ID: CVE-2015-4021, Description: [{'lang': 'en', 'value': 'The phar_parse_tarfile function in ext/phar/tar.c in PHP before 5.4.41, 5.5.x before 5.5.25, and 5.6.x before 5.6.9 does not verify that the first character of a filename is different from the \\0 character, which allows remote attackers to cause a denial of service (integer underflow and memory corruption) via a crafted entry in a tar archive.'}, {'lang': 'es', 'value': 'La función phar_parse_tarfile en ext/phar/tar.c en PHP anterior a 5.4.41, 5.5.x anterior a 5.5.25, y 5.6.x anterior a 5.6.9 no verifica que el primer caracter de un nombre de fichero es diferente al caracter \\0, lo que permite a atacantes remotos causar una denegación de servicio (desbordamientos de enteros y corrupción de memoria) a través de una entrada manipulada en un archivo tar.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 63eme CVE 
+CVE ID: CVE-2015-4022, Description: [{'lang': 'en', 'value': 'Integer overflow in the ftp_genlist function in ext/ftp/ftp.c in PHP before 5.4.41, 5.5.x before 5.5.25, and 5.6.x before 5.6.9 allows remote FTP servers to execute arbitrary code via a long reply to a LIST command, leading to a heap-based buffer overflow.'}, {'lang': 'es', 'value': 'Desbordamiento de enteros en la función ftp_genlist en ext/ftp/ftp.c en PHP anterior a 5.4.41, 5.5.x anterior a 5.5.25, y 5.6.x anterior a 5.6.9 permite a servidores FTP remotos ejecutar código arbitrario a través de una contestación larga a un comando LIST, que conduce a un desbordamiento de buffer basado en memoria dinámica.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 64eme CVE 
+CVE ID: CVE-2015-4024, Description: [{'lang': 'en', 'value': 'Algorithmic complexity vulnerability in the multipart_buffer_headers function in main/rfc1867.c in PHP before 5.4.41, 5.5.x before 5.5.25, and 5.6.x before 5.6.9 allows remote attackers to cause a denial of service (CPU consumption) via crafted form data that triggers an improper order-of-growth outcome.'}, {'lang': 'es', 'value': 'Vulnerabilidad de complejidad algorítmica en la función multipart_buffer_headers en main/rfc1867.c en PHP anterior a 5.4.41, 5.5.x anterior a 5.5.25, y 5.6.x anterior a 5.6.9 permiten a atacantes remotos causar una denegación de servicio (consumo de CPU) a través de datos de formularios manipulados que provocan un resultado de orden de crecimiento incorrecto.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 65eme CVE 
+CVE ID: CVE-2015-4025, Description: [{'lang': 'en', 'value': 'PHP before 5.4.41, 5.5.x before 5.5.25, and 5.6.x before 5.6.9 truncates a pathname upon encountering a \\x00 character in certain situations, which allows remote attackers to bypass intended extension restrictions and access files or directories with unexpected names via a crafted argument to (1) set_include_path, (2) tempnam, (3) rmdir, or (4) readlink.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2006-7243.'}, {'lang': 'es', 'value': 'PHP anterior a 5.4.41, 5.5.x anterior a 5.5.25, y 5.6.x anterior a 5.6.9 trunca un nombre de ruta al encontrar un caracter \\x00 en ciertas situaciones, lo que permite a atacantes remotos evadir la restricciones de extensión y acceder a ficheros o directorios con nombres no esperados a través de un argumento manipulado en (1) set_include_path, (2) tempnam, (3) rmdir, o (4) readlink. NOTA: esta vulnerabilidad existe debido a una solución incompleta para CVE-2006-7243.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 66eme CVE 
+CVE ID: CVE-2015-4026, Description: [{'lang': 'en', 'value': 'The pcntl_exec implementation in PHP before 5.4.41, 5.5.x before 5.5.25, and 5.6.x before 5.6.9 truncates a pathname upon encountering a \\x00 character, which might allow remote attackers to bypass intended extension restrictions and execute files with unexpected names via a crafted first argument.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2006-7243.'}, {'lang': 'es', 'value': 'La implementación pcntl_exec en PHP anterior a 5.4.41, 5.5.x anterior a 5.5.25, y 5.6.x anterior a 5.6.9 trunca un nombre de ruta al encontrar un caracter \\x00, lo que podría permitir a atacantes remotos evadir las restricciones de extensión y ejecutar ficheros con nombres no esperados a través de un argumento inicial manipulado. NOTA: esta vulnerabilidad existe debido a una solución incompleta para CVE-2006-7243.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 67eme CVE 
+CVE ID: CVE-2015-4147, Description: [{'lang': 'en', 'value': 'The SoapClient::__call method in ext/soap/soap.c in PHP before 5.4.39, 5.5.x before 5.5.23, and 5.6.x before 5.6.7 does not verify that __default_headers is an array, which allows remote attackers to execute arbitrary code by providing crafted serialized data with an unexpected data type, related to a "type confusion" issue.'}, {'lang': 'es', 'value': "El método SoapClient::__call en ext/soap/soap.c en PHP anterior a 5.4.39, 5.5.x anterior a 5.5.23, y 5.6.x anterior a 5.6.7 no verifica que __default_headers es un array, lo que permite a atacantes remotos ejecutar código arbitrario mediante la provisión de datos serializados manipulados con un tipo de datos no esperado, relacionado con un problema de 'confusión de tipo'."}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 68eme CVE 
+CVE ID: CVE-2015-4148, Description: [{'lang': 'en', 'value': 'The do_soap_call function in ext/soap/soap.c in PHP before 5.4.39, 5.5.x before 5.5.23, and 5.6.x before 5.6.7 does not verify that the uri property is a string, which allows remote attackers to obtain sensitive information by providing crafted serialized data with an int data type, related to a "type confusion" issue.'}, {'lang': 'es', 'value': "La función do_soap_call en ext/soap/soap.c en PHP anterior a 5.4.39, 5.5.x anterior a 5.5.23, y 5.6.x anterior a 5.6.7 no verifica que la propiedad uri es una cadena, lo que permite a atacantes remotos obtener información sensible mediante la provisión de datos serializados manipulados con un tipo de datos int, relacionados con un problema de 'confusión de tipo'."}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+SMF (Simple Machine Forum) 2.0.10  | https://www.exploit-db.com/exploits/38304
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 69eme CVE 
+CVE ID: CVE-2015-7803, Description: [{'lang': 'en', 'value': 'The phar_get_entry_data function in ext/phar/util.c in PHP before 5.5.30 and 5.6.x before 5.6.14 allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a .phar file with a crafted TAR archive entry in which the Link indicator references a file that does not exist.'}, {'lang': 'es', 'value': 'La función phar_get_entry_data en ext/phar/util.c en PHP en versiones anteriores a 5.5.30 y 5.6.x en versiones anteriores a 5.6.14 permite a atacantes remotos causar una denegación de servicio (referencia a puntero NULL y caída de aplicación) a través de un archivo .phar con una entrada de archivo TAR manipulada en la cual el indicador Link referencia a un archivo que no existe.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 70eme CVE 
+CVE ID: CVE-2015-7804, Description: [{'lang': 'en', 'value': 'Off-by-one error in the phar_parse_zipfile function in ext/phar/zip.c in PHP before 5.5.30 and 5.6.x before 5.6.14 allows remote attackers to cause a denial of service (uninitialized pointer dereference and application crash) by including the / filename in a .zip PHAR archive.'}, {'lang': 'es', 'value': 'Error por un paso en la función phar_parse_zipfile en ext/phar/zip.c en PHP en versiones anteriores a 5.5.30 y 5.6.x en versiones anteriores a 5.6.14 permite a atacantes remotos causar una denegación de servicio (referencia a un puntero no inicializado y caída de aplicación) incluyendo el nombre de archivo / en un archivo PHAR .zip.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 71eme CVE 
+CVE ID: CVE-2015-5590, Description: [{'lang': 'en', 'value': 'Stack-based buffer overflow in the phar_fix_filepath function in ext/phar/phar.c in PHP before 5.4.43, 5.5.x before 5.5.27, and 5.6.x before 5.6.11 allows remote attackers to cause a denial of service or possibly have unspecified other impact via a large length value, as demonstrated by mishandling of an e-mail attachment by the imap PHP extension.'}, {'lang': 'es', 'value': 'Desbordamiento de buffer basado en pila en la función phar_fix_filepath en ext/phar/phar.c en PHP en versiones anteriores a 5.4.43, 5.5.x en versiones anteriores a 5.5.27 y 5.6.x en versiones anteriores a 5.6.11 permite a atacantes remotos provocar una denegación de servicio o posiblemente tener otro impacto no especificado a través de un valor de gran longitud, según lo demostrado por el manejo incorrecto de un archivo adjunto de un e-mail en la extensión PHP imap.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 72eme CVE 
+CVE ID: CVE-2015-6831, Description: [{'lang': 'en', 'value': 'Multiple use-after-free vulnerabilities in SPL in PHP before 5.4.44, 5.5.x before 5.5.28, and 5.6.x before 5.6.12 allow remote attackers to execute arbitrary code via vectors involving (1) ArrayObject, (2) SplObjectStorage, and (3) SplDoublyLinkedList, which are mishandled during unserialization.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de uso después de liberación de memoria en SPL en PHP en versiones anteriores a 5.4.44, 5.5.x en versiones anteriores a 5.5.28 y 5.6.x en versiones anteriores a 5.6.12 permiten a atacantes remotos ejecutar código arbitrario involucrando vectores (1) ArrayObject, (2) SplObjectStorage y (3) SplDoublyLinkedList, los cuales no son manejados adecuadamente durante la deserialización.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'LOW', 'integrityImpact': 'LOW', 'availabilityImpact': 'LOW', 'baseScore': 7.3, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.4}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 73eme CVE 
+CVE ID: CVE-2015-6832, Description: [{'lang': 'en', 'value': 'Use-after-free vulnerability in the SPL unserialize implementation in ext/spl/spl_array.c in PHP before 5.4.44, 5.5.x before 5.5.28, and 5.6.x before 5.6.12 allows remote attackers to execute arbitrary code via crafted serialized data that triggers misuse of an array field.'}, {'lang': 'es', 'value': 'Vulnerabilidad de uso después de liberación de memoria en la implementación de SPL unserialize en ext/spl/spl_array.c en PHP en versiones anteriores a 5.4.44, 5.5.x en versiones anteriores a 5.5.28 y 5.6.x en versiones anteriores a 5.6.12 permite a atacantes remotos ejecutar código arbitrario a través de datos serializados manipulados que desencadenan un uso incorrecto de un campo array.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 74eme CVE 
+CVE ID: CVE-2015-6833, Description: [{'lang': 'en', 'value': 'Directory traversal vulnerability in the PharData class in PHP before 5.4.44, 5.5.x before 5.5.28, and 5.6.x before 5.6.12 allows remote attackers to write to arbitrary files via a .. (dot dot) in a ZIP archive entry that is mishandled during an extractTo call.'}, {'lang': 'es', 'value': 'Vulnerabilidad de salto de directorio en la clase PharData en PHP en versiones anteriores a 5.4.44, 5.5.x en versiones anteriores a 5.5.28 y 5.6.x en versiones anteriores a 5.6.12 permite a atacantes remotos escribir a archivos arbitrarios a través de .. (punto punto) en una entrada de archivo ZIP que es manejada incorrectamente durante una llamada extractTo.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 75eme CVE 
+CVE ID: CVE-2015-6836, Description: [{'lang': 'en', 'value': 'The SoapClient __call method in ext/soap/soap.c in PHP before 5.4.45, 5.5.x before 5.5.29, and 5.6.x before 5.6.13 does not properly manage headers, which allows remote attackers to execute arbitrary code via crafted serialized data that triggers a "type confusion" in the serialize_function_call function.'}, {'lang': 'es', 'value': 'El método SoapClient __call en ext/soap/soap.c en PHP en versiones anteriores a 5.4.45, 5.5.x en versiones anteriores a 5.5.29 y 5.6.x en versiones anteriores a 5.6.13 no maneja adecuadamente las cabeceras, lo que permite a atacantes remotos ejecutar código arbitrario a través de datos serializados manipulados que desencadenan un "type confusion" en la función serialize_function_call.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 76eme CVE 
+CVE ID: CVE-2016-1903, Description: [{'lang': 'en', 'value': 'The gdImageRotateInterpolated function in ext/gd/libgd/gd_interpolation.c in PHP before 5.5.31, 5.6.x before 5.6.17, and 7.x before 7.0.2 allows remote attackers to obtain sensitive information or cause a denial of service (out-of-bounds read and application crash) via a large bgd_color argument to the imagerotate function.'}, {'lang': 'es', 'value': 'La función gdImageRotateInterpolated en ext/gd/libgd/gd_interpolation.c en PHP en versiones anteriores a 5.5.31, 5.6.x en versiones anteriores a 5.6.17 y 7.x en versiones anteriores a 7.0.2 permite a atacantes remotos obtener información sensible o causar una denegación de servicio (lectura fuera de rango y caída de aplicación) a través de un argumento bgd_color de gran tamaño para la función imagerotate.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 77eme CVE 
+CVE ID: CVE-2016-3141, Description: [{'lang': 'en', 'value': 'Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.33 and 5.6.x before 5.6.19 allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact by triggering a wddx_deserialize call on XML data containing a crafted var element.'}, {'lang': 'es', 'value': 'Vulnerabilidad de uso después de liberación de memoria en wddx.c en la extensión WDDX en PHP en versiones anteriores a 5.5.33 y 5.6.x en versiones anteriores a 5.6.19 permite a atacantes remotos causar una denegación de servicio (corrupción de memoria y caída de aplicación) o posiblemente tener otro impacto no especificado desencadenando una llamada wddx_deserialize sobre datos XML que contienen un elemento var manipulado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 78eme CVE 
+CVE ID: CVE-2016-3142, Description: [{'lang': 'en', 'value': 'The phar_parse_zipfile function in zip.c in the PHAR extension in PHP before 5.5.33 and 5.6.x before 5.6.19 allows remote attackers to obtain sensitive information from process memory or cause a denial of service (out-of-bounds read and application crash) by placing a PK\\x05\\x06 signature at an invalid location.'}, {'lang': 'es', 'value': 'La función phar_parse_zipfile en zip.c en la extensión PHAR en PHP en versiones anteriores a 5.5.33 y 5.6.x en versiones anteriores a 5.6.19 permite a atacantes remotos obtener información sensible de la memoria de proceso o causar una denegación de servicio (lectura fuera de rango y cáida de aplicación) colocando una firma PK\\x05\\x06 en una localización no válida.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 79eme CVE 
+CVE ID: CVE-2016-3171, Description: [{'lang': 'en', 'value': 'Drupal 6.x before 6.38, when used with PHP before 5.4.45, 5.5.x before 5.5.29, or 5.6.x before 5.6.13, might allow remote attackers to execute arbitrary code via vectors related to session data truncation.'}, {'lang': 'es', 'value': 'Drupal 6.x en versiones anteriores a 6.38, cuando se utiliza con PHP en versiones anteriores a 5.4.45, 5.5.x en versiones anteriores a 5.5.29 o 5.6.x en versiones anteriores a 5.6.13, podría permitir a atacantes remotos ejecutar código arbitrario a través de vectores relacionados con el truncado de datos de sesión.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 80eme CVE 
+CVE ID: CVE-2014-0236, Description: [{'lang': 'en', 'value': 'file before 5.18, as used in the Fileinfo component in PHP before 5.6.0, allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a zero root_storage value in a CDF file, related to cdf.c and readcdf.c.'}, {'lang': 'es', 'value': 'file en versiones anteriores a 5.18, tal como se utiliza en el componente Fileinfo en PHP en versiones anteriores a 5.6.0, permite a atacantes remotos provocar una denegación de servicio (referencia a puntero NULO y caída de aplicación) a través de un valor root_storage cero en un archivo CDF, relacionado con cdf.c y readcdf.c.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 81eme CVE 
+CVE ID: CVE-2015-3152, Description: [{'lang': 'en', 'value': 'Oracle MySQL before 5.7.3, Oracle MySQL Connector/C (aka libmysqlclient) before 6.1.3, and MariaDB before 5.5.44 use the --ssl option to mean that SSL is optional, which allows man-in-the-middle attackers to spoof servers via a cleartext-downgrade attack, aka a "BACKRONYM" attack.'}, {'lang': 'es', 'value': 'Oracle MySQL en versiones anteriores a 5.7.3, Oracle MySQL Connector/C (también conocido como libmysqlclient) en versiones anteriores a 6.1.3 y MariaDB en versiones anteriores a 5.5.44 utiliza la opción --ssl significa que SSL es opcional, lo que permite a atacantes man-in-the-middle suplantar servidores a través de un ataque de degradación de texto plano, también conocida como un ataque "BACKRONYM".'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N', 'attackVector': 'NETWORK', 'attackComplexity': 'HIGH', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'HIGH', 'availabilityImpact': 'NONE', 'baseScore': 5.9, 'baseSeverity': 'MEDIUM'}, 'exploitabilityScore': 2.2, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 82eme CVE 
+CVE ID: CVE-2015-3411, Description: [{'lang': 'en', 'value': 'PHP before 5.4.40, 5.5.x before 5.5.24, and 5.6.x before 5.6.8 does not ensure that pathnames lack %00 sequences, which might allow remote attackers to read or write to arbitrary files via crafted input to an application that calls (1) a DOMDocument load method, (2) the xmlwriter_open_uri function, (3) the finfo_file function, or (4) the hash_hmac_file function, as demonstrated by a filename\\0.xml attack that bypasses an intended configuration in which client users may read only .xml files.'}, {'lang': 'es', 'value': 'PHP en versiones anteriores a 5.4.40, 5.5.x en versiones anteriores a 5.5.24 y 5.6.x en versiones anteriores a 5.6.8 no asegura que los nombres de ruta carezcan de la secuencia %00, lo que podría permitir a atacantes remotos leer o escribir archivos arbitrarios a través de entrada manipulada para una aplicación que llama a (1) un método de carga DOMDocument, (2) la función xmlwriter_open_uri, (3) la función finfo_file o (4) la función hash_hmac_file, según lo demostrado mediante un ataque filename\\0.xml que elude una configuración prevista en la que los usuarios cliente pueden leer solamente archivos .xml.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 83eme CVE 
+CVE ID: CVE-2015-3412, Description: [{'lang': 'en', 'value': 'PHP before 5.4.40, 5.5.x before 5.5.24, and 5.6.x before 5.6.8 does not ensure that pathnames lack %00 sequences, which might allow remote attackers to read arbitrary files via crafted input to an application that calls the stream_resolve_include_path function in ext/standard/streamsfuncs.c, as demonstrated by a filename\\0.extension attack that bypasses an intended configuration in which client users may read files with only one specific extension.'}, {'lang': 'es', 'value': 'PHP en versiones anteriores a 5.5.40, 5.5.x en versiones anteriores a 5.5.24 y 5.6.x en versiones anteriores a 5.6.8 no asegura que los nombres de ruta carezcan de secuencia %00, lo que permite a atacantes remotos leer archivos arbitrarios a través de una entrada manipulada que llama a la función stream_resolve_include_path en ext/standard/streamsfuncs.c, como se demuestra con un ataque filename\\0.extension que eluce una configuración deseada en la que los usuarios cliente pueden leer archivos con sólo una extensión específica.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 84eme CVE 
+CVE ID: CVE-2015-4116, Description: [{'lang': 'en', 'value': 'Use-after-free vulnerability in the spl_ptr_heap_insert function in ext/spl/spl_heap.c in PHP before 5.5.27 and 5.6.x before 5.6.11 allows remote attackers to execute arbitrary code by triggering a failed SplMinHeap::compare operation.'}, {'lang': 'es', 'value': 'Vulnerabilidad de uso después de liberación de memoria en la función spl_ptr_heap_insert en ext/spl/spl_heap.c en PHP en versiones anteriores a 5.5.27 y 5.6.x en versiones anteriores a 5.6.11 permite a atacantes remotos ejecutar código arbitrario desencadenando una operación SplMinHeap::compare fallida.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 85eme CVE 
+CVE ID: CVE-2015-4598, Description: [{'lang': 'en', 'value': 'PHP before 5.4.42, 5.5.x before 5.5.26, and 5.6.x before 5.6.10 does not ensure that pathnames lack %00 sequences, which might allow remote attackers to read or write to arbitrary files via crafted input to an application that calls (1) a DOMDocument save method or (2) the GD imagepsloadfont function, as demonstrated by a filename\\0.html attack that bypasses an intended configuration in which client users may write to only .html files.'}, {'lang': 'es', 'value': 'PHP en versiones anteriores a 5.4.42, 5.5.x en versiones anteriores a 5.5.26 y 5.6.x en versiones anteriores a 5.6.10 no asegura que los nombres de ruta carezcan de la secuencia %00, lo que podría permitir a atacantes remotos leer o escribir archivos arbitrarios a través de entrada manipulada para una aplicación que llama a (1) un método para guardar DOMDocument o (2) la función imagepsloadfont GD, según lo demostrado mediante un ataque filename\\0.html que elude una configuración prevista en la que los usuarios cliente pueden escribir solamente en archivos .html.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 86eme CVE 
+CVE ID: CVE-2015-4599, Description: [{'lang': 'en', 'value': 'The SoapFault::__toString method in ext/soap/soap.c in PHP before 5.4.40, 5.5.x before 5.5.24, and 5.6.x before 5.6.8 allows remote attackers to obtain sensitive information, cause a denial of service (application crash), or possibly execute arbitrary code via an unexpected data type, related to a "type confusion" issue.'}, {'lang': 'es', 'value': 'El método SoapFault::__toString en ext/soap/soap.c en PHP en versiones anteriores a 5.4.40, 5.5.x en versiones anteriores a 5.5.24 y 5.6.x en versiones anteriores a 5.6.8 permite a atacantes remotos obtener información sensible, provocar una denegación de servicio (caída de aplicación) o posiblemente ejecutar código arbitrario a través de un tipo de dato no esperado, relacionado con un caso "type confusion".'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 87eme CVE 
+CVE ID: CVE-2015-4600, Description: [{'lang': 'en', 'value': 'The SoapClient implementation in PHP before 5.4.40, 5.5.x before 5.5.24, and 5.6.x before 5.6.8 allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via an unexpected data type, related to "type confusion" issues in the (1) SoapClient::__getLastRequest, (2) SoapClient::__getLastResponse, (3) SoapClient::__getLastRequestHeaders, (4) SoapClient::__getLastResponseHeaders, (5) SoapClient::__getCookies, and (6) SoapClient::__setCookie methods.'}, {'lang': 'es', 'value': 'La implementación SoapClient en PHP en versiones anteriores a 5.4.40, 5.5.x en versiones anteriores a 5.5.24 y 5.6.x en versiones anteriores a 5.6.8 permite a atacantes remotos provocar una denegación de servicio (caída de aplicación) o posiblemente ejecutar código arbitrario a través de un tipo de dato no esperado, relacionado con casos "type confusion" en los métodos (1) SoapClient::__getLastRequest, (2) SoapClient::__getLastResponse, (3) SoapClient::__getLastRequestHeaders, (4) SoapClient::__getLastResponseHeaders, (5) SoapClient::__getCookies y (6) SoapClient::__setCookie.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 88eme CVE 
+CVE ID: CVE-2015-4601, Description: [{'lang': 'en', 'value': 'PHP before 5.6.7 might allow remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via an unexpected data type, related to "type confusion" issues in (1) ext/soap/php_encoding.c, (2) ext/soap/php_http.c, and (3) ext/soap/soap.c, a different issue than CVE-2015-4600.'}, {'lang': 'es', 'value': 'PHP en versiones anteriores a 5.6.7 podría permitir a atacantes remotos provocar una denegación de servicio (caída de aplicación) o posiblemente ejecuar código arbitrario a través de un tipo de dato no esperado, relacionado con casos "type confusion" en (1) ext/soap/php_encoding.c, (2) ext/soap/php_http.c y (3) ext/soap/soap.c, un caso diferente a CVE-2015-4600.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 89eme CVE 
+CVE ID: CVE-2015-4602, Description: [{'lang': 'en', 'value': 'The __PHP_Incomplete_Class function in ext/standard/incomplete_class.c in PHP before 5.4.40, 5.5.x before 5.5.24, and 5.6.x before 5.6.8 allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via an unexpected data type, related to a "type confusion" issue.'}, {'lang': 'es', 'value': 'La función __PHP_Incomplete_Class en ext/standard/incomplete_class.c en PHP en versiones anteriores a 5.4.40, 5.5.x en versiones anteriores a 5.5.24 y 5.6.x en versiones anteriores a 5.6.8 permite a atacantes remotos provocar una denegación de servicio (caída de aplicación) o posiblemente ejecutar código arbitrario a través de un tipo de dato no esperado, relacionado con un caso "type confusion".'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 90eme CVE 
+CVE ID: CVE-2015-4603, Description: [{'lang': 'en', 'value': 'The exception::getTraceAsString function in Zend/zend_exceptions.c in PHP before 5.4.40, 5.5.x before 5.5.24, and 5.6.x before 5.6.8 allows remote attackers to execute arbitrary code via an unexpected data type, related to a "type confusion" issue.'}, {'lang': 'es', 'value': 'La función exception::getTraceAsString en Zend/zend_exceptions.c en PHP en versiones anteriores a 5.4.40, 5.5.x en versiones anteriores a 5.5.24 y 5.6.x en versiones anteriores a 5.6.8 permite a atacantes remotos ejecutar código arbitrario a través de un tipo de dato no esperado, relacionado con un caso "type confusion" .'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 91eme CVE 
+CVE ID: CVE-2015-4604, Description: [{'lang': 'en', 'value': 'The mget function in softmagic.c in file 5.x, as used in the Fileinfo component in PHP before 5.4.40, 5.5.x before 5.5.24, and 5.6.x before 5.6.8, does not properly maintain a certain pointer relationship, which allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted string that is mishandled by a "Python script text executable" rule.'}, {'lang': 'es', 'value': 'La función mget en softmagic.c en file 5.x, tal como se utiliza en el componente Fileinfo en PHP en versiones anteriores a 5.4.40, 5.5.x en versiones anteriores a 5.5.24 y 5.6.x en versiones anteriores a 5.6.8, no mantiene correctamente una cierta relación de puntero, lo que permite a atacantes remotos provocar una denegación de servicio (caída de aplicación) o posiblemente ejecutar código arbitrario a traves de una cadena manipulada que no es manejada correctamente por una regla "secuencia de comandos de texto ejecutable de Python".'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 92eme CVE 
+CVE ID: CVE-2015-4605, Description: [{'lang': 'en', 'value': 'The mcopy function in softmagic.c in file 5.x, as used in the Fileinfo component in PHP before 5.4.40, 5.5.x before 5.5.24, and 5.6.x before 5.6.8, does not properly restrict a certain offset value, which allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted string that is mishandled by a "Python script text executable" rule.'}, {'lang': 'es', 'value': 'La función mcopy en softmagic.c en file 5.x, tal como se utiliza en el componente Fileinfo en PHP en versiones anteriores a 5.4.40, 5.5.x en versiones anteriores a 5.5.24 y 5.6.x en versiones anteriores a 5.6.8, no restringe correctamente un cierto valor de desplazamiento, lo que permite a atacantes remotos provocar una denegación de servicio (caída de aplicación) o posiblemente ejecutar código arbitrario a través de una cadena manipulada que no es manejada correctamente por una regla "secuencia de comandos de texto ejecutable de Python".'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 93eme CVE 
+CVE ID: CVE-2015-4642, Description: [{'lang': 'en', 'value': 'The escapeshellarg function in ext/standard/exec.c in PHP before 5.4.42, 5.5.x before 5.5.26, and 5.6.x before 5.6.10 on Windows allows remote attackers to execute arbitrary OS commands via a crafted string to an application that accepts command-line arguments for a call to the PHP system function.'}, {'lang': 'es', 'value': 'La función escapeshellarg en ext/standard/exec.c en PHP en versiones anteriores a 5.4.42, 5.5.x en versiones anteriores a 5.5.26 y 5.6.x en versiones anteriores a 5.6.10 en Windows permite a atacantes remotos ejecutar comandos de SO arbitrarios a través de una cadena manipulada para una aplicación que acepta argumentos de línea de comando para una llamada a la función del sistema PHP.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 94eme CVE 
+CVE ID: CVE-2015-4643, Description: [{'lang': 'en', 'value': 'Integer overflow in the ftp_genlist function in ext/ftp/ftp.c in PHP before 5.4.42, 5.5.x before 5.5.26, and 5.6.x before 5.6.10 allows remote FTP servers to execute arbitrary code via a long reply to a LIST command, leading to a heap-based buffer overflow.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-4022.'}, {'lang': 'es', 'value': 'Desbordamiento de entero en la función ftp_genlist en ext/ftp/ftp.c en PHP en versiones anteriores a 5.4.42, 5.5.x en versiones anteriores a 5.5.26 y 5.6.x en versiones anteriores a 5.6.10 permite a servidores FTP remotos ejecutar código arbitrario a través de una respuesta larga para un comando LIST, encabezando un desbordamiento de buffer basado en memoria dinámica. NOTA: esta vulnerabilidad existe debido a una solución incompleta para CVE-2015-4022.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 95eme CVE 
+CVE ID: CVE-2015-4644, Description: [{'lang': 'en', 'value': 'The php_pgsql_meta_data function in pgsql.c in the PostgreSQL (aka pgsql) extension in PHP before 5.4.42, 5.5.x before 5.5.26, and 5.6.x before 5.6.10 does not validate token extraction for table names, which might allow remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted name.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-1352.'}, {'lang': 'es', 'value': 'La función php_pgsql_meta_data en pgsql.c en la extensión PostgreSQL (también conocida como pgsql) en PHP en versiones anteriores a 5.4.42, 5.5.x en versiones anteriores a 5.5.26 y 5.6 en versiones anteriores a 5.6.10 no tiene una extración de contador válido para nombres de tabla, lo que podría permitir a atacantes remotos provocar una denegación de servicio (referencia a puntero NULL y caída de aplicación) a través de un nombre manipulado. NOTA: esta vulnerabilidad existe debido a una solución incompleta de CVE-2015-1352.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 96eme CVE 
+CVE ID: CVE-2015-5589, Description: [{'lang': 'en', 'value': 'The phar_convert_to_other function in ext/phar/phar_object.c in PHP before 5.4.43, 5.5.x before 5.5.27, and 5.6.x before 5.6.11 does not validate a file pointer before a close operation, which allows remote attackers to cause a denial of service (segmentation fault) or possibly have unspecified other impact via a crafted TAR archive that is mishandled in a Phar::convertToData call.'}, {'lang': 'es', 'value': 'La función phar_convert_to_other en ext/phar_objetc.c en PHP en versiones anteriores a 5.4.43, 5.5.x en versiones anteriores a 5.5.27 y 5.6.x en versiones anteriores a 5.6.11 no valida un apuntador de archivo antes de una operación de cierre, lo que permite a atacantes remotos provocar una denegación de servicio (fallo de segmentación) o tener un posible impacto no especificado a través de un archivo TAR manipulado que no es correctamente manejado en una llamada Phar::convertToData.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 97eme CVE 
+CVE ID: CVE-2015-6834, Description: [{'lang': 'en', 'value': 'Multiple use-after-free vulnerabilities in PHP before 5.4.45, 5.5.x before 5.5.29, and 5.6.x before 5.6.13 allow remote attackers to execute arbitrary code via vectors related to (1) the Serializable interface, (2) the SplObjectStorage class, and (3) the SplDoublyLinkedList class, which are mishandled during unserialization.'}, {'lang': 'es', 'value': 'Múltiples vulnerabilidades de uso después de liberación de memoria en PHP en versiones anteriores a 5.4.45, 5.5.x en versiones anteriores a 5.5.29 y 5.6.x en versiones anteriores a 5.6.13 permite a atacantes remotos ejecutar código arbitrario a través de vectores relacionados con (1) la interfaz Serializable, (2) la clase SplObjectStorage y (3) la clase SplDoublyLinkedList, que no es correctamente manejado durante la deserialización.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+PHP 5.4/5.5/5.6 - SplDoublyLinkedL | https://www.exploit-db.com/exploits/38120
+PHP 5.4/5.5/5.6 - SplObjectStorage | https://www.exploit-db.com/exploits/38122
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 98eme CVE 
+CVE ID: CVE-2015-6835, Description: [{'lang': 'en', 'value': 'The session deserializer in PHP before 5.4.45, 5.5.x before 5.5.29, and 5.6.x before 5.6.13 mishandles multiple php_var_unserialize calls, which allow remote attackers to execute arbitrary code or cause a denial of service (use-after-free) via crafted session content.'}, {'lang': 'es', 'value': 'La sesión deserializer en PHP en versiones anteriores a 5.4.45, 5.5.x en versiones anteriores a 5.5.29 y 5.6.x en versiones anteriores a 5.6.13 no es correctamente manejada en llamadas multiples php_var_unserialize, lo que permite a atacantes remotos ejecutar código arbitrario o causar una denegación del servicio (uso después de liberación de memoria) a través de una sesión de contenido manipulada.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+PHP Session Deserializer - Use-Aft | https://www.exploit-db.com/exploits/38123
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 99eme CVE 
+CVE ID: CVE-2015-6837, Description: [{'lang': 'en', 'value': 'The xsl_ext_function_php function in ext/xsl/xsltprocessor.c in PHP before 5.4.45, 5.5.x before 5.5.29, and 5.6.x before 5.6.13, when libxml2 before 2.9.2 is used, does not consider the possibility of a NULL valuePop return value before proceeding with a free operation during initial error checking, which allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted XML document, a different vulnerability than CVE-2015-6838.'}, {'lang': 'es', 'value': 'La función xsl_function_php en ext/xsl/xsl/xsltprocessor.c en PHP en versiones anteriores a 5.4.45, 5.5.x en versiones anteriores a 5.5.29 y 5.6.x en versiones anteriores a 5.6.13, cuando se utiliza libxml2 en versiones anteriores a 2.9.2, no considera la posibilidad de un retorno NULL valuePop antes de proceder a una operación libre durante la comprobación inicial de errores, lo que permite a atacantes remotos provocar una denegación de servicio (referencia a puntero NULO y caída de aplicación) a través de un documento XML manipulado, una vulnerabilidad diferente a CVE-2015-6838.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 100eme CVE 
+CVE ID: CVE-2015-6838, Description: [{'lang': 'en', 'value': 'The xsl_ext_function_php function in ext/xsl/xsltprocessor.c in PHP before 5.4.45, 5.5.x before 5.5.29, and 5.6.x before 5.6.13, when libxml2 before 2.9.2 is used, does not consider the possibility of a NULL valuePop return value before proceeding with a free operation after the principal argument loop, which allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted XML document, a different vulnerability than CVE-2015-6837.'}, {'lang': 'es', 'value': 'La función xsl_function_php en ext/xsl/xsl/xsltprocessor.c en PHP en versiones anteriores a 5.4.45, 5.5.x en versiones anteriores a 5.5.29 y 5.6.x en versiones anteriores a 5.6.13, cuando se utiliza libxml2 en versiones anteriores a 2.9.2, no considera la posibilidad de un retorno NULL valuePop antes de proceder a una operación libre despues del bucle del argumento principal, lo que permite a atacantes remotos provocar una denegación de servicio (referencia a puntero NULL y caída de aplicación) a través de un documento XML manipulado, una vulnerabilidad diferente a CVE-2015-6838.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 101eme CVE 
+CVE ID: CVE-2015-8835, Description: [{'lang': 'en', 'value': 'The make_http_soap_request function in ext/soap/php_http.c in PHP before 5.4.44, 5.5.x before 5.5.28, and 5.6.x before 5.6.12 does not properly retrieve keys, which allows remote attackers to cause a denial of service (NULL pointer dereference, type confusion, and application crash) or possibly execute arbitrary code via crafted serialized data representing a numerically indexed _cookies array, related to the SoapClient::__call method in ext/soap/soap.c.'}, {'lang': 'es', 'value': 'La función make_http_soap_request en ext/soap/php_http.c en PHP en versiones anteriores a 5.5.44, 5.5.x en versiones anteriores a 5.5.28 y 5.6.x en versiones anteriores a 5.6.12 no recupera claves correctamente, lo que permite a atacantes remotos provocar una denegación de servicio (referencia a puntero NULL, confusión de tipo y caída de aplicación) o posiblemente ejecutar un código arbitrario a través de datos manipulados que representan una matriz numérica indexed_cookies, relacionada con el método SoapClient::__call en ext/soap/soap.c.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 102eme CVE 
+CVE ID: CVE-2015-8838, Description: [{'lang': 'en', 'value': 'ext/mysqlnd/mysqlnd.c in PHP before 5.4.43, 5.5.x before 5.5.27, and 5.6.x before 5.6.11 uses a client SSL option to mean that SSL is optional, which allows man-in-the-middle attackers to spoof servers via a cleartext-downgrade attack, a related issue to CVE-2015-3152.'}, {'lang': 'es', 'value': 'ext/mysqlnd/mysqlnd.c en PHP en versiones anteriores a 5.4.43, 5.5.x en versiones anteriores 5.5.27 y 5.6.x en versiones anteriores a 5.6.11 usa una opción de cliente SSL para indicar que el SSL es opcional, lo que permite a atacantes man-in-the-middle falsificar servidores a través de un ataque de degradación de texto plano, un problema relacionado con la CVE-2015-3152.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 103eme CVE 
+CVE ID: CVE-2015-8873, Description: [{'lang': 'en', 'value': 'Stack consumption vulnerability in Zend/zend_exceptions.c in PHP before 5.4.44, 5.5.x before 5.5.28, and 5.6.x before 5.6.12 allows remote attackers to cause a denial of service (segmentation fault) via recursive method calls.'}, {'lang': 'es', 'value': 'Vulnerabilidad de consumo de pila en Zend/zend_exceptions.c en PHP en versiones anteriores a 5.4.44, 5.5.x en versiones anteriores a 5.5.28 y 5.6.x en versiones anteriores a 5.6.12 permite a atacantes remotos provocar una denegación de servicio (fallo de segmentación) a través de llamadas a métodos recursivos.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'NONE', 'availabilityImpact': 'HIGH', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 104eme CVE 
+CVE ID: CVE-2015-8874, Description: [{'lang': 'en', 'value': 'Stack consumption vulnerability in GD in PHP before 5.6.12 allows remote attackers to cause a denial of service via a crafted imagefilltoborder call.'}, {'lang': 'es', 'value': 'Vulnerabilidad de consumo de pila en GD en PHP en versiones anteriores a 5.6.12 permite a atacantes remotos provocar una denegación de servicio a través de una llamada imagefilltoborder manipulada.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 105eme CVE 
+CVE ID: CVE-2016-2554, Description: [{'lang': 'en', 'value': 'Stack-based buffer overflow in ext/phar/tar.c in PHP before 5.5.32, 5.6.x before 5.6.18, and 7.x before 7.0.3 allows remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact via a crafted TAR archive.'}, {'lang': 'es', 'value': 'Desbordamiento de buffer basado en pila en ext/phar/tar.c en PHP en versiones anteriores a 5.5.32, 5.6.x en versiones anteriores a 5.6.18 y 7.x en versiones anteriores a 7.0.3 permite a atacantes remotos provocar una denegación de servicio (caída de aplicación) o tener un posible impacto no especificado a través de un archivo TAR manipulado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 106eme CVE 
+CVE ID: CVE-2016-3185, Description: [{'lang': 'en', 'value': 'The make_http_soap_request function in ext/soap/php_http.c in PHP before 5.4.44, 5.5.x before 5.5.28, 5.6.x before 5.6.12, and 7.x before 7.0.4 allows remote attackers to obtain sensitive information from process memory or cause a denial of service (type confusion and application crash) via crafted serialized _cookies data, related to the SoapClient::__call method in ext/soap/soap.c.'}, {'lang': 'es', 'value': 'La función make_http_soap_request en ext/soap/php_http.c en PHP en versiones anteriores a 5.5.44, 5.5.x en versiones anteriores a 5.5.28 y 5.6.x en versiones anteriores a 5.6.12 y 7.x en versiones anteriores a 7.0.4 permite a atacantes remotos obtener información sensible del proceso de memoria o provocar una denegación de servicio (confusión de tipo y caída de aplicación) a través de datos serializados _cookies manipulados, relacionados con el método SoapClient::__call en ext/soap/soap.c.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 107eme CVE 
+CVE ID: CVE-2015-8865, Description: [{'lang': 'en', 'value': 'The file_check_mem function in funcs.c in file before 5.23, as used in the Fileinfo component in PHP before 5.5.34, 5.6.x before 5.6.20, and 7.x before 7.0.5, mishandles continuation-level jumps, which allows context-dependent attackers to cause a denial of service (buffer overflow and application crash) or possibly execute arbitrary code via a crafted magic file.'}, {'lang': 'es', 'value': 'La función file_check_mem en funcs.c en file en versiones anteriores a 5.23, cómo se utiliza en el componente Fileinfo en PHP en versiones anteriores a 5.5.34, 5.6.x en versiones anteriores a 5.6.20, y 7.x en versiones anteriores a 7.0.5, no maneja correctamente saltos de continuación de nivel, lo que permite a atacantes dependientes del contexto causar una denegación de servicio (desbordamiento de buffer y caída de aplicación) o posiblemente ejecutar código arbitrario a través de un archivo mágico manipulado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 108eme CVE 
+CVE ID: CVE-2016-4070, Description: [{'lang': 'en', 'value': 'Integer overflow in the php_raw_url_encode function in ext/standard/url.c in PHP before 5.5.34, 5.6.x before 5.6.20, and 7.x before 7.0.5 allows remote attackers to cause a denial of service (application crash) via a long string to the rawurlencode function. NOTE: the vendor says "Not sure if this qualifies as security issue (probably not).'}, {'lang': 'es', 'value': '** EN DISPUTA ** Desbordamiento de entero en la función php_raw_url_encode en ext/styard/url.c en PHP en versiones anteriores a 5.5.34, 5.6.x en versiones anteriores a 5.6.20 y 7.x en versiones anteriores a 7.0.5 permite a atacantes remotos causar una denegación de servicio (caída de aplicación) a través de una cadena larga para la función rawurlencode. NOTA: el vendedor afirma "No seguro si esto califica como problema de seguridad (probablemente no)".'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 109eme CVE 
+CVE ID: CVE-2014-9767, Description: [{'lang': 'en', 'value': 'Directory traversal vulnerability in the ZipArchive::extractTo function in ext/zip/php_zip.c in PHP before 5.4.45, 5.5.x before 5.5.29, and 5.6.x before 5.6.13 and ext/zip/ext_zip.cpp in HHVM before 3.12.1 allows remote attackers to create arbitrary empty directories via a crafted ZIP archive.'}, {'lang': 'es', 'value': 'Vulnerabilidad de salto de directorio en la función ZipArchive::extractTo en ext/zip/php_zip.c en PHP en versiones anteriores a 5.4.45, 5.5.x en versiones anteriores a 5.5.29 y 5.6.x en versiones anteriores a 5.6.13 y ext/zip/ext_zip.cpp en HHVM en versiones anteriores a 3.12.1 permite a atacantes remotos crear directorios vacios arbitrarios a través de un archivo ZIP manipulado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 110eme CVE 
+CVE ID: CVE-2015-8867, Description: [{'lang': 'en', 'value': 'The openssl_random_pseudo_bytes function in ext/openssl/openssl.c in PHP before 5.4.44, 5.5.x before 5.5.28, and 5.6.x before 5.6.12 incorrectly relies on the deprecated RAND_pseudo_bytes function, which makes it easier for remote attackers to defeat cryptographic protection mechanisms via unspecified vectors.'}, {'lang': 'es', 'value': 'La función openssl_random_pseudo_bytes en ext/openssl/openssl.c en PHP en versiones anteriores a 5.4.44, 5.5.x en versiones anteriores a 5.5.28 y 5.6.x en versiones anteriores a 5.6.12 se basa incorrectamente en la función en desuso RAND_pseudo_bytes, lo que hace que sea más fácil para los atacantes remotos vencer a los mecanismos de protección de cifrado a través de vectores no especificados.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 111eme CVE 
+CVE ID: CVE-2015-8876, Description: [{'lang': 'en', 'value': 'Zend/zend_exceptions.c in PHP before 5.4.44, 5.5.x before 5.5.28, and 5.6.x before 5.6.12 does not validate certain Exception objects, which allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) or trigger unintended method execution via crafted serialized data.'}, {'lang': 'es', 'value': 'Zend/zend_exceptions.c en PHP en versiones anteriores a 5.4.44, 5.5.x en versiones anteriores a 5.5.28 y 5.6.x en versiones anteriores a 5.6.12 no valida ciertos objetos Exception, lo que permite atacantes remotos provocar una denegación del servicio (referencia a puntero NULO y caída de aplicación) o desencadenar la ejecución de un método no previsto a través de datos serializados manipulados.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 112eme CVE 
+CVE ID: CVE-2015-8877, Description: [{'lang': 'en', 'value': 'The gdImageScaleTwoPass function in gd_interpolation.c in the GD Graphics Library (aka libgd) before 2.2.0, as used in PHP before 5.6.12, uses inconsistent allocate and free approaches, which allows remote attackers to cause a denial of service (memory consumption) via a crafted call, as demonstrated by a call to the PHP imagescale function.'}, {'lang': 'es', 'value': 'La función gdImageScaleTwoPass en gd_interpolation.c en el GD Graphics Library (también conocido como libgd) en versiones anteriores a 2.2.0, como es utilizado en PHP en versiones anteriores a 5.6.12, usa asignaciones inconsistentes y enfoques libres, lo que permite a atacantes remotos provocar una denegación del servicio (consumo de memoria) a través de una llamada manipulada, según lo demostrado mediante una llamada a la función PHP imagescale.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 113eme CVE 
+CVE ID: CVE-2015-8879, Description: [{'lang': 'en', 'value': 'The odbc_bindcols function in ext/odbc/php_odbc.c in PHP before 5.6.12 mishandles driver behavior for SQL_WVARCHAR columns, which allows remote attackers to cause a denial of service (application crash) in opportunistic circumstances by leveraging use of the odbc_fetch_array function to access a certain type of Microsoft SQL Server table.'}, {'lang': 'es', 'value': 'La función odbc_bindcols en ext/odbc/php_odbc.c en PHP en versiones anteriores a 5.6.12 no maneja correctamente el comportamiento del controlador para columnas SQL_WVARCHAR, lo que permite a atacantes remotos provocar una denegación del servicio (caída de aplicación) en circunstancias oportunas aprovechando el uso de la función odbc_fetch_array para acceder a determinado tipo de tablas Microsoft SQL Server.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'NONE', 'availabilityImpact': 'HIGH', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 114eme CVE 
+CVE ID: CVE-2016-4342, Description: [{'lang': 'en', 'value': 'ext/phar/phar_object.c in PHP before 5.5.32, 5.6.x before 5.6.18, and 7.x before 7.0.3 mishandles zero-length uncompressed data, which allows remote attackers to cause a denial of service (heap memory corruption) or possibly have unspecified other impact via a crafted (1) TAR, (2) ZIP, or (3) PHAR archive.'}, {'lang': 'es', 'value': 'ext/phar/phar_object.c en PHP en versiones anteriores a 5.5.32, 5.6.x en versiones anteriores a 5.6.18 y 7.x en versiones anteriores a 7.0.3 no maneja correctamente los datos sin comprimir de longitud cero, lo que permite a atacantes remotos provocar una denegación de servicio (corrupción de la memoria dinámica) o posiblemente tener otro impacto no especificado a través de un archivo (1) TAR, (2) ZIP o (3) PHAR manipulado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 115eme CVE 
+CVE ID: CVE-2016-4343, Description: [{'lang': 'en', 'value': 'The phar_make_dirstream function in ext/phar/dirstream.c in PHP before 5.6.18 and 7.x before 7.0.3 mishandles zero-size ././@LongLink files, which allows remote attackers to cause a denial of service (uninitialized pointer dereference) or possibly have unspecified other impact via a crafted TAR archive.'}, {'lang': 'es', 'value': 'La función phar_make_dirstream en ext/phar/dirstream.c en PHP en versiones anteriores a 5.6.18 y 7.x en versiones anteriores a 7.0.3 no maneja correctamente archivos ././@LongLink de tamaño cero, lo que permite a atacantes remotos provocar una denegación de servicio (referencia a puntero no inicializado) o posiblemente tener otro impacto no especificado a través de un archivo TAR manipulado.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'REQUIRED', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 8.8, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 2.8, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 116eme CVE 
+CVE ID: CVE-2016-4537, Description: [{'lang': 'en', 'value': 'The bcpowmod function in ext/bcmath/bcmath.c in PHP before 5.5.35, 5.6.x before 5.6.21, and 7.x before 7.0.6 accepts a negative integer for the scale argument, which allows remote attackers to cause a denial of service or possibly have unspecified other impact via a crafted call.'}, {'lang': 'es', 'value': 'La función bcpowmod en ext/bcmath/bcmath.c en PHP en versiones anteriores a 5.5.35, 5.6.x en versiones anteriores a 5.6.21 y 7.x en versiones anteriores a 7.0.6 acepta un entero negativo para el argumento escala, lo que permite a atacantes remotos provocar una denegación de servicio o posiblemente tener otro impacto no especificado a través de una llamada manipulada.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 117eme CVE 
+CVE ID: CVE-2016-4538, Description: [{'lang': 'en', 'value': 'The bcpowmod function in ext/bcmath/bcmath.c in PHP before 5.5.35, 5.6.x before 5.6.21, and 7.x before 7.0.6 modifies certain data structures without considering whether they are copies of the _zero_, _one_, or _two_ global variable, which allows remote attackers to cause a denial of service or possibly have unspecified other impact via a crafted call.'}, {'lang': 'es', 'value': 'La función bcpowmod en ext/bcmath/bcmath.c en PHP en versiones anteriores a 5.5.35, 5.6.x en versiones anteriores a 5.6.21 y 7.x en versiones anteriores a 7.0.6 modifica ciertas estructuras de datos sin considerar si son copias de la variable global _zero_, _one_, o _two_, lo que permite a atacantes remotos provocar una denegación de servicio o posiblemente tener otro impacto no especificado a través de una llamada manipulada.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 118eme CVE 
+CVE ID: CVE-2016-4539, Description: [{'lang': 'en', 'value': 'The xml_parse_into_struct function in ext/xml/xml.c in PHP before 5.5.35, 5.6.x before 5.6.21, and 7.x before 7.0.6 allows remote attackers to cause a denial of service (buffer under-read and segmentation fault) or possibly have unspecified other impact via crafted XML data in the second argument, leading to a parser level of zero.'}, {'lang': 'es', 'value': 'La función xml_parse_into_struct en ext/xml/xml.c en PHP en versiones anteriores a 5.5.35, 5.6.x en versiones anteriores a 5.6.21 y 7.x en versiones anteriores a 7.0.6 permite a atacantes remotos provocar una denegación de servicio (lectura debajo de buffer y fallo de segmentación) o posiblemente tener otro impacto no especificado a través de un dato XML manipulado en el argumento segundo, encabezando un analizador de nivel cero.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 119eme CVE 
+CVE ID: CVE-2016-4540, Description: [{'lang': 'en', 'value': 'The grapheme_stripos function in ext/intl/grapheme/grapheme_string.c in PHP before 5.5.35, 5.6.x before 5.6.21, and 7.x before 7.0.6 allows remote attackers to cause a denial of service (out-of-bounds read) or possibly have unspecified other impact via a negative offset.'}, {'lang': 'es', 'value': 'La función grapheme_stripos en ext/intl/grapheme/grapheme_string.c en PHP en versiones anteriores a 5.5.35, 5.6.x en versiones anteriores a 5.6.21 y 7.x en versiones anteriores a 7.0.6 permite a atacantes remotos provocar una denegación de servicio (lectura fuera de límites) o posiblemente tener otro impacto no especificado a través de un desplazamiento negativo.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 120eme CVE 
+CVE ID: CVE-2016-4541, Description: [{'lang': 'en', 'value': 'The grapheme_strpos function in ext/intl/grapheme/grapheme_string.c in PHP before 5.5.35, 5.6.x before 5.6.21, and 7.x before 7.0.6 allows remote attackers to cause a denial of service (out-of-bounds read) or possibly have unspecified other impact via a negative offset.'}, {'lang': 'es', 'value': 'La función grapheme_strpos en ext/intl/grapheme/grapheme_string.c en PHP en versiones anteriores a 5.5.35, 5.6.x en versiones anteriores a 5.6.21 y 7.x en versiones anteriores a 7.0.6 permite a atacantes remotos provocar una denegación de servicio (lectura fuera de rango) o posiblemente tener otro impacto no especificado a través de un desplazamiento negativo.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 121eme CVE 
+CVE ID: CVE-2016-4542, Description: [{'lang': 'en', 'value': 'The exif_process_IFD_TAG function in ext/exif/exif.c in PHP before 5.5.35, 5.6.x before 5.6.21, and 7.x before 7.0.6 does not properly construct spprintf arguments, which allows remote attackers to cause a denial of service (out-of-bounds read) or possibly have unspecified other impact via crafted header data.'}, {'lang': 'es', 'value': 'La función exif_process_IFD_TAG en ext/exif/exif.c en PHP en versiones anteriores a 5.5.35, 5.6.x en versiones anteriores a 5.6.21 y 7.x en versiones anteriores a 7.0.6 no construye adecuadamente argumentos spprintf, lo que permite a atacantes remotos provocar una denegación de servicio (lectura fuera de límites) o posiblemente tener otro impacto no especificado a través de datos de cabecera manipulados.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 122eme CVE 
+CVE ID: CVE-2016-4543, Description: [{'lang': 'en', 'value': 'The exif_process_IFD_in_JPEG function in ext/exif/exif.c in PHP before 5.5.35, 5.6.x before 5.6.21, and 7.x before 7.0.6 does not validate IFD sizes, which allows remote attackers to cause a denial of service (out-of-bounds read) or possibly have unspecified other impact via crafted header data.'}, {'lang': 'es', 'value': 'La función exif_process_IFD_in_JPEG en ext/exif/exif.c en PHP en versiones anteriores a 5.5.35, 5.6.x en versiones anteriores a 5.6.21 y 7.x en versiones anteriores a 7.0.6 no valida tamaños IFD, lo que permite a atacantes remotos provocar una denegación de servicio (lectura fuera de límites) o posiblemente tener otro impacto no especificado a través de datos de cabecera manipulados.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 123eme CVE 
+CVE ID: CVE-2016-6174, Description: [{'lang': 'en', 'value': 'applications/core/modules/front/system/content.php in Invision Power Services IPS Community Suite (aka Invision Power Board, IPB, or Power Board) before 4.1.13, when used with PHP before 5.4.24 or 5.5.x before 5.5.8, allows remote attackers to execute arbitrary code via the content_class parameter.'}, {'lang': 'es', 'value': 'applications/core/modules/front/system/content.php en Invision Power Services IPS Community Suite (también conocido como Invision Power Board, IPB o Power Board) en versiones anteriores a 4.1.13, cuando se utiliza con PHP en versiones anteriores a 5.4.24 o 5.5.x en versiones anteriores a 5.5.8, permite a atacantes remotos ejecutar código arbitrario a través del parámetro content_class.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+----------------------------------- --------------------------------------------
+ Exploit Title                     |  URL
+----------------------------------- --------------------------------------------
+IPS Community Suite 4.1.12.3 - PHP | https://www.exploit-db.com/exploits/40084
+----------------------------------- --------------------------------------------
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 124eme CVE 
+CVE ID: CVE-2016-6288, Description: [{'lang': 'en', 'value': 'The php_url_parse_ex function in ext/standard/url.c in PHP before 5.5.38 allows remote attackers to cause a denial of service (buffer over-read) or possibly have unspecified other impact via vectors involving the smart_str data type.'}, {'lang': 'es', 'value': 'La función php_url_parse_ex en ext/standard/url.c en PHP en versiones anteriores a 5.5.38 permite a atacantes remotos provocar una denegación de servicio (sobrelectura de buffer) o posiblemente tener otro impacto no especificado a través de vectores que involucran el tipo de datos smart_str.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 125eme CVE 
+CVE ID: CVE-2016-6289, Description: [{'lang': 'en', 'value': 'Integer overflow in the virtual_file_ex function in TSRM/tsrm_virtual_cwd.c in PHP before 5.5.38, 5.6.x before 5.6.24, and 7.x before 7.0.9 allows remote attackers to cause a denial of service (stack-based buffer overflow) or possibly have unspecified other impact via a crafted extract operation on a ZIP archive.'}, {'lang': 'es', 'value': 'Desbordamiento de entero en la función virtual_file_ex en TSRM/tsrm_virtual_cwd.c en PHP en versiones anteriores a 5.5.38, 5.6.x en versiones anteriores a 5.6.24 y 7.x en versiones anteriores a 7.0.9 permite a atacantes remotos provocar una denegación de servicio (desbordamiento de buffer basado en pila) o posiblemente tener otro impacto no especificado a través de una operación de extracto manipulada en un archivo ZIP.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 126eme CVE 
+CVE ID: CVE-2016-6290, Description: [{'lang': 'en', 'value': 'ext/session/session.c in PHP before 5.5.38, 5.6.x before 5.6.24, and 7.x before 7.0.9 does not properly maintain a certain hash data structure, which allows remote attackers to cause a denial of service (use-after-free) or possibly have unspecified other impact via vectors related to session deserialization.'}, {'lang': 'es', 'value': 'ext/session/session.c en PHP en versiones anteriores a 5.5.38, 5.6.x en versiones anteriores a 5.6.24 y 7.x en versiones anteriores a 7.0.9 no mantiene correctamente una determinada estructura de datos hash, lo que permite a atacantes remotos provocar una denegación de servicio (uso después de liberación) o posiblemente tener otro impacto no especificado a través de vectores relacionados con deserialización de sesión.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 127eme CVE 
+CVE ID: CVE-2016-6291, Description: [{'lang': 'en', 'value': 'The exif_process_IFD_in_MAKERNOTE function in ext/exif/exif.c in PHP before 5.5.38, 5.6.x before 5.6.24, and 7.x before 7.0.9 allows remote attackers to cause a denial of service (out-of-bounds array access and memory corruption), obtain sensitive information from process memory, or possibly have unspecified other impact via a crafted JPEG image.'}, {'lang': 'es', 'value': 'La función exif_process_IFD_in_MAKERNOTE en ext/exif/exif.c en PHP en versiones anteriores a 5.5.38, 5.6.x en versiones anteriores a 5.6.24 y 7.x en versiones anteriores a 7.0.9 permite a atacantes remotos provocar una denegación de servicio (acceso al array fuera de rango y corrupción de memoria), obtener información sensible de la memoria de proceso o posiblemente tener otro impacto no especificado a través de una imagen JPEG manipulada.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 128eme CVE 
+CVE ID: CVE-2016-6292, Description: [{'lang': 'en', 'value': 'The exif_process_user_comment function in ext/exif/exif.c in PHP before 5.5.38, 5.6.x before 5.6.24, and 7.x before 7.0.9 allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted JPEG image.'}, {'lang': 'es', 'value': 'La función exif_process_user_comment en ext/exif/exif.c en PHP en versiones anteriores a 5.5.38, 5.6.x en versiones anteriores a 5.6.24 y 7.x en versiones anteriores a 7.0.9 permite a atacantes remotos provocar una denegación de servicio (referencia a puntero NULL y caída de aplicación) a través de una imagen JPEG manipulada.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 129eme CVE 
+CVE ID: CVE-2016-6294, Description: [{'lang': 'en', 'value': 'The locale_accept_from_http function in ext/intl/locale/locale_methods.c in PHP before 5.5.38, 5.6.x before 5.6.24, and 7.x before 7.0.9 does not properly restrict calls to the ICU uloc_acceptLanguageFromHTTP function, which allows remote attackers to cause a denial of service (out-of-bounds read) or possibly have unspecified other impact via a call with a long argument.'}, {'lang': 'es', 'value': 'La función locale_accept_from_http en ext/intl/locale/locale_methods.c en PHP en versiones anteriores a 5.5.38, 5.6.x en versiones anteriores a 5.6.24 y 7.x en versiones anteriores a 7.0.9 no restringe correctamente llamadas para la función ICU uloc_acceptLanguageFromHTTP, lo que permite a atacantes remotos provocar una denegación de servicio (lectura fuera de rango) o posiblemente tener otro impacto no especificado a través de una llamada con un argumento largo'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 130eme CVE 
+CVE ID: CVE-2016-6295, Description: [{'lang': 'en', 'value': 'ext/snmp/snmp.c in PHP before 5.5.38, 5.6.x before 5.6.24, and 7.x before 7.0.9 improperly interacts with the unserialize implementation and garbage collection, which allows remote attackers to cause a denial of service (use-after-free and application crash) or possibly have unspecified other impact via crafted serialized data, a related issue to CVE-2016-5773.'}, {'lang': 'es', 'value': 'ext/snmp/snmp.c en PHP en versiones anteriores a 5.5.38, 5.6.x en versiones anteriores a 5.6.24 y 7.x en versiones anteriores a 7.0.9 no interactúa correctamente con la implementación no serializada y la recolección de basura, lo que permite a atacantes remotos provocar una denegación de servicio (uso después de liberación y caída de aplicación) o posiblemente tener otro impacto no especificado a través de datos serializados, un problema relacionado con CVE-2016-5773.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 131eme CVE 
+CVE ID: CVE-2016-6296, Description: [{'lang': 'en', 'value': 'Integer signedness error in the simplestring_addn function in simplestring.c in xmlrpc-epi through 0.54.2, as used in PHP before 5.5.38, 5.6.x before 5.6.24, and 7.x before 7.0.9, allows remote attackers to cause a denial of service (heap-based buffer overflow) or possibly have unspecified other impact via a long first argument to the PHP xmlrpc_encode_request function.'}, {'lang': 'es', 'value': 'Error de firma de entero en la función simplestring_addn en simplestring.c en xmlrpc-epi hasta la versión 0.54.2, tal como se utiliza en PHP en versiones anteriores a 5.5.38, 5.6.x en versiones anteriores a 5.6.24 y 7.x en versiones anteriores a 7.0.9, permite a atacantes remotos provocar una denegación de servicio (desbordamiento de buffer basado en memoria dinámica) o posiblemente tener otro impacto no especificado a través de un primer argumento largo para la función xmlrpc_encode_request de PHP.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 132eme CVE 
+CVE ID: CVE-2016-6297, Description: [{'lang': 'en', 'value': 'Integer overflow in the php_stream_zip_opener function in ext/zip/zip_stream.c in PHP before 5.5.38, 5.6.x before 5.6.24, and 7.x before 7.0.9 allows remote attackers to cause a denial of service (stack-based buffer overflow) or possibly have unspecified other impact via a crafted zip:// URL.'}, {'lang': 'es', 'value': 'Desbordamiento de entero en la función php_stream_zip_opener en ext/zip/zip_stream.c en PHP en versiones anteriores a 5.5.38, 5.6.x en versiones anteriores a 5.6.24 y 7.x en versiones anteriores a 7.0.9 permite a atacantes remotos provocar una denegación de servicio (desbordamiento de entero basado en pila) o posiblemente tener otro impacto no especificado a través de una URL zip:// manipulada.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 133eme CVE 
+CVE ID: CVE-2013-7456, Description: [{'lang': 'en', 'value': 'gd_interpolation.c in the GD Graphics Library (aka libgd) before 2.1.1, as used in PHP before 5.5.36, 5.6.x before 5.6.22, and 7.x before 7.0.7, allows remote attackers to cause a denial of service (out-of-bounds read) or possibly have unspecified other impact via a crafted image that is mishandled by the imagescale function.'}, {'lang': 'es', 'value': 'gd_interpolation.c en la GD Graphics Library (también conocido como libgd) en versiones anteriores a 2.1.1, tal como se usa en PHP en versiones anteriores 5.5.36, 5.6.x en versiones anteriores 5.6.22 y 7.x en versiones anteriores 7.0.7, permite a atacantes remotos provocar una denegación de servicio (lectura fuera de rango) o posiblemente tener otro impacto no especificado a través de una imagen manipulada que no es manejada adecuadamente por la función imagescale.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 134eme CVE 
+CVE ID: CVE-2015-8935, Description: [{'lang': 'en', 'value': 'The sapi_header_op function in main/SAPI.c in PHP before 5.4.38, 5.5.x before 5.5.22, and 5.6.x before 5.6.6 supports deprecated line folding without considering browser compatibility, which allows remote attackers to conduct cross-site scripting (XSS) attacks against Internet Explorer by leveraging (1) %0A%20 or (2) %0D%0A%20 mishandling in the header function.'}, {'lang': 'es', 'value': 'La función sapi_header_op en main/SAPI en PHP en versiones anteriores a 5.4.38, 5.5.x en versiones anteriores a 5.5.22 y 5.6 en versiones anteriores a 5.6.6 apoya el plegado de linea en de uso sin considerar la compatibilidad del navegador, lo que permite a atacantes remotos llevar a cabo ataques XSS contra Internet Explorer mediante el aprovechamiento de (1) %0A%20 o (2) %0D%0A%20 no manejado adecuadamente en la función de cabecera.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 135eme CVE 
+CVE ID: CVE-2016-5093, Description: [{'lang': 'en', 'value': "The get_icu_value_internal function in ext/intl/locale/locale_methods.c in PHP before 5.5.36, 5.6.x before 5.6.22, and 7.x before 7.0.7 does not ensure the presence of a '\\0' character, which allows remote attackers to cause a denial of service (out-of-bounds read) or possibly have unspecified other impact via a crafted locale_get_primary_language call."}, {'lang': 'es', 'value': "La función get_icu_value_internal en ext/intl/locale/locale_methods.c en PHP en versiones anteriores a 5.5.36, 5.6.x en versiones anteriores a 5.6.22 y 7.x en versiones anteriores a 7.0.7 no asegura la presencia de un carácter '\\0', lo que permite a atacantes remotos provocar una denegación de servicio (lectura fuera de rango) o posiblemente tener otro impacto no especificado a través de una llamada locale_get_primary_language manipulada."}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 136eme CVE 
+CVE ID: CVE-2016-5094, Description: [{'lang': 'en', 'value': 'Integer overflow in the php_html_entities function in ext/standard/html.c in PHP before 5.5.36 and 5.6.x before 5.6.22 allows remote attackers to cause a denial of service or possibly have unspecified other impact by triggering a large output string from the htmlspecialchars function.'}, {'lang': 'es', 'value': 'Desbordamiento de entero en la función php_html_entities en ext/standard/html.c en PHP en versiones anteriores a 5.5.36 y 5.6.x en versiones anteriores a 5.6.22 permite a atacantes remotos provocar una denegación de servicio o posiblemente tener otro impacto no especificado desencadenando una cadena de salida grande de la función htmlspecialchars.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 137eme CVE 
+CVE ID: CVE-2016-5095, Description: [{'lang': 'en', 'value': 'Integer overflow in the php_escape_html_entities_ex function in ext/standard/html.c in PHP before 5.5.36 and 5.6.x before 5.6.22 allows remote attackers to cause a denial of service or possibly have unspecified other impact by triggering a large output string from a FILTER_SANITIZE_FULL_SPECIAL_CHARS filter_var call.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2016-5094.'}, {'lang': 'es', 'value': 'Desbordamiento de entero en la función php_escape_html_entities_ex en ext/standard/html.c en PHP en versiones anteriores a 5.5.36 y 5.6.x en versiones anteriores a 5.6.22 permite a atacantes remotos provocar una denegación de servicio o posiblemente tener otro impacto no especificado desencadenando una cadena de salida grande de una llamada FILTER_SANITIZE_FULL_SPECIAL_CHARS filter_var. NOTA: esta vulnerabilidad existe debido a una solución incompleta para CVE-2016-5094.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 138eme CVE 
+CVE ID: CVE-2016-5096, Description: [{'lang': 'en', 'value': 'Integer overflow in the fread function in ext/standard/file.c in PHP before 5.5.36 and 5.6.x before 5.6.22 allows remote attackers to cause a denial of service or possibly have unspecified other impact via a large integer in the second argument.'}, {'lang': 'es', 'value': 'Desbordamiento de entero en la función fread en ext/standard/file.c en PHP en versiones anteriores a 5.5.36 y 5.6.x en versiones anteriores a 5.6.22 permite a atacantes remotos provocar una denegación de servicio o posiblemente tener otro impacto no especificado a través de un entero grande en el segundo argumento.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 139eme CVE 
+CVE ID: CVE-2016-5114, Description: [{'lang': 'en', 'value': 'sapi/fpm/fpm/fpm_log.c in PHP before 5.5.31, 5.6.x before 5.6.17, and 7.x before 7.0.2 misinterprets the semantics of the snprintf return value, which allows attackers to obtain sensitive information from process memory or cause a denial of service (out-of-bounds read and buffer overflow) via a long string, as demonstrated by a long URI in a configuration with custom REQUEST_URI logging.'}, {'lang': 'es', 'value': 'sapi/fpm/fpm/fpm_log.c en PHP en versiones anteriores a 5.5.31, 5.6.x en versiones anteriores a 5.6.17 y 7.x en versiones anteriores a 7.0.2 malinterpreta la semántica del valor de retorno snprinfg, lo que permite a atacantes remotos obtener información sensible del proceso de memoria o provocar una denegación de servicio (lectura fuera de rango y desbordamiento de búfer) a través de una cadena larga, como se demuestra por una URl larga en una configuración con inicio de sesión REQUEST_URI personalizado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 140eme CVE 
+CVE ID: CVE-2016-5766, Description: [{'lang': 'en', 'value': 'Integer overflow in the _gd2GetHeader function in gd_gd2.c in the GD Graphics Library (aka libgd) before 2.2.3, as used in PHP before 5.5.37, 5.6.x before 5.6.23, and 7.x before 7.0.8, allows remote attackers to cause a denial of service (heap-based buffer overflow and application crash) or possibly have unspecified other impact via crafted chunk dimensions in an image.'}, {'lang': 'es', 'value': 'Desbordamiento de entero en la función _gd2GetHeader en gd_gd2.c en la GD Graphics Library (también conocido como libgd) en versiones anteriores a 2.2.3, como se utiliza en PHP en versiones anteriores a 5.5.37, 5.6.x en versiones anteriores a 5.6.23 y 7.x en versiones anteriores a 7.0.8, permite a atacantes remotos provocar una denegación de servicio (desbordamiento de búfer basado en memoria dinámica y caída de aplicación) o posiblemente tener otro impacto no especificado a través de dimensiones del pedazo en una imagen manipulada.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 141eme CVE 
+CVE ID: CVE-2016-5767, Description: [{'lang': 'en', 'value': 'Integer overflow in the gdImageCreate function in gd.c in the GD Graphics Library (aka libgd) before 2.0.34RC1, as used in PHP before 5.5.37, 5.6.x before 5.6.23, and 7.x before 7.0.8, allows remote attackers to cause a denial of service (heap-based buffer overflow and application crash) or possibly have unspecified other impact via a crafted image dimensions.'}, {'lang': 'es', 'value': 'Desbordamiento de entero en la función gdImageCreate en gd.c en la GD Graphics Library (también conocido como libgd) en versiones anteriores a 2.0.34RC1, como se utiliza en PHP en versiones anteriores a 5.5.37, 5.6.x en versiones anteriores a 5.6.23 y 7.x en versiones anteriores a 7.0.8 permite a atacantes remotos provocar una denegación de servicio (desbordamiento de búfer basado en memoria dinámica y caída de aplicación) o posiblemente tener otro impacto no especificado a través de dimensiones de imagen manipuladas.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 142eme CVE 
+CVE ID: CVE-2016-5768, Description: [{'lang': 'en', 'value': 'Double free vulnerability in the _php_mb_regex_ereg_replace_exec function in php_mbregex.c in the mbstring extension in PHP before 5.5.37, 5.6.x before 5.6.23, and 7.x before 7.0.8 allows remote attackers to execute arbitrary code or cause a denial of service (application crash) by leveraging a callback exception.'}, {'lang': 'es', 'value': 'Vulnerabilidad de liberación doble en la función _php_mb_regex_ereg_replace_exec en php_mbregex.c en la extensión mbstring en PHP en versiones anteriores a 5.5.37, 5.6.x en versiones anteriores a 5.6.23 y 7.x en versiones anteriores a 7.0.8 permite a atacantes remotos ejecutar un código arbitrario o provocar una denegación de servicio (caída de aplicación) mediante el aprovechamiento de una excepción de devolución de llamada.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 143eme CVE 
+CVE ID: CVE-2016-5769, Description: [{'lang': 'en', 'value': 'Multiple integer overflows in mcrypt.c in the mcrypt extension in PHP before 5.5.37, 5.6.x before 5.6.23, and 7.x before 7.0.8 allow remote attackers to cause a denial of service (heap-based buffer overflow and application crash) or possibly have unspecified other impact via a crafted length value, related to the (1) mcrypt_generic and (2) mdecrypt_generic functions.'}, {'lang': 'es', 'value': 'Múltiples desbordamientos de entero en mcrypt.c en la extensión mcrypt en PHP en versiones anteriores a 5.5.37, 5.6.x en versiones anteriores a 5.6.23 y 7.x en versiones anteriores a 7.0.8 permite a atacantes remotos provocar una denegación de servicio (desbordamiento de búfer basado en memoria dinámica y caída de aplicación) o posiblemente tener otro impacto no especificado a través de un valor de longitud manipulado, relacionado con las funciones (1) mcrypt_generic y (2) mdecrypt_generic.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 144eme CVE 
+CVE ID: CVE-2016-5770, Description: [{'lang': 'en', 'value': 'Integer overflow in the SplFileObject::fread function in spl_directory.c in the SPL extension in PHP before 5.5.37 and 5.6.x before 5.6.23 allows remote attackers to cause a denial of service or possibly have unspecified other impact via a large integer argument, a related issue to CVE-2016-5096.'}, {'lang': 'es', 'value': 'Desbordamiento de entero en la función SplFileObject::fread en spl_directory.c en la extensión SPL en PHP en versiones anteriores a 5.5.37 y 5.6.x en versiones anteriores 5.6.23 permite a atacantes remotos provocar una denegación de servicio o posiblemente tener otro impacto no especificado a través de un argumento de entero grande, un problema relacionado con CVE-2016-5096.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.8, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 145eme CVE 
+CVE ID: CVE-2016-5771, Description: [{'lang': 'en', 'value': 'spl_array.c in the SPL extension in PHP before 5.5.37 and 5.6.x before 5.6.23 improperly interacts with the unserialize implementation and garbage collection, which allows remote attackers to execute arbitrary code or cause a denial of service (use-after-free and application crash) via crafted serialized data.'}, {'lang': 'es', 'value': 'spl_array.c en la extension SPL en PHP en versiones anteriores a 5.5.37 y 5.6.x en versiones anteriores a 5.6.23 interactúa incorrectamente con la implementación no serializada y la recolección de basura, lo que permite a atacantes remotos ejecutar código arbitrario o provocar una denegación de servicio (uso después de liberación y caída de aplicación) a través de datos serializados manipulados.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.8, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 146eme CVE 
+CVE ID: CVE-2016-5772, Description: [{'lang': 'en', 'value': 'Double free vulnerability in the php_wddx_process_data function in wddx.c in the WDDX extension in PHP before 5.5.37, 5.6.x before 5.6.23, and 7.x before 7.0.8 allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via crafted XML data that is mishandled in a wddx_deserialize call.'}, {'lang': 'es', 'value': 'Vulnerabilidad de liberación doble en la función php_wddx_process_data en wddx.c en la extensión WDDX en PHP en versiones anteriores a 5.5.37, 5.6.x en versiones anteriores a 5.6.23 y 7.x en versiones anteriores a 7.0.8 permite a atacantes remotos provocar una denegación de servicio (caída de aplicación) o posiblemente ejecutar código arbitrario a través de datos XML manipulados que no es manejado adecuadamente en una llamada wddx_deserialize.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.8, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 147eme CVE 
+CVE ID: CVE-2016-5773, Description: [{'lang': 'en', 'value': 'php_zip.c in the zip extension in PHP before 5.5.37, 5.6.x before 5.6.23, and 7.x before 7.0.8 improperly interacts with the unserialize implementation and garbage collection, which allows remote attackers to execute arbitrary code or cause a denial of service (use-after-free and application crash) via crafted serialized data containing a ZipArchive object.'}, {'lang': 'es', 'value': 'php_zip.c en la extension zip en PHP en versiones anteriores a 5.5.37, 5.6.x en versiones anteriores a 5.6.23 y 7.x en versiones anteriores 7.0.8 interactúa incorrectamente con la implementación no serializada y la recolección de basura, lo que permite a atacantes remotos ejecutar un código arbitrario o provocar una denegación de servicio (uso después de liberación y caída de aplicación) a través de datos serializados manipulados que contienen un objeto ZipArchive.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 148eme CVE 
+CVE ID: CVE-2016-7124, Description: [{'lang': 'en', 'value': 'ext/standard/var_unserializer.c in PHP before 5.6.25 and 7.x before 7.0.10 mishandles certain invalid objects, which allows remote attackers to cause a denial of service or possibly have unspecified other impact via crafted serialized data that leads to a (1) __destruct call or (2) magic method call.'}, {'lang': 'es', 'value': 'ext/standard/var_unserializer.c en PHP en versiones anteriores a 5.6.25 y 7.x en versiones anteriores a 7.0.10 no maneja adecuadamente ciertos objetos no válidos, lo que permite a atacantes remotos provocar una denegación de servicio o tener otro posible impacto no especificado a través de datos serializados manipulados que conducen a (1) una llamada __destruct o (2) una llamada al método mágico.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 149eme CVE 
+CVE ID: CVE-2016-7125, Description: [{'lang': 'en', 'value': 'ext/session/session.c in PHP before 5.6.25 and 7.x before 7.0.10 skips invalid session names in a way that triggers incorrect parsing, which allows remote attackers to inject arbitrary-type session data by leveraging control of a session name, as demonstrated by object injection.'}, {'lang': 'es', 'value': 'ext/session/session.c en PHP en versiones anteriores a 5.6.25 y 7.x en versiones anteriores a 7.0.10 omite nombres de sesión no válidos de una manera que desencadena un análisis gramatical incorrecto, lo que permite a atacantes remotos inyectar datos de sesión de tipo arbitrario aprovechando el control de un nombre de sesión, según lo demostrado mediante la inyección de objetos.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 150eme CVE 
+CVE ID: CVE-2016-7126, Description: [{'lang': 'en', 'value': 'The imagetruecolortopalette function in ext/gd/gd.c in PHP before 5.6.25 and 7.x before 7.0.10 does not properly validate the number of colors, which allows remote attackers to cause a denial of service (select_colors allocation error and out-of-bounds write) or possibly have unspecified other impact via a large value in the third argument.'}, {'lang': 'es', 'value': 'La función imagetruecolortopalette en ext/gd/gd.c en PHP en versiones anteriores a 5.6.25 y 7.x en versiones anteriores a 7.0.10 no valida adecuadamente el número de colores, lo que permite a atacantes remotos provocar una denegación de servicio (error de localización de colores de selección y escritura fuera de límites) o tener otro posible impacto no especificado a través de un valor largo en el tercer argumento.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'HIGH', 'integrityImpact': 'HIGH', 'availabilityImpact': 'HIGH', 'baseScore': 9.8, 'baseSeverity': 'CRITICAL'}, 'exploitabilityScore': 3.9, 'impactScore': 5.9}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 151eme CVE 
+CVE ID: CVE-2016-7127, Description: [{'lang': 'en', 'value': 'The imagegammacorrect function in ext/gd/gd.c in PHP before 5.6.25 and 7.x before 7.0.10 does not properly validate gamma values, which allows remote attackers to cause a denial of service (out-of-bounds write) or possibly have unspecified other impact by providing different signs for the second and third arguments.'}, {'lang': 'es', 'value': 'La función imagetruecolortopalette en ext/gd/gd.c en PHP en versiones anteriores a 5.6.25 y 7.x en versiones anteriores a 7.0.10 no valida adecuadamente los valores de gama, lo que permite a atacantes remotos provocar una denegación de servicio (escritura fuera de límites) o tener otro posible impacto no especificado proporcionando diferentes signos para el segundo y tercer argumento.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 152eme CVE 
+CVE ID: CVE-2016-7128, Description: [{'lang': 'en', 'value': 'The exif_process_IFD_in_TIFF function in ext/exif/exif.c in PHP before 5.6.25 and 7.x before 7.0.10 mishandles the case of a thumbnail offset that exceeds the file size, which allows remote attackers to obtain sensitive information from process memory via a crafted TIFF image.'}, {'lang': 'es', 'value': 'La función exif_process_IFD_in_TIFF en ext/exif/exif.c en PHP en versiones anteriores a 5.6.25 y 7.x en versiones anteriores a 7.0.10 no maneja correctamente el caso de desplazamientos en miniatura que exceden el tamaño de archivo, lo que permite a atacantes remotos obtener información sensible de un proceso de memoria a través de una imagen TIFF manipulada.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 153eme CVE 
+CVE ID: CVE-2016-7129, Description: [{'lang': 'en', 'value': 'The php_wddx_process_data function in ext/wddx/wddx.c in PHP before 5.6.25 and 7.x before 7.0.10 allows remote attackers to cause a denial of service (segmentation fault) or possibly have unspecified other impact via an invalid ISO 8601 time value, as demonstrated by a wddx_deserialize call that mishandles a dateTime element in a wddxPacket XML document.'}, {'lang': 'es', 'value': 'La función php_wddx_process_data en ext/wddx/wddx.c en PHP en versiones anteriores a 5.6.25 y 7.x en versiones anteriores a 7.0.10 permite a atacantes remotos provocar una denegación de servicio (error de segmentación) o tener otro posible impacto no especificado a través de un valor de tiempo ISO 8601 no válido, según lo demostrado mediante una llamada wddx_deserialize que no maneja adecuadamente un elemento dateTime en un documento XML wddxPacket.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 154eme CVE 
+CVE ID: CVE-2016-7130, Description: [{'lang': 'en', 'value': 'The php_wddx_pop_element function in ext/wddx/wddx.c in PHP before 5.6.25 and 7.x before 7.0.10 allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) or possibly have unspecified other impact via an invalid base64 binary value, as demonstrated by a wddx_deserialize call that mishandles a binary element in a wddxPacket XML document.'}, {'lang': 'es', 'value': 'La función php_wddx_pop_element en ext/wddx/wddx.c en PHP en versiones anteriores a 5.6.25 y 7.x en versiones anteriores a 7.0.10 permite a atacantes remotos provocar una denegación de servicio (referencia a puntero NULL y caída de aplicación) o tener otro posible impacto no especificado a través de un valor binario base64 no válido, según lo demostrado mediante una llamada wddx_deserialize que no maneja adecuadamente un elemento binario en un documento XML wddxPacket.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 155eme CVE 
+CVE ID: CVE-2016-7131, Description: [{'lang': 'en', 'value': 'ext/wddx/wddx.c in PHP before 5.6.25 and 7.x before 7.0.10 allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) or possibly have unspecified other impact via a malformed wddxPacket XML document that is mishandled in a wddx_deserialize call, as demonstrated by a tag that lacks a < (less than) character.'}, {'lang': 'es', 'value': 'ext/wddx/wddx.c en PHP en versiones anteriores a 5.6.25 y 7.x en versiones anteriores a 7.0.10 permite a atacantes remotos provocar una denegación de servicio (referencia a puntero NULL y caída de aplicación) o tener otro posible impacto no especificado a través de un documento XML wddxPacket mal formado que es manejado incorrectamente en una llamada wddx_deserialize, según lo demostrado mediante una etiqueta que carece de un carácter < (menos que).'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'NONE', 'availabilityImpact': 'HIGH', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 156eme CVE 
+CVE ID: CVE-2016-7132, Description: [{'lang': 'en', 'value': 'ext/wddx/wddx.c in PHP before 5.6.25 and 7.x before 7.0.10 allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) or possibly have unspecified other impact via an invalid wddxPacket XML document that is mishandled in a wddx_deserialize call, as demonstrated by a stray element inside a boolean element, leading to incorrect pop processing.'}, {'lang': 'es', 'value': 'ext/wddx/wddx.c en PHP en versiones anteriores a 5.6.25 y 7.x en versiones anteriores a 7.0.10 permite a atacantes remotos provocar una denegación de servicio (referencia a puntero NULL y caída de aplicación) o tener otro posible impacto no especificado a través de un documento XML wddxPacket no válido que es manejado incorrectamente en una llamada wddx_deserialize, según lo demostrado mediante un elemento stray dentro de un elemento booleano, que conduce a un procesamiento pop incorrecto.'}], Criticity : [{'source': 'nvd@nist.gov', 'type': 'Primary', 'cvssData': {'version': '3.1', 'vectorString': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'attackVector': 'NETWORK', 'attackComplexity': 'LOW', 'privilegesRequired': 'NONE', 'userInteraction': 'NONE', 'scope': 'UNCHANGED', 'confidentialityImpact': 'NONE', 'integrityImpact': 'NONE', 'availabilityImpact': 'HIGH', 'baseScore': 7.5, 'baseSeverity': 'HIGH'}, 'exploitabilityScore': 3.9, 'impactScore': 3.6}]
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 157eme CVE 
+CVE ID: CVE-2016-7411, Description: [{'lang': 'en', 'value': 'ext/standard/var_unserializer.re in PHP before 5.6.26 mishandles object-deserialization failures, which allows remote attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via an unserialize call that references a partially constructed object.'}, {'lang': 'es', 'value': 'ext/standard/var_unserializer.re en PHP en versiones anteriores a 5.6.26 no maneja correctamente los fallos de deserialización de objeto, lo que podría permitir a atacantes remotos provocar una denegación de servicio (corrupción de memoria) o tener otro posible impacto no especificado a través de una llamada no serializada que referencia a un objeto construido parcialmente.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 158eme CVE 
+CVE ID: CVE-2016-7412, Description: [{'lang': 'en', 'value': 'ext/mysqlnd/mysqlnd_wireprotocol.c in PHP before 5.6.26 and 7.x before 7.0.11 does not verify that a BIT field has the UNSIGNED_FLAG flag, which allows remote MySQL servers to cause a denial of service (heap-based buffer overflow) or possibly have unspecified other impact via crafted field metadata.'}, {'lang': 'es', 'value': 'ext/mysqlnd/mysqlnd_wireprotocol.c en PHP en versiones anteriores a 5.6.26 y 7.x en versiones anteriores a 7.0.11 no verifica que un campo BIT tenga el indicador UNSIGNED_FLAG, lo que podría permitir a servidores MySQL remotos provocar una denegación de servicio (desbordamiento de búfer basado en memoria dinámica) o tener otro posible impacto no especificado a través de metadatos de campo manipulado.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 159eme CVE 
+CVE ID: CVE-2016-7413, Description: [{'lang': 'en', 'value': 'Use-after-free vulnerability in the wddx_stack_destroy function in ext/wddx/wddx.c in PHP before 5.6.26 and 7.x before 7.0.11 allows remote attackers to cause a denial of service or possibly have unspecified other impact via a wddxPacket XML document that lacks an end-tag for a recordset field element, leading to mishandling in a wddx_deserialize call.'}, {'lang': 'es', 'value': 'Vulnerabilidad de uso después de liberación de memoria en la función wddx_stack_destroy en ext/wddx/wddx.c en PHP en versiones anteriores a 5.6.26 y 7.x en versiones anteriores a 7.0.11 permite a atacantes remotos provocar una denegación de servicio o tener otro posible impacto no especificado a través de un documento XML wddxPacket que carece de una etiqueta final para un elemento de campo de registro, produciendo una manejo incorrecto en una llamada wddx_deserialize.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 160eme CVE 
+CVE ID: CVE-2016-7414, Description: [{'lang': 'en', 'value': 'The ZIP signature-verification feature in PHP before 5.6.26 and 7.x before 7.0.11 does not ensure that the uncompressed_filesize field is large enough, which allows remote attackers to cause a denial of service (out-of-bounds memory access) or possibly have unspecified other impact via a crafted PHAR archive, related to ext/phar/util.c and ext/phar/zip.c.'}, {'lang': 'es', 'value': 'La funcionalidad de verificación de firma ZIP en PHP en versiones anteriores a 5.6.26 y 7.x en versiones anteriores a 7.0.11 no asegura que el campo uncompressed_filesize sea suficientemente grande, lo que podría permitir a atacantes remotos provocar una denegación de servicio (acceso a memoria fuera de límites) o tener otro posible impacto no especificado a través de una archivo PHAR manipulado, relacionado con ext/phar/util.c y ext/phar/zip.c.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 161eme CVE 
+CVE ID: CVE-2016-7416, Description: [{'lang': 'en', 'value': 'ext/intl/msgformat/msgformat_format.c in PHP before 5.6.26 and 7.x before 7.0.11 does not properly restrict the locale length provided to the Locale class in the ICU library, which allows remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact via a MessageFormatter::formatMessage call with a long first argument.'}, {'lang': 'es', 'value': 'ext/intl/msgformat/msgformat_format.c en PHP en versiones anteriores a 5.6.26 y 7.x en versiones anteriores a 7.0.11 no restringe adecuadamente la longitud proporcionada a locale para la clase Locale en la libreria ICU, lo que permite a atacantes remotos provocar una denegación de servicio (caída de aplicación) o tener otro posible impacto no especificado a través de una llamada MessageFormatter::formatMessage con un primer argumento grande.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 162eme CVE 
+CVE ID: CVE-2016-7417, Description: [{'lang': 'en', 'value': 'ext/spl/spl_array.c in PHP before 5.6.26 and 7.x before 7.0.11 proceeds with SplArray unserialization without validating a return value and data type, which allows remote attackers to cause a denial of service or possibly have unspecified other impact via crafted serialized data.'}, {'lang': 'es', 'value': 'ext/spl/spl_array.c en PHP en versiones anteriores a 5.6.26 y 7.x en versiones anteriores a 7.0.11 procede con SplArray no serializado sin validar un valor de retorno y tipo de dato, lo que permite a atacantes remotos provocar una denegación de servicio o tener otro posible impacto no especificado a través de datos serializados manipulados.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
+
+Voici la 163eme CVE 
+CVE ID: CVE-2016-7418, Description: [{'lang': 'en', 'value': 'The php_wddx_push_element function in ext/wddx/wddx.c in PHP before 5.6.26 and 7.x before 7.0.11 allows remote attackers to cause a denial of service (invalid pointer access and out-of-bounds read) or possibly have unspecified other impact via an incorrect boolean element in a wddxPacket XML document, leading to mishandling in a wddx_deserialize call.'}, {'lang': 'es', 'value': 'La función php_wddx_push_element en ext/wddx/wddx.c en PHP en versiones anteriores a 5.6.26 y 7.x en versiones anteriores a 7.0.11 permite a atacantes remotos provocar una denegación de servicio (acceso a puntero no válido y lectura fuera de límites) o tener otro posible impacto no especificado a través de un elemento booleano incorrecto en un documento XML wddxPacket, produciendo una manejo incorrecto en una llamada wddx_deserialize.'}], Criticity : {}
+Voici les POCs publiques extraits sur exploit db
+Exploits: No Results
+Shellcodes: No Results
+Papers: No Results
