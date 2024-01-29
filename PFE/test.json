@@ -1,0 +1,80 @@
+{
+    "synthese": {
+      "site": "example.com",
+      "services_releves": true,
+      "services_obsoletes": false,
+      "pocs_publics_releves": true,
+      "vulnerabilite_connue_validee": true,
+      "cms_releve": false,
+      "port_ssh_trouve": true,
+      "connection_ssh_securisee": true
+    },
+    "cve_testees_validees": [
+      {
+        "titre": "Vulnérabilité dans Apache Struts",
+        "cve": "CVE-2017-5638",
+        "categorie_owasp": "Injection",
+        "description": "Une vulnérabilité d'exécution de code à distance dans Apache Struts.",
+        "risque": "Élevé",
+        "remediation": "Mise à jour vers la version x.x.x"
+      }
+    ],
+    "tests_effectues": {
+      "dirscan": {
+        "urls_relevees": {
+          "pages_admin": ["url1", "url2"],
+          "pages_connexion": ["url3", "url4"],
+          "pages_backup": ["url5", "url6"],
+          "pages_api": ["url7", "url8"],
+          "pages_donnees_txt": ["url9", "url10"],
+          "pages_dev": ["url11", "url12"]
+        }
+      },
+      "scan_nmap": [
+        {
+          "port": 22,
+          "nom_service": "SSH",
+          "version": "OpenSSH 7.9p1 Debian 10+deb10u2"
+        }
+      ],
+      "services_obsoletes": [
+        {
+          "nom": "Apache",
+          "version": "2.2",
+          "nombre_cve": 5,
+          "nombre_pocs_publics": 2,
+          "urls_pocs_publics": ["url_poc1", "url_poc2"]
+        }
+      ],
+      "cms": {
+        "nom": "WordPress",
+        "version": "5.4",
+        "nombre_cve": 10,
+        "nombre_pocs_publics": 3,
+        "urls_pocs_publics": ["url_poc1", "url_poc2", "url_poc3"],
+        "themes": [
+          {
+            "nom": "theme1",
+            "version": "1.2",
+            "cves": ["CVE-xxxx-xxxx", "CVE-yyyy-yyyy"]
+          }
+        ],
+        "plugins": [
+          {
+            "nom": "plugin1",
+            "version": "3.5",
+            "cves": ["CVE-zzzz-zzzz", "CVE-aaaa-aaaa"]
+          }
+        ],
+        "utilisateurs_releves": ["admin", "user1", "user2"]
+      },
+      "ssh": {
+        "nomService": "OpenSSH",
+        "version": "7.4",
+        "rootDisable": false,
+        "passwordConnexion": true,
+        "fail2ban": false
+      }
+    }
+  }
+  
