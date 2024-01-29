@@ -35,6 +35,11 @@
           "port": 22,
           "nom_service": "SSH",
           "version": "OpenSSH 7.9p1 Debian 10+deb10u2"
+        },
+        {
+          "port": 80,
+          "nom_service": "XXX",
+          "version": "XXX"
         }
       ],
       "services_obsoletes": [
